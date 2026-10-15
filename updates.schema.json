@@ -1,0 +1,5 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"CardioAtlas daily updates feed","type":"object","required":["date","items"],
+"properties":{"schema":{"const":"cardioatlas-updates/v1"},"date":{"type":"string","format":"date"},
+"items":{"type":"array","maxItems":20,"items":{"type":"object","required":["title","summary","category","source","url"],
+"properties":{"title":{"type":"string","maxLength":160},"summary":{"type":"string","maxLength":600},
+"category":{"enum":["trial","guideline","approval","research","conference"]},"source":{"type":"string","maxLength":100},"url":{"type":"string","format":"uri","pattern":"^https://"}}}}}}
