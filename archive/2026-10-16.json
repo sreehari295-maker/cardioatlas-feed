@@ -1,0 +1,116 @@
+{
+  "schema": "cardioatlas-updates/v2",
+  "date": "2026-10-16",
+  "items": [
+    {
+      "title": "2026 ACC Scientific Statement: prescribe exercise as routine CV care",
+      "summary": "New ACC statement (JACC, Oct 15) says exercise should be prescribed as a core part of routine cardiovascular care. Biggest gains come from moving from inactivity to regular activity, with more benefit as volume and intensity rise when appropriate. Calls for exercise counselling in clinics, better clinician training and wider cardiac rehab access.",
+      "category": "guideline",
+      "source": "American College of Cardiology / JACC",
+      "url": "https://www.acc.org/latest-in-cardiology/journal-scans/2026/10/14/09/58/acc-scientific-statement-calls-for-exercise-prescription",
+      "bullets": [
+        "New ACC Scientific Statement (JACC, Oct 15, 2026) calls exercise prescription a foundational part of routine cardiovascular care.",
+        "Greatest gains come from moving from inactivity to regular activity; more volume and intensity add benefit when clinically appropriate.",
+        "About 5,000-7,000 steps/day is associated with lower CV and all-cause mortality for many adults, well below 10,000.",
+        "Prescriptions should be individualised, with resistance training added to aerobic exercise; routine exercise testing is not required for most asymptomatic or stable patients.",
+        "Cardiac rehab remains first-line for many patients with CVD; access should expand, with individual exercise prescriptions for those unable to attend."
+      ]
+    },
+    {
+      "title": "Fifth Universal Definition of MI: Primary, Secondary, Procedure-related",
+      "summary": "ESC/ACC/AHA/WHF consensus replaces numbered MI types with three clinical settings. MI needs a troponin rise and/or fall with at least one value above the sex-specific 99th percentile plus evidence of ischaemia. Secondary MI needs objective obstructive CAD or new ischaemic damage; procedure-related MI (within 30 days) leans on coronary complications and imaging rather than fixed biomarker cut-offs.",
+      "category": "guideline",
+      "source": "CTSNet (ESC/ACC/AHA/WHF document)",
+      "url": "https://www.ctsnet.org/jans/fifth-universal-definition-of-myocardial-infarction/",
+      "bullets": [
+        "ESC/ACC/AHA/WHF consensus (EHJ) replaces numbered MI types with three clinical settings: primary, secondary and procedure-related MI.",
+        "MI requires acute myocardial injury (troponin rise and/or fall with at least one value above the sex-specific 99th percentile) plus evidence of acute ischaemia.",
+        "Primary MI covers atherothrombosis, SCAD, embolism, vasospasm and late stent or graft failure.",
+        "Secondary (supply-demand) MI requires objective evidence of obstructive coronary disease or new ischaemic myocardial damage.",
+        "Procedure-related MI (within 30 days) now emphasises coronary complications and imaging rather than fixed biomarker thresholds."
+      ]
+    },
+    {
+      "title": "CONDUCT-AF: LBBAP noninferior to biventricular pacing after AV-node ablation",
+      "summary": "EHJ RCT, 82 patients with HF (LVEF <50%), refractory AF and narrow QRS undergoing AVNA. At 6 months LVEF improved similarly with conduction system pacing (36% to 46%) and BiV pacing (34% to 46%), noninferior. Clinical outcomes similar; CSP gave shorter paced QRS (about 14 ms) and shorter procedure and fluoroscopy times.",
+      "category": "trial",
+      "source": "American College of Cardiology / EHJ",
+      "url": "https://www.acc.org/latest-in-cardiology/journal-scans/2026/10/14/09/58/conduct-af",
+      "bullets": [
+        "Investigator-initiated RCT (EHJ) at 10 European centres: 82 patients with refractory AF, QRS ≤120 ms, LVEF <50% and NT-proBNP >600 ng/L undergoing AV-node ablation.",
+        "Randomised to conduction system pacing (left bundle branch area pacing) or biventricular pacing.",
+        "6-month LVEF improved similarly: 36% → 46% with CSP vs 34% → 46% with BiV pacing (noninferior, p=0.002).",
+        "LV volumes, clinical parameters and the worsening HF/CV death composite were similar between groups.",
+        "CSP gave a shorter paced QRS (−14 ms) and shorter procedure and fluoroscopy times; hard-outcome benefit needs larger, longer trials."
+      ]
+    },
+    {
+      "title": "ENCIRCLE MAC: SAPIEN M3 TMVR 1-year results in mitral annular calcification",
+      "summary": "Registry of 93 patients with MAC-related mitral disease treated with Edwards SAPIEN M3 TMVR. At 1 year, MR was 1+ or less in 98.5%, NYHA class I/II rose from 26.9% at baseline to 87.7%, KCCQ improved by 18.5 points and 6-minute walk distance improved.",
+      "category": "research",
+      "source": "Cardiac Wire",
+      "url": "https://cardiacwire.com/sapien-m3-shows-promise-for-select-patients-with-mac/",
+      "bullets": [
+        "Registry of 93 patients with MAC-related mitral disease treated with Edwards SAPIEN M3 TMVR, followed for 1 year.",
+        "MR reduced to ≤1+ in 98.5%; NYHA I/II rose from 26.9% to 87.7%; KCCQ improved by 18.5 points; 6-minute walk distance improved.",
+        "Death or HF hospitalisation was 33.6% (vs 45% predicted); 1-year all-cause mortality was 21.1%.",
+        "Mitral reintervention 11.4% (mostly paravalvular leak closure); structural complications 9%, mainly during the 'encircling' step.",
+        "More than 70% of screened patients were excluded (about half for anatomy), so careful patient selection is key."
+      ]
+    },
+    {
+      "title": "Early PCI linked to worse outcomes in NSTEMI with stable heart failure",
+      "summary": "TriNetX propensity-matched study (2,249 per group, CCI): PCI within 24 h vs delayed PCI raised the composite of death, HF exacerbation, recurrent MI or VT/VF at 1 month (RR 1.23) and 1 year (RR 1.12), driven mainly by recurrent MI. Observational, with HF coding and risk-score limitations; supports time to optimise GDMT first.",
+      "category": "research",
+      "source": "TCTMD",
+      "url": "https://www.tctmd.com/news/early-pci-tied-worse-outcomes-nstemi-patients-stable-hf",
+      "bullets": [
+        "Retrospective TriNetX study (Catheter Cardiovasc Interv): NSTEMI with pre-existing stable HF, 2,249 propensity-matched patients each for PCI <24 h vs delayed PCI.",
+        "Early PCI was linked to a higher composite of death, HF exacerbation, recurrent MI or VT/VF at 1 month (RR 1.23) and 1 year (RR 1.12).",
+        "The difference was driven mainly by recurrent MI; mortality and VT/VF were similar, and AKI and major bleeding were unaffected by timing.",
+        "Limitations: observational design, uncertain HF coding in the database and no TIMI/GRACE risk scores.",
+        "Authors suggest time to optimise GDMT before revascularisation; an independent expert advised following guidelines (early PCI for high-risk patients)."
+      ]
+    },
+    {
+      "title": "DROID-RV: deep learning measures RV size and function from 2D echo",
+      "summary": "Nature Cardiovascular Research (Oct 15): model trained on 17,141 patients (383,881 echo clips) estimates RV end-diastolic diameter and detects RV systolic dysfunction from standard TTE videos, validated in primary care and against 3D echo RVEF. Predicted RV size and function were linked to mortality, AF and heart failure; error rises at extremes of RV size.",
+      "category": "research",
+      "source": "Nature Cardiovascular Research",
+      "url": "https://www.nature.com/articles/s44161-026-00886-4",
+      "bullets": [
+        "DROID-RV deep learning model estimates RV end-diastolic diameter and detects RV systolic dysfunction from standard 2D transthoracic echo videos.",
+        "Trained in 17,141 patients (51,188 studies, 383,881 clips); validated in 9,112 primary care patients and 831 patients with 3D echo RVEF.",
+        "Accurate across test samples, though prediction error increases at extremes of RV size and function.",
+        "Predicted RV size and function were associated with incident mortality, atrial fibrillation and heart failure."
+      ]
+    },
+    {
+      "title": "Rotterdam Study: total and unrecognised MI fell over three decades",
+      "summary": "JAMA Cardiology analysis: unrecognised MI fell from 5% (1990s) to 1.5% (2010s) and total MI from 12.3% to 7.2%. Unrecognised MI made up a larger share of all MI in women than men (52% vs 25%), supporting continued efforts to detect silent MI, especially in women.",
+      "category": "research",
+      "source": "American College of Cardiology / JAMA Cardiology",
+      "url": "https://www.acc.org/latest-in-cardiology/journal-scans/2026/10/14/09/58/rotterdam-study",
+      "bullets": [
+        "JAMA Cardiology analysis of the Rotterdam Study across three decades (about 7,100-7,750 participants per decade).",
+        "Unrecognised MI fell from 5% (1990s) to 1.5% (2010s); total MI fell from 12.3% to 7.2%.",
+        "Unrecognised MI made up a larger share of all MI in women than in men (52% vs 25%).",
+        "People with unrecognised MI reported no more chest pain than those without MI (30% vs 31%), vs 75% with recognised MI.",
+        "Limitations: ECG-based diagnosis and a mainly European-ancestry population."
+      ]
+    },
+    {
+      "title": "ARPA-H ADVOCATE: Duke to test agentic AI for heart failure care",
+      "summary": "Duke gets up to $15.5M within the $62.7M ADVOCATE programme to deploy and evaluate patient-facing AI agents that support heart failure patients between visits, aiming to be the first FDA-authorised agentic AI for CV care. Stanford builds a safety supervisor; rollout with Kaiser Permanente and AHA, with a human kept in the loop and a platform trial planned within two years.",
+      "category": "research",
+      "source": "The Duke Chronicle",
+      "url": "https://www.dukechronicle.com/article/duke-university-researchers-set-to-test-agentic-ai-system-for-cardiovascular-care-advocate-symphony-fda-heart-failure-20261015",
+      "bullets": [
+        "Duke awarded up to $15.5M within ARPA-H's $62.7M ADVOCATE programme on agentic AI for cardiovascular care.",
+        "Aim: the first FDA-authorised agentic AI to support heart failure patients between clinic visits.",
+        "Three companies build the AI agents, Stanford develops a supervisory safety system, and Duke (SYMPHONY consortium) with Kaiser Permanente and AHA deploys and monitors them.",
+        "Investigators say a human will always be in the loop; implementation readiness in about 1 year and a platform trial within 2 years."
+      ]
+    }
+  ]
+}

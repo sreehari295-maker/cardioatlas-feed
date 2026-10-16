@@ -1,0 +1,20 @@
+{
+ "schema": "cardioatlas-archive-index/v1",
+ "days": [
+  {
+   "date": "2026-10-16",
+   "count": 8,
+   "titles": [
+    "2026 ACC Scientific Statement: prescribe exercise as routine CV care",
+    "Fifth Universal Definition of MI: Primary, Secondary, Procedure-related",
+    "CONDUCT-AF: LBBAP noninferior to biventricular pacing after AV-node ablation",
+    "ENCIRCLE MAC: SAPIEN M3 TMVR 1-year results in mitral annular calcification",
+    "Early PCI linked to worse outcomes in NSTEMI with stable heart failure",
+    "DROID-RV: deep learning measures RV size and function from 2D echo",
+    "Rotterdam Study: total and unrecognised MI fell over three decades",
+    "ARPA-H ADVOCATE: Duke to test agentic AI for heart failure care"
+   ]
+  }
+ ],
+ "updated": "2026-10-16T04:23:15Z"
+}
