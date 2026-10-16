@@ -3,39 +3,60 @@
   "date": "2026-10-16",
   "items": [
     {
-      "title": "2026 ACC HFpEF pathway: SGLT2i, nonsteroidal MRAs, incretins",
-      "summary": "The 2026 ACC Expert Consensus Decision Pathway reframes HFpEF as a multisystem metabolic syndrome and updates optimal therapy with SGLT2 inhibitors, nonsteroidal MRAs, and incretin-based drugs, plus practical tips for diagnosis and comorbidity care.",
+      "title": "2026 ACC Scientific Statement: prescribe exercise as routine CV care",
+      "summary": "New ACC statement (JACC, Oct 15) says exercise should be prescribed as a core part of routine cardiovascular care. Biggest gains come from moving from inactivity to regular activity, with more benefit as volume and intensity rise when appropriate. Calls for exercise counselling in clinics, better clinician training and wider cardiac rehab access.",
       "category": "guideline",
-      "source": "American College of Cardiology",
-      "url": "https://www.acc.org/latest-in-cardiology/articles/2026/10/01/01/new-in-clinical-guidance"
+      "source": "American College of Cardiology / JACC",
+      "url": "https://www.acc.org/latest-in-cardiology/journal-scans/2026/10/14/09/58/acc-scientific-statement-calls-for-exercise-prescription"
     },
     {
-      "title": "Fifth Universal Definition of MI: new pathophysiology categories",
-      "summary": "ACC/ESC/AHA/WHF replace numbered MI types with Primary, Secondary, and Procedure-related MI, add sex-specific troponin thresholds, update MINOCA wording, and support hs-cTn accelerated pathways.",
+      "title": "Fifth Universal Definition of MI: Primary, Secondary, Procedure-related",
+      "summary": "ESC/ACC/AHA/WHF consensus replaces numbered MI types with three clinical settings. MI needs a troponin rise and/or fall with at least one value above the sex-specific 99th percentile plus evidence of ischaemia. Secondary MI needs objective obstructive CAD or new ischaemic damage; procedure-related MI (within 30 days) leans on coronary complications and imaging rather than fixed biomarker cut-offs.",
       "category": "guideline",
-      "source": "American College of Cardiology",
-      "url": "https://www.acc.org/latest-in-cardiology/articles/2026/10/01/01/new-in-clinical-guidance"
+      "source": "CTSNet (ESC/ACC/AHA/WHF document)",
+      "url": "https://www.ctsnet.org/jans/fifth-universal-definition-of-myocardial-infarction/"
     },
     {
-      "title": "AMUNDSEN: pre-PCI evolocumab hits LDL goals, not 1-year events",
-      "summary": "In 2,161 acute MI patients, evolocumab before PCI drove median LDL-C to 16 vs 56 mg/dL at 6 weeks and doubled target attainment at 1 year, but death or unplanned CV hospitalization was similar (14.6% vs 15.4%).",
+      "title": "CONDUCT-AF: LBBAP noninferior to biventricular pacing after AV-node ablation",
+      "summary": "EHJ RCT, 82 patients with HF (LVEF <50%), refractory AF and narrow QRS undergoing AVNA. At 6 months LVEF improved similarly with conduction system pacing (36% to 46%) and BiV pacing (34% to 46%), noninferior. Clinical outcomes similar; CSP gave shorter paced QRS (about 14 ms) and shorter procedure and fluoroscopy times.",
       "category": "trial",
-      "source": "American College of Cardiology / JAMA",
-      "url": "https://www.acc.org/latest-in-cardiology/articles/2026/10/09/15/06/amundsen"
+      "source": "American College of Cardiology / EHJ",
+      "url": "https://www.acc.org/latest-in-cardiology/journal-scans/2026/10/14/09/58/conduct-af"
     },
     {
-      "title": "SINGLE-AF: DOACs help intermediate-risk atrial fibrillation",
-      "summary": "First RCT of anticoagulation vs none in AFib with CHA2DS2-VASc 1 (men) or 2 (women): among 1,803 patients, DOAC cut the composite of stroke, embolism, major bleed, or CV death (HR 0.31), mainly via fewer ischemic strokes.",
-      "category": "trial",
-      "source": "American College of Cardiology / NEJM",
-      "url": "https://www.acc.org/Latest-in-Cardiology/Articles/2026/10/09/15/06/Arrhythmia-Related-Trials-Featured-at-ESC-Congress-2026"
+      "title": "ENCIRCLE MAC: SAPIEN M3 TMVR 1-year results in mitral annular calcification",
+      "summary": "Registry of 93 patients with MAC-related mitral disease treated with Edwards SAPIEN M3 TMVR. At 1 year, MR was 1+ or less in 98.5%, NYHA class I/II rose from 26.9% at baseline to 87.7%, KCCQ improved by 18.5 points and 6-minute walk distance improved.",
+      "category": "research",
+      "source": "Cardiac Wire",
+      "url": "https://cardiacwire.com/sapien-m3-shows-promise-for-select-patients-with-mac/"
     },
     {
-      "title": "ESC 2026: new CR, CKD-CVD, and heart failure guidelines",
-      "summary": "ESC released its first cardiac rehabilitation guideline (broader indicated groups), a dedicated CVD-CKD guideline stressing kidney testing in heart patients, and an HF update with staging, simplified HFrEF/HFpEF phenotypes, and 'decompensated' replacing 'acute' HF.",
-      "category": "guideline",
-      "source": "American College of Cardiology / ESC",
-      "url": "https://www.acc.org/latest-in-cardiology/articles/2026/10/01/01/feature-esc-congress-2026"
+      "title": "Early PCI linked to worse outcomes in NSTEMI with stable heart failure",
+      "summary": "TriNetX propensity-matched study (2,249 per group, CCI): PCI within 24 h vs delayed PCI raised the composite of death, HF exacerbation, recurrent MI or VT/VF at 1 month (RR 1.23) and 1 year (RR 1.12), driven mainly by recurrent MI. Observational, with HF coding and risk-score limitations; supports time to optimise GDMT first.",
+      "category": "research",
+      "source": "TCTMD",
+      "url": "https://www.tctmd.com/news/early-pci-tied-worse-outcomes-nstemi-patients-stable-hf"
+    },
+    {
+      "title": "DROID-RV: deep learning measures RV size and function from 2D echo",
+      "summary": "Nature Cardiovascular Research (Oct 15): model trained on 17,141 patients (383,881 echo clips) estimates RV end-diastolic diameter and detects RV systolic dysfunction from standard TTE videos, validated in primary care and against 3D echo RVEF. Predicted RV size and function were linked to mortality, AF and heart failure; error rises at extremes of RV size.",
+      "category": "research",
+      "source": "Nature Cardiovascular Research",
+      "url": "https://www.nature.com/articles/s44161-026-00886-4"
+    },
+    {
+      "title": "Rotterdam Study: total and unrecognised MI fell over three decades",
+      "summary": "JAMA Cardiology analysis: unrecognised MI fell from 5% (1990s) to 1.5% (2010s) and total MI from 12.3% to 7.2%. Unrecognised MI made up a larger share of all MI in women than men (52% vs 25%), supporting continued efforts to detect silent MI, especially in women.",
+      "category": "research",
+      "source": "American College of Cardiology / JAMA Cardiology",
+      "url": "https://www.acc.org/latest-in-cardiology/journal-scans/2026/10/14/09/58/rotterdam-study"
+    },
+    {
+      "title": "ARPA-H ADVOCATE: Duke to test agentic AI for heart failure care",
+      "summary": "Duke gets up to $15.5M within the $62.7M ADVOCATE programme to deploy and evaluate patient-facing AI agents that support heart failure patients between visits, aiming to be the first FDA-authorised agentic AI for CV care. Stanford builds a safety supervisor; rollout with Kaiser Permanente and AHA, with a human kept in the loop and a platform trial planned within two years.",
+      "category": "research",
+      "source": "The Duke Chronicle",
+      "url": "https://www.dukechronicle.com/article/duke-university-researchers-set-to-test-agentic-ai-system-for-cardiovascular-care-advocate-symphony-fda-heart-failure-20261015"
     }
   ]
 }
