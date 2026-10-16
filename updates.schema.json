@@ -1,5 +1,73 @@
-{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"CardioAtlas daily updates feed","type":"object","required":["date","items"],
-"properties":{"schema":{"const":"cardioatlas-updates/v1"},"date":{"type":"string","format":"date"},
-"items":{"type":"array","maxItems":20,"items":{"type":"object","required":["title","summary","category","source","url"],
-"properties":{"title":{"type":"string","maxLength":160},"summary":{"type":"string","maxLength":600},
-"category":{"enum":["trial","guideline","approval","research","conference"]},"source":{"type":"string","maxLength":100},"url":{"type":"string","format":"uri","pattern":"^https://"}}}}}}
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "CardioAtlas daily updates feed",
+ "type": "object",
+ "required": [
+  "date",
+  "items"
+ ],
+ "properties": {
+  "schema": {
+   "enum": [
+    "cardioatlas-updates/v1",
+    "cardioatlas-updates/v2"
+   ]
+  },
+  "date": {
+   "type": "string",
+   "format": "date"
+  },
+  "items": {
+   "type": "array",
+   "maxItems": 20,
+   "items": {
+    "type": "object",
+    "required": [
+     "title",
+     "summary",
+     "category",
+     "source",
+     "url"
+    ],
+    "properties": {
+     "title": {
+      "type": "string",
+      "maxLength": 160
+     },
+     "summary": {
+      "type": "string",
+      "maxLength": 600
+     },
+     "category": {
+      "enum": [
+       "trial",
+       "guideline",
+       "approval",
+       "research",
+       "conference"
+      ]
+     },
+     "source": {
+      "type": "string",
+      "maxLength": 100
+     },
+     "url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://"
+     },
+     "bullets": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 5,
+      "items": {
+       "type": "string",
+       "maxLength": 300
+      }
+     }
+    }
+   }
+  }
+ },
+ "description": "v2 adds optional per-item 'bullets' (3-5). 'summary' stays required for older app versions. Daily files are kept permanently at archive/YYYY-MM-DD.json; archive/index.json lists dates newest first."
+}
