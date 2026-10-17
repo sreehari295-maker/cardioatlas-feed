@@ -44,10 +44,8 @@
        "guideline",
        "approval",
        "research",
-       "conference",
-       "safety"
-      ],
-      "description": "Item category. 'safety' (device recalls, FDA/EMA safety alerts, drug warnings) is shown by app v1.11+; older app versions skip items with categories they do not know."
+       "conference"
+      ]
      },
      "source": {
       "type": "string",
