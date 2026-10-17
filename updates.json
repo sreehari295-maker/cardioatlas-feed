@@ -26,7 +26,7 @@
         "Action: do not use the listed lots, remove them from inventory and return them via Edwards; FDA is still reviewing the issue.",
         "SAPIEN M3 was FDA-approved in December 2025 (single-arm ENCIRCLE trial) for symptomatic moderate-to-severe MR or symptomatic MAC-related mitral valve dysfunction in patients unsuitable for surgery or TEER."
       ],
-      "category": "research",
+      "category": "safety",
       "source": "US FDA (CDRH Early Alert)",
       "url": "https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-transcatheter-mitral-valve-delivery-system-issue-edwards-lifesciences"
     }
