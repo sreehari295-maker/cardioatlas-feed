@@ -1,0 +1,34 @@
+{
+  "schema": "cardioatlas-updates/v2",
+  "date": "2026-10-17",
+  "items": [
+    {
+      "title": "TAVI vs SAVR in low-risk AS: mortality higher with TAVI at 5-7 years (EACTS 2026)",
+      "summary": "Time-dependent pooled analysis of PARTNER 3, Evolut Low Risk and NOTION (2,644 low-risk patients) found a nonsignificant early survival trend favouring TAVI that reversed over time, with significantly higher TAVI mortality at 5-7 years.",
+      "bullets": [
+        "Pooled 7-year data from PARTNER 3, Evolut Low Risk and NOTION: 2,644 low-surgical-risk patients randomised to TAVI or SAVR.",
+        "7-year all-cause mortality 26.9% with TAVI vs 23.7% with SAVR (absolute difference 3.2%); overall HR 1.14, not significant, and hazards were not proportional.",
+        "Time-dependent HRs: 0.61 at 0-1 year, 0.84 at 1-3 years, 1.05 at 3-5 years, and 1.64 (95% CI 1.27-2.12) at 5-7 years; 49% of TAVI deaths occurred in years 5-7.",
+        "Not significant when Evolut Low Risk was excluded (HR 1.39); experts flag differential loss to follow-up, unknown causes of death and possible valve-type effects.",
+        "Presented at EACTS 2026 (Barcelona, Oct 9); outside experts called the data preliminary; authors urge heart-team caution offering TAVI to younger low-risk patients."
+      ],
+      "category": "conference",
+      "source": "TCTMD (EACTS 2026)",
+      "url": "https://www.tctmd.com/news/years-pass-mortality-grows-higher-tavi-vs-savr-low-risk-patients-meta-analysis"
+    },
+    {
+      "title": "FDA early alert: Edwards removes 4 lots of SAPIEN M3 TMVR delivery system after balloon bursts",
+      "summary": "FDA flagged a potentially high-risk issue with Edwards' Commander M delivery system for SAPIEN M3 transseptal TMVR: three balloon bursts during inflation, with one death and one serious injury reported as of October 5.",
+      "bullets": [
+        "Affected: Commander M delivery systems for SAPIEN M3 TMVR, lots 67718561, 67804014, 67887043 and 67887044; other lots are not affected.",
+        "Edwards received three reports of the balloon bursting during inflation; one death and one serious injury reported as of October 5, 2026.",
+        "Risks include embolism and inability to retrieve the device through the guide sheath, possibly needing surgery in patients already deemed unsuitable for it.",
+        "Action: do not use the listed lots, remove them from inventory and return them via Edwards; FDA is still reviewing the issue.",
+        "SAPIEN M3 was FDA-approved in December 2025 (single-arm ENCIRCLE trial) for symptomatic moderate-to-severe MR or symptomatic MAC-related mitral valve dysfunction in patients unsuitable for surgery or TEER."
+      ],
+      "category": "research",
+      "source": "US FDA (CDRH Early Alert)",
+      "url": "https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-transcatheter-mitral-valve-delivery-system-issue-edwards-lifesciences"
+    }
+  ]
+}

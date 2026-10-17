@@ -2,6 +2,14 @@
  "schema": "cardioatlas-archive-index/v1",
  "days": [
   {
+   "date": "2026-10-17",
+   "count": 2,
+   "titles": [
+    "TAVI vs SAVR in low-risk AS: mortality higher with TAVI at 5-7 years (EACTS 2026)",
+    "FDA early alert: Edwards removes 4 lots of SAPIEN M3 TMVR delivery system after balloon bursts"
+   ]
+  },
+  {
    "date": "2026-10-16",
    "count": 8,
    "titles": [
@@ -16,5 +24,5 @@
    ]
   }
  ],
- "updated": "2026-10-16T04:23:15Z"
+ "updated": "2026-10-17T02:06:14Z"
 }
