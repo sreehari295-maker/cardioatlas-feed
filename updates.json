@@ -1,34 +1,34 @@
 {
   "schema": "cardioatlas-updates/v2",
-  "date": "2026-10-17",
+  "date": "2026-10-18",
   "items": [
     {
-      "title": "TAVI vs SAVR in low-risk AS: mortality higher with TAVI at 5-7 years (EACTS 2026)",
-      "summary": "Time-dependent pooled analysis of PARTNER 3, Evolut Low Risk and NOTION (2,644 low-risk patients) found a nonsignificant early survival trend favouring TAVI that reversed over time, with significantly higher TAVI mortality at 5-7 years.",
+      "title": "PREVENT post hoc: preventive PCI benefit confined to NIRS-defined lipid-rich plaques",
+      "summary": "Circulation post hoc analysis of PREVENT (598 patients, 632 non-flow-limiting lesions with plaque burden >70% and MLA <4 mm² on IVUS plus NIRS): preventive PCI was associated with fewer primary-outcome events only in lipid-rich plaques (7% vs 18%), with no benefit in non-lipid-rich plaques despite similar anatomy.",
       "bullets": [
-        "Pooled 7-year data from PARTNER 3, Evolut Low Risk and NOTION: 2,644 low-surgical-risk patients randomised to TAVI or SAVR.",
-        "7-year all-cause mortality 26.9% with TAVI vs 23.7% with SAVR (absolute difference 3.2%); overall HR 1.14, not significant, and hazards were not proportional.",
-        "Time-dependent HRs: 0.61 at 0-1 year, 0.84 at 1-3 years, 1.05 at 3-5 years, and 1.64 (95% CI 1.27-2.12) at 5-7 years; 49% of TAVI deaths occurred in years 5-7.",
-        "Not significant when Evolut Low Risk was excluded (HR 1.39); experts flag differential loss to follow-up, unknown causes of death and possible valve-type effects.",
-        "Presented at EACTS 2026 (Barcelona, Oct 9); outside experts called the data preliminary; authors urge heart-team caution offering TAVI to younger low-risk patients."
-      ],
-      "category": "conference",
-      "source": "TCTMD (EACTS 2026)",
-      "url": "https://www.tctmd.com/news/years-pass-mortality-grows-higher-tavi-vs-savr-low-risk-patients-meta-analysis"
-    },
-    {
-      "title": "FDA early alert: Edwards removes 4 lots of SAPIEN M3 TMVR delivery system after balloon bursts",
-      "summary": "FDA flagged a potentially high-risk issue with Edwards' Commander M delivery system for SAPIEN M3 transseptal TMVR: three balloon bursts during inflation, with one death and one serious injury reported as of October 5.",
-      "bullets": [
-        "Affected: Commander M delivery systems for SAPIEN M3 TMVR, lots 67718561, 67804014, 67887043 and 67887044; other lots are not affected.",
-        "Edwards received three reports of the balloon bursting during inflation; one death and one serious injury reported as of October 5, 2026.",
-        "Risks include embolism and inability to retrieve the device through the guide sheath, possibly needing surgery in patients already deemed unsuitable for it.",
-        "Action: do not use the listed lots, remove them from inventory and return them via Edwards; FDA is still reviewing the issue.",
-        "SAPIEN M3 was FDA-approved in December 2025 (single-arm ENCIRCLE trial) for symptomatic moderate-to-severe MR or symptomatic MAC-related mitral valve dysfunction in patients unsuitable for surgery or TEER."
+        "Post hoc analysis of the PREVENT RCT (1,606 patients; South Korea, Japan, Taiwan, New Zealand): 598 patients, 632 lesions with plaque burden >70% and minimal lumen area <4 mm² on IVUS that also had NIRS.",
+        "Lipid-rich plaque (LRP) was prespecified as maxLCBI4mm >315; present in 223 patients (37%). Median follow-up 5.6 years.",
+        "Primary outcome (cardiac death, target-vessel MI, ischaemia-driven TVR or hospitalisation for unstable/progressive angina) was more frequent with LRP than without (13% vs 5%; HR 2.08, p=0.039).",
+        "With LRP, preventive PCI vs optimal medical therapy alone: 7% vs 18% (adjusted HR 0.23, p<0.001). Without LRP: 6% vs 4% (adjusted HR 1.00); P interaction <0.001.",
+        "Hypothesis-generating (post hoc): plaque composition may matter beyond burden and lumen size; prospective NIRS-guided preventive PCI trials are needed before routine use."
       ],
       "category": "research",
-      "source": "US FDA (CDRH Early Alert)",
-      "url": "https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-transcatheter-mitral-valve-delivery-system-issue-edwards-lifesciences"
+      "source": "American College of Cardiology / Circulation",
+      "url": "https://www.acc.org/latest-in-cardiology/journal-scans/2026/10/14/09/58/prevent-analysis"
+    },
+    {
+      "title": "AI-enhanced auscultation detects LVEF ≤40% with AUROC 0.90 on external validation (NEJM AI)",
+      "summary": "Prospective multicentre Japanese study (NEJM AI, Oct 15): an AI model analysing digital-stethoscope recordings from four auscultation sites detected LV dysfunction (LVEF ≤40%) with AUROC 0.904 in external validation and beat cardiologist consensus in a reader substudy. Proposed as a pre-echo triage tool, not yet for screening.",
+      "bullets": [
+        "Adults referred for clinically indicated echo had digital auscultation at four standard sites, recorded with a simultaneous single-lead ECG; LV dysfunction was defined as LVEF ≤40% on same-time echo.",
+        "Training cohort 2,359 patients (8.9% reduced LVEF); external validation in 964 patients from an independent multicentre registry (7.6% reduced LVEF).",
+        "External validation: AUROC 0.904, sensitivity 86.3%, specificity 74.2%; outperformed ECG-only and clinical models (including BNP); a simplified two-site model kept AUROC 0.903.",
+        "In a 100-patient reader substudy, AI accuracy was 82% vs 62% for consensus of seven cardiologists (P=0.004).",
+        "Limitations: studied in patients already referred for echo (not a general screening population) and industry-sponsored (AMI Inc.; four authors are AMI employees); authors say further validation is needed before broader screening use."
+      ],
+      "category": "research",
+      "source": "NEJM AI",
+      "url": "https://ai.nejm.org/doi/full/10.1056/AIoa2600258"
     }
   ]
 }

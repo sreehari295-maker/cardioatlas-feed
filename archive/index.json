@@ -2,6 +2,14 @@
  "schema": "cardioatlas-archive-index/v1",
  "days": [
   {
+   "date": "2026-10-18",
+   "count": 2,
+   "titles": [
+    "PREVENT post hoc: preventive PCI benefit confined to NIRS-defined lipid-rich plaques",
+    "AI-enhanced auscultation detects LVEF ≤40% with AUROC 0.90 on external validation (NEJM AI)"
+   ]
+  },
+  {
    "date": "2026-10-17",
    "count": 2,
    "titles": [
@@ -24,5 +32,5 @@
    ]
   }
  ],
- "updated": "2026-10-17T02:06:14Z"
+ "updated": "2026-10-18T02:07:29Z"
 }
