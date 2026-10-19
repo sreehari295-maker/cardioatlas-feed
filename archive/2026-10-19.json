@@ -1,0 +1,34 @@
+{
+  "schema": "cardioatlas-updates/v2",
+  "date": "2026-10-19",
+  "items": [
+    {
+      "title": "Drug-coated balloons match DES on CV death and MI in de novo CAD: meta-analysis of 10 RCTs (eClinicalMedicine)",
+      "summary": "Meta-analysis of 10 RCTs (7,832 patients) comparing DCB-only PCI with DES for de novo coronary disease: no difference in cardiovascular death or MI, including after excluding small-vessel-only trials. Target-lesion revascularisation was higher with DCB outside small vessels, but this signal was heterogeneous and depended on one trial.",
+      "bullets": [
+        "Systematic review and meta-analysis (University of East Anglia; eClinicalMedicine, online 15 Oct 2026) of 10 RCTs, 7,832 patients, DCB-only PCI vs DES for de novo coronary disease.",
+        "Cardiovascular death: OR 1.06 (95% CI 0.75-1.49), I² 0%. Myocardial infarction: OR 1.02 (0.76-1.36), I² 0%. Results held after excluding small-vessel-only trials.",
+        "Target-lesion revascularisation did not differ overall (OR 1.39, 0.88-2.20) but was higher with DCB after excluding small-vessel-only trials (OR 1.84, 1.06-3.19; I² 54%).",
+        "The higher revascularisation signal was sensitive to removing one trial (REC-CAGEFREE I), so the authors urge caution in interpreting it.",
+        "Authors: comparable hard outcomes support DCB as an option ('leave nothing behind'), but adequately powered RCTs with longer follow-up are needed for large vessels and complex lesions."
+      ],
+      "category": "research",
+      "source": "eClinicalMedicine (The Lancet)",
+      "url": "https://doi.org/10.1016/j.eclinm.2026.104204"
+    },
+    {
+      "title": "Intensive BP lowering cuts CV events 15% per 10 mm Hg with or without CKD, no rise in kidney failure (JAMA Cardiology)",
+      "summary": "Oxford-led meta-analysis of 27 RCTs (88,830 adults): intensive vs standard BP lowering reduced major CV events by 15% per 10 mm Hg lower systolic BP, with similar relative benefit in people with and without CKD. Kidney failure was not increased, but sustained eGFR declines of 30% or more and 40% or more were, so kidney function should be monitored.",
+      "bullets": [
+        "27 RCTs, 88,830 participants (including ESPRIT, BPROAD and STEP); results standardised per 10 mm Hg lower achieved systolic BP. Published online 7 Oct 2026 in JAMA Cardiology.",
+        "Major CV events: RR 0.85 (95% CI 0.81-0.89) per 10 mm Hg overall; CKD RR 0.89 (0.81-0.99) vs non-CKD RR 0.84 (0.80-0.88), heterogeneity P=0.26.",
+        "Absolute benefit was at least as large in CKD because baseline risk is higher: about 4.2 vs 2.7 fewer CV events per 1,000 person-years.",
+        "Kidney failure was not increased (RR 0.97, 0.84-1.11), but sustained eGFR declines of ≥30% (RR 1.42) and ≥40% (RR 1.47) were; exploratory all-cause mortality fell 11% per 10 mm Hg (RR 0.89).",
+        "Authors say guidelines should recommend intensive BP lowering with and without CKD, with careful monitoring of eGFR and electrolytes. Limits: trial-level data only, varied BP measurement methods, and uncertainty remains for eGFR <30."
+      ],
+      "category": "research",
+      "source": "JAMA Cardiology",
+      "url": "https://jamanetwork.com/journals/jamacardiology/fullarticle/2854798"
+    }
+  ]
+}

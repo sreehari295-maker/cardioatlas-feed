@@ -1,34 +1,34 @@
 {
   "schema": "cardioatlas-updates/v2",
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "items": [
     {
-      "title": "PREVENT post hoc: preventive PCI benefit confined to NIRS-defined lipid-rich plaques",
-      "summary": "Circulation post hoc analysis of PREVENT (598 patients, 632 non-flow-limiting lesions with plaque burden >70% and MLA <4 mm² on IVUS plus NIRS): preventive PCI was associated with fewer primary-outcome events only in lipid-rich plaques (7% vs 18%), with no benefit in non-lipid-rich plaques despite similar anatomy.",
+      "title": "Drug-coated balloons match DES on CV death and MI in de novo CAD: meta-analysis of 10 RCTs (eClinicalMedicine)",
+      "summary": "Meta-analysis of 10 RCTs (7,832 patients) comparing DCB-only PCI with DES for de novo coronary disease: no difference in cardiovascular death or MI, including after excluding small-vessel-only trials. Target-lesion revascularisation was higher with DCB outside small vessels, but this signal was heterogeneous and depended on one trial.",
       "bullets": [
-        "Post hoc analysis of the PREVENT RCT (1,606 patients; South Korea, Japan, Taiwan, New Zealand): 598 patients, 632 lesions with plaque burden >70% and minimal lumen area <4 mm² on IVUS that also had NIRS.",
-        "Lipid-rich plaque (LRP) was prespecified as maxLCBI4mm >315; present in 223 patients (37%). Median follow-up 5.6 years.",
-        "Primary outcome (cardiac death, target-vessel MI, ischaemia-driven TVR or hospitalisation for unstable/progressive angina) was more frequent with LRP than without (13% vs 5%; HR 2.08, p=0.039).",
-        "With LRP, preventive PCI vs optimal medical therapy alone: 7% vs 18% (adjusted HR 0.23, p<0.001). Without LRP: 6% vs 4% (adjusted HR 1.00); P interaction <0.001.",
-        "Hypothesis-generating (post hoc): plaque composition may matter beyond burden and lumen size; prospective NIRS-guided preventive PCI trials are needed before routine use."
+        "Systematic review and meta-analysis (University of East Anglia; eClinicalMedicine, online 15 Oct 2026) of 10 RCTs, 7,832 patients, DCB-only PCI vs DES for de novo coronary disease.",
+        "Cardiovascular death: OR 1.06 (95% CI 0.75-1.49), I² 0%. Myocardial infarction: OR 1.02 (0.76-1.36), I² 0%. Results held after excluding small-vessel-only trials.",
+        "Target-lesion revascularisation did not differ overall (OR 1.39, 0.88-2.20) but was higher with DCB after excluding small-vessel-only trials (OR 1.84, 1.06-3.19; I² 54%).",
+        "The higher revascularisation signal was sensitive to removing one trial (REC-CAGEFREE I), so the authors urge caution in interpreting it.",
+        "Authors: comparable hard outcomes support DCB as an option ('leave nothing behind'), but adequately powered RCTs with longer follow-up are needed for large vessels and complex lesions."
       ],
       "category": "research",
-      "source": "American College of Cardiology / Circulation",
-      "url": "https://www.acc.org/latest-in-cardiology/journal-scans/2026/10/14/09/58/prevent-analysis"
+      "source": "eClinicalMedicine (The Lancet)",
+      "url": "https://doi.org/10.1016/j.eclinm.2026.104204"
     },
     {
-      "title": "AI-enhanced auscultation detects LVEF ≤40% with AUROC 0.90 on external validation (NEJM AI)",
-      "summary": "Prospective multicentre Japanese study (NEJM AI, Oct 15): an AI model analysing digital-stethoscope recordings from four auscultation sites detected LV dysfunction (LVEF ≤40%) with AUROC 0.904 in external validation and beat cardiologist consensus in a reader substudy. Proposed as a pre-echo triage tool, not yet for screening.",
+      "title": "Intensive BP lowering cuts CV events 15% per 10 mm Hg with or without CKD, no rise in kidney failure (JAMA Cardiology)",
+      "summary": "Oxford-led meta-analysis of 27 RCTs (88,830 adults): intensive vs standard BP lowering reduced major CV events by 15% per 10 mm Hg lower systolic BP, with similar relative benefit in people with and without CKD. Kidney failure was not increased, but sustained eGFR declines of 30% or more and 40% or more were, so kidney function should be monitored.",
       "bullets": [
-        "Adults referred for clinically indicated echo had digital auscultation at four standard sites, recorded with a simultaneous single-lead ECG; LV dysfunction was defined as LVEF ≤40% on same-time echo.",
-        "Training cohort 2,359 patients (8.9% reduced LVEF); external validation in 964 patients from an independent multicentre registry (7.6% reduced LVEF).",
-        "External validation: AUROC 0.904, sensitivity 86.3%, specificity 74.2%; outperformed ECG-only and clinical models (including BNP); a simplified two-site model kept AUROC 0.903.",
-        "In a 100-patient reader substudy, AI accuracy was 82% vs 62% for consensus of seven cardiologists (P=0.004).",
-        "Limitations: studied in patients already referred for echo (not a general screening population) and industry-sponsored (AMI Inc.; four authors are AMI employees); authors say further validation is needed before broader screening use."
+        "27 RCTs, 88,830 participants (including ESPRIT, BPROAD and STEP); results standardised per 10 mm Hg lower achieved systolic BP. Published online 7 Oct 2026 in JAMA Cardiology.",
+        "Major CV events: RR 0.85 (95% CI 0.81-0.89) per 10 mm Hg overall; CKD RR 0.89 (0.81-0.99) vs non-CKD RR 0.84 (0.80-0.88), heterogeneity P=0.26.",
+        "Absolute benefit was at least as large in CKD because baseline risk is higher: about 4.2 vs 2.7 fewer CV events per 1,000 person-years.",
+        "Kidney failure was not increased (RR 0.97, 0.84-1.11), but sustained eGFR declines of ≥30% (RR 1.42) and ≥40% (RR 1.47) were; exploratory all-cause mortality fell 11% per 10 mm Hg (RR 0.89).",
+        "Authors say guidelines should recommend intensive BP lowering with and without CKD, with careful monitoring of eGFR and electrolytes. Limits: trial-level data only, varied BP measurement methods, and uncertainty remains for eGFR <30."
       ],
       "category": "research",
-      "source": "NEJM AI",
-      "url": "https://ai.nejm.org/doi/full/10.1056/AIoa2600258"
+      "source": "JAMA Cardiology",
+      "url": "https://jamanetwork.com/journals/jamacardiology/fullarticle/2854798"
     }
   ]
 }
