@@ -2,6 +2,13 @@
  "schema": "cardioatlas-archive-index/v1",
  "days": [
   {
+   "date": "2026-10-20",
+   "count": 1,
+   "titles": [
+    "ACHIEVE-4: oral GLP-1 RA orforglipron is CV-safe vs insulin glargine in high-risk type 2 diabetes (The Lancet)"
+   ]
+  },
+  {
    "date": "2026-10-19",
    "count": 2,
    "titles": [
@@ -40,5 +47,5 @@
    ]
   }
  ],
- "updated": "2026-10-19T02:01:43Z"
+ "updated": "2026-10-20T01:58:43Z"
 }
