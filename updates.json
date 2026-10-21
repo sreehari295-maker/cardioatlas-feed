@@ -1,20 +1,20 @@
 {
   "schema": "cardioatlas-updates/v2",
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "items": [
     {
-      "title": "ACHIEVE-4: oral GLP-1 RA orforglipron is CV-safe vs insulin glargine in high-risk type 2 diabetes (The Lancet)",
-      "summary": "In 2,749 adults with type 2 diabetes, overweight or obesity and established CVD or CKD, once-daily oral orforglipron was non-inferior to insulin glargine for 4-point MACE over a median 2 years (4.2% vs 5.0%; HR 0.84, 95% CI 0.59-1.20). It is the first CV outcomes trial of a non-peptide (small-molecule) GLP-1 receptor agonist; GI side effects were more common and hypoglycaemia less common.",
+      "title": "LINK-HF2: AI wearable monitoring after HF discharge is feasible, but no reduction in rehospitalization in exploratory analysis (HFSA 2026, JACC: Heart Failure)",
+      "summary": "In 171 patients discharged after acute heart failure, 90 days of AI-analysed continuous patch monitoring with clinician alerts reduced AI-detected physiological instability but did not significantly reduce HF rehospitalization in exploratory analyses (16.3% vs 18.7%; HR 0.90, p=0.76) or a composite of unplanned rehospitalization, ED visits and death.",
       "bullets": [
-        "Phase 3, event-driven, open-label trial at 317 sites in 16 countries: oral orforglipron (up to 36 mg capsule daily) vs titrated insulin glargine in T2D (HbA1c 7.0-10.5%, BMI ≥25) with established CVD (86%) or CKD (38%); mean age 63.",
-        "Primary MACE-4 (CV death, non-fatal MI, non-fatal stroke or hospitalisation for unstable angina): 4.2% vs 5.0%, HR 0.84 (95% CI 0.59-1.20); non-inferior (margin: upper CI <1.8).",
-        "Deaths: 1.4% with orforglipron vs 3.2% with glargine; all but one judged unrelated to treatment.",
-        "GI adverse events 62.1% vs 14.2% (the main reason for stopping orforglipron); clinically significant or severe hypoglycaemia 6.8% vs 19.2%.",
-        "Glargine is a CV-neutral comparator, so ACHIEVE-4 establishes safety, not proven CV benefit. Industry-funded (Eli Lilly). Published in The Lancet 17 Oct 2026 issue (online 30 Sep 2026)."
+        "Prospective randomized, open-label, blinded-endpoint feasibility trial at 5 Veterans Affairs medical centres (n=171; mean age 73, 7% women). All wore a multisensor patch for up to 90 days with AI analysis; alerts went to clinicians only in the intervention group (n=80 vs 91 standard care).",
+        "Median monitoring adherence was 72.4%; at least one alert was generated for 52.6% of patients, most often for elevated heart rate. Clinicians responded within a median of 1 day (range 1-5 days), most commonly by reassessing symptoms after 3 days (65.7%).",
+        "Exploratory endpoints: HF rehospitalization 16.3% vs 18.7% (HR 0.90, 95% CI 0.43-1.84; p=0.76); composite of all-cause unplanned rehospitalization, ED visits and mortality HR 1.03 (95% CI 0.63-1.70; p=0.89).",
+        "AI-detected physiological instability was lower with alerts (HR 0.76, 95% CI 0.60-0.97; p=0.025).",
+        "Take-home: detecting instability alone may not improve outcomes without clearly actionable signals and matching treatment responses. Presented at HFSA 2026 and published simultaneously in JACC: Heart Failure."
       ],
-      "category": "trial",
-      "source": "The Lancet",
-      "url": "https://doi.org/10.1016/S0140-6736(26)01865-9"
+      "category": "conference",
+      "source": "JACC: Heart Failure (HFSA 2026)",
+      "url": "https://doi.org/10.1016/j.jchf.2026.103422"
     }
   ]
 }
