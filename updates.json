@@ -1,20 +1,20 @@
 {
   "schema": "cardioatlas-updates/v2",
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "items": [
     {
-      "title": "LINK-HF2: AI wearable monitoring after HF discharge is feasible, but no reduction in rehospitalization in exploratory analysis (HFSA 2026, JACC: Heart Failure)",
-      "summary": "In 171 patients discharged after acute heart failure, 90 days of AI-analysed continuous patch monitoring with clinician alerts reduced AI-detected physiological instability but did not significantly reduce HF rehospitalization in exploratory analyses (16.3% vs 18.7%; HR 0.90, p=0.76) or a composite of unplanned rehospitalization, ED visits and death.",
+      "title": "FDA approves PASCAL Precision system for transcatheter tricuspid edge-to-edge repair (T-TEER) in severe TR",
+      "summary": "On October 21, 2026, Edwards Lifesciences announced FDA approval of its PASCAL Precision system for tricuspid valve repair in patients with symptomatic severe tricuspid regurgitation despite optimal medical therapy who are at intermediate or greater surgical risk, alongside approval of PASCAL Ace with Capture Clarity for degenerative mitral TEER.",
       "bullets": [
-        "Prospective randomized, open-label, blinded-endpoint feasibility trial at 5 Veterans Affairs medical centres (n=171; mean age 73, 7% women). All wore a multisensor patch for up to 90 days with AI analysis; alerts went to clinicians only in the intervention group (n=80 vs 91 standard care).",
-        "Median monitoring adherence was 72.4%; at least one alert was generated for 52.6% of patients, most often for elevated heart rate. Clinicians responded within a median of 1 day (range 1-5 days), most commonly by reassessing symptoms after 3 days (65.7%).",
-        "Exploratory endpoints: HF rehospitalization 16.3% vs 18.7% (HR 0.90, 95% CI 0.43-1.84; p=0.76); composite of all-cause unplanned rehospitalization, ED visits and mortality HR 1.03 (95% CI 0.63-1.70; p=0.89).",
-        "AI-detected physiological instability was lower with alerts (HR 0.76, 95% CI 0.60-0.97; p=0.025).",
-        "Take-home: detecting instability alone may not improve outcomes without clearly actionable signals and matching treatment responses. Presented at HFSA 2026 and published simultaneously in JACC: Heart Failure."
+        "Indication: improving quality of life and functional status in symptomatic severe TR despite optimal medical therapy, in patients at intermediate or greater surgical risk who are judged appropriate for T-TEER by a multidisciplinary heart team.",
+        "PASCAL has been used in the US for degenerative mitral regurgitation for several years; this extends it to the tricuspid valve. Edwards says it is now the only company offering both repair and replacement transcatheter therapies for the mitral and tricuspid valves in the US.",
+        "FDA also approved PASCAL Ace with Capture Clarity for degenerative mitral TEER, which Edwards describes as the first FDA-approved TEER device with fluoroscopic indicators that confirm when the valve leaflets have been grasped.",
+        "One-year results of the CLASP II TR pivotal trial of the PASCAL tricuspid system are due as a late-breaker at TCT.",
+        "Take-home: T-TEER options are widening for high-risk TR patients; heart-team selection and the upcoming CLASP II TR data will guide where this device fits."
       ],
-      "category": "conference",
-      "source": "JACC: Heart Failure (HFSA 2026)",
-      "url": "https://doi.org/10.1016/j.jchf.2026.103422"
+      "category": "approval",
+      "source": "Edwards Lifesciences press release (Oct 21, 2026)",
+      "url": "https://www.edwards.com/newsroom/news/2026-10-21-fda-approval-of-edwards-lifesciences--pascal-preci"
     }
   ]
 }

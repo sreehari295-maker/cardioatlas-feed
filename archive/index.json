@@ -2,6 +2,13 @@
  "schema": "cardioatlas-archive-index/v1",
  "days": [
   {
+   "date": "2026-10-22",
+   "count": 1,
+   "titles": [
+    "FDA approves PASCAL Precision system for transcatheter tricuspid edge-to-edge repair (T-TEER) in severe TR"
+   ]
+  },
+  {
    "date": "2026-10-21",
    "count": 1,
    "titles": [
@@ -54,5 +61,5 @@
    ]
   }
  ],
- "updated": "2026-10-21T01:59:20Z"
+ "updated": "2026-10-22T02:02:21Z"
 }
