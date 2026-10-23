@@ -2,6 +2,13 @@
  "schema": "cardioatlas-archive-index/v1",
  "days": [
   {
+   "date": "2026-10-23",
+   "count": 1,
+   "titles": [
+    "FDA clears Elucid FFR-IQ: AI FFR-CT software that adds plaque composition to coronary physiology estimates"
+   ]
+  },
+  {
    "date": "2026-10-22",
    "count": 1,
    "titles": [
@@ -61,5 +68,5 @@
    ]
   }
  ],
- "updated": "2026-10-22T02:02:21Z"
+ "updated": "2026-10-23T01:57:45Z"
 }

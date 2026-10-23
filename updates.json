@@ -1,20 +1,19 @@
 {
   "schema": "cardioatlas-updates/v2",
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "items": [
     {
-      "title": "FDA approves PASCAL Precision system for transcatheter tricuspid edge-to-edge repair (T-TEER) in severe TR",
-      "summary": "On October 21, 2026, Edwards Lifesciences announced FDA approval of its PASCAL Precision system for tricuspid valve repair in patients with symptomatic severe tricuspid regurgitation despite optimal medical therapy who are at intermediate or greater surgical risk, alongside approval of PASCAL Ace with Capture Clarity for degenerative mitral TEER.",
+      "title": "FDA clears Elucid FFR-IQ: AI FFR-CT software that adds plaque composition to coronary physiology estimates",
+      "summary": "On October 21, 2026, Elucid announced FDA 510(k) clearance of FFR-IQ, AI software that estimates fractional flow reserve noninvasively from coronary CT angiography by combining coronary anatomy with plaque composition.",
       "bullets": [
-        "Indication: improving quality of life and functional status in symptomatic severe TR despite optimal medical therapy, in patients at intermediate or greater surgical risk who are judged appropriate for T-TEER by a multidisciplinary heart team.",
-        "PASCAL has been used in the US for degenerative mitral regurgitation for several years; this extends it to the tricuspid valve. Edwards says it is now the only company offering both repair and replacement transcatheter therapies for the mitral and tricuspid valves in the US.",
-        "FDA also approved PASCAL Ace with Capture Clarity for degenerative mitral TEER, which Edwards describes as the first FDA-approved TEER device with fluoroscopic indicators that confirm when the valve leaflets have been grasped.",
-        "One-year results of the CLASP II TR pivotal trial of the PASCAL tricuspid system are due as a late-breaker at TCT.",
-        "Take-home: T-TEER options are widening for high-risk TR patients; heart-team selection and the upcoming CLASP II TR data will guide where this device fits."
+        "FFR-IQ estimates FFR from a standard CCTA, using invasive pressure-wire FFR as the reference standard, to help decide which patients need invasive angiography and revascularization.",
+        "Unlike anatomy-only FFR-CT, it feeds plaque burden and composition (including lipid-rich necrotic core, from the company's Plaque-IQ software) into the physiology estimate.",
+        "The company reports 92.2% sensitivity and 93.1% specificity in the ELUCIDATE FFR-CT study that supported the clearance (FDA 510(k) K262015, dated Sept 29, 2026); full results are due at TCT 2026 on November 1 and are not yet peer-reviewed.",
+        "Take-home: noninvasive coronary physiology is moving toward combined anatomy-plaque-flow assessment from one CT scan; wait for the ELUCIDATE data before judging how it compares with existing FFR-CT tools."
       ],
       "category": "approval",
-      "source": "Edwards Lifesciences press release (Oct 21, 2026)",
-      "url": "https://www.edwards.com/newsroom/news/2026-10-21-fda-approval-of-edwards-lifesciences--pascal-preci"
+      "source": "Elucid press release via Business Wire (Oct 21, 2026)",
+      "url": "https://www.businesswire.com/news/home/20261021452349/en/Elucid-Announces-FDA-Clearance-of-FFR-IQ-and-Commercial-Availability-of-the-Most-Accurate-FFR-CT-Software"
     }
   ]
 }
