@@ -6,13 +6,13 @@
       "title": "FDA clears Elucid FFR-IQ: AI FFR-CT software that adds plaque composition to coronary physiology estimates",
       "summary": "On October 21, 2026, Elucid announced FDA 510(k) clearance of FFR-IQ, AI software that estimates fractional flow reserve noninvasively from coronary CT angiography by combining coronary anatomy with plaque composition.",
       "bullets": [
-        "FFR-IQ estimates FFR from a standard CCTA, using invasive pressure-wire FFR as the reference standard, to help decide which patients need invasive angiography and revascularization.",
+        "FFR-IQ estimates FFR from a standard CCTA (invasive pressure-wire FFR was the ELUCIDATE reference). FDA-cleared for clinically stable known or suspected CAD to support functional evaluation with clinical judgment; the company says it may help triage who needs invasive angiography.",
         "Unlike anatomy-only FFR-CT, it feeds plaque burden and composition (including lipid-rich necrotic core, from the company's Plaque-IQ software) into the physiology estimate.",
-        "The company reports 92.2% sensitivity and 93.1% specificity in the ELUCIDATE FFR-CT study that supported the clearance (FDA 510(k) K262015, dated Sept 29, 2026); full results are due at TCT 2026 on November 1 and are not yet peer-reviewed.",
+        "The company reports 92.2% sensitivity and 93.1% specificity in ELUCIDATE (FDA 510(k) K262015, Sept 29, 2026; retrospective multicenter; 491 vessels, 347 patients). Full results are to be presented at TCT on Nov 1 (per company; not a CRF late-breaker) and are not yet peer-reviewed.",
         "Take-home: noninvasive coronary physiology is moving toward combined anatomy-plaque-flow assessment from one CT scan; wait for the ELUCIDATE data before judging how it compares with existing FFR-CT tools."
       ],
       "category": "approval",
-      "source": "Elucid press release via Business Wire (Oct 21, 2026)",
+      "source": "Elucid press release via Business Wire (Oct 21, 2026); FDA 510(k) K262015",
       "url": "https://www.businesswire.com/news/home/20261021452349/en/Elucid-Announces-FDA-Clearance-of-FFR-IQ-and-Commercial-Availability-of-the-Most-Accurate-FFR-CT-Software"
     }
   ]
