@@ -1,19 +1,20 @@
 {
   "schema": "cardioatlas-updates/v2",
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "items": [
     {
-      "title": "FDA clears Elucid FFR-IQ: AI FFR-CT software that adds plaque composition to coronary physiology estimates",
-      "summary": "On October 21, 2026, Elucid announced FDA 510(k) clearance of FFR-IQ, AI software that estimates fractional flow reserve noninvasively from coronary CT angiography by combining coronary anatomy with plaque composition.",
+      "title": "CAC Consortium: high coronary calcium in adults aged 30-45 linked to higher death risk over 30 years (JAMA Cardiology)",
+      "summary": "In 12,847 adults aged 30 to 45 who had clinically indicated CAC scans, a CAC score above the 90th percentile was linked to about 1.9 to 3.7 times higher all-cause, cardiovascular and coronary mortality over a median 22.6-year follow-up (JAMA Cardiology, Oct 23, 2026).",
       "bullets": [
-        "FFR-IQ estimates FFR from a standard CCTA (invasive pressure-wire FFR was the ELUCIDATE reference). FDA-cleared for clinically stable known or suspected CAD to support functional evaluation with clinical judgment; the company says it may help triage who needs invasive angiography.",
-        "Unlike anatomy-only FFR-CT, it feeds plaque burden and composition (including lipid-rich necrotic core, from the company's Plaque-IQ software) into the physiology estimate.",
-        "The company reports 92.2% sensitivity and 93.1% specificity in ELUCIDATE (FDA 510(k) K262015, Sept 29, 2026; retrospective multicenter; 491 vessels, 347 patients). Full results are to be presented at TCT on Nov 1 (per company; not a CRF late-breaker) and are not yet peer-reviewed.",
-        "Take-home: noninvasive coronary physiology is moving toward combined anatomy-plaque-flow assessment from one CT scan; wait for the ELUCIDATE data before judging how it compares with existing FFR-CT tools."
+        "Design: retrospective CAC Consortium cohort (4 US centres) of referred adults aged 30-45 (mean age 40.5, 77% men); 72.1% had CAC 0, 12.7% were at the 75th-90th percentile and 13.3% above the 90th percentile; median follow-up 22.6 years, 624 deaths (149 CVD, 81 CHD).",
+        "Adjusted hazard ratios for CAC above the 90th percentile vs CAC 0: all-cause death 1.87 (95% CI 1.54-2.27), CVD death 2.60 (1.77-3.82), CHD death 3.71 (2.24-6.16).",
+        "Modeled 30-year risk, above 90th percentile vs CAC 0: all-cause death 12.9% vs 7.5%, CVD death 4.5% vs 1.5%, CHD death 3.0% vs 0.6%.",
+        "Limits: referred, mostly male, US cohort with no randomised treatment, and 30-year figures are partly modeled (Kaplan-Meier plus Weibull), so it shows risk, not that treating it changes outcomes.",
+        "Take-home: in adults aged 30-45, a CAC score above the 90th percentile flags premature atherosclerosis and higher long-term mortality; the authors suggest it may help guide earlier, more intensive prevention."
       ],
-      "category": "approval",
-      "source": "Elucid press release via Business Wire (Oct 21, 2026); FDA 510(k) K262015",
-      "url": "https://www.businesswire.com/news/home/20261021452349/en/Elucid-Announces-FDA-Clearance-of-FFR-IQ-and-Commercial-Availability-of-the-Most-Accurate-FFR-CT-Software"
+      "category": "research",
+      "source": "Choi S, ... Blaha MJ. JAMA Cardiol, Oct 23, 2026. doi:10.1001/jamacardio.2026.4819",
+      "url": "https://jamanetwork.com/journals/jamacardiology/fullarticle/10.1001/jamacardio.2026.4819"
     }
   ]
 }

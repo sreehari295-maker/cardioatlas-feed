@@ -2,6 +2,13 @@
  "schema": "cardioatlas-archive-index/v1",
  "days": [
   {
+   "date": "2026-10-24",
+   "count": 1,
+   "titles": [
+    "CAC Consortium: high coronary calcium in adults aged 30-45 linked to higher death risk over 30 years (JAMA Cardiology)"
+   ]
+  },
+  {
    "date": "2026-10-23",
    "count": 1,
    "titles": [
@@ -68,5 +75,5 @@
    ]
   }
  ],
- "updated": "2026-10-23T01:57:59Z"
+ "updated": "2026-10-24T01:59:36Z"
 }
