@@ -1,0 +1,20 @@
+{
+  "schema": "cardioatlas-updates/v2",
+  "date": "2026-10-25",
+  "items": [
+    {
+      "title": "Intravascular imaging-guided PCI for complex lesions cuts stent thrombosis by about half: meta-analysis of 18 RCTs (JACC: Advances)",
+      "summary": "In 18 RCTs (18,975 patients) of complex PCI, IVUS- or OCT-guided stenting cut stent thrombosis by about half and lowered MACE and cardiac death vs angiography guidance, but the MACE benefit was mostly seen in Asian trials and when imaging-defined stent optimization was achieved (JACC: Advances, Oct 2026).",
+      "bullets": [
+        "Design: meta-analysis of 18 RCTs of DES in complex lesions (left main, bifurcation, long, calcified, CTO, ISR, multivessel), including the 2026 OPTIMAL, IVUS-CHIP and DKCRUSH VIII trials; 6,829 IVUS, 2,914 OCT and 9,231 angiography patients; weighted mean follow-up 26.3 months.",
+        "Imaging vs angiography guidance: stent thrombosis RR 0.52 (95% CI 0.35-0.78; high certainty), MACE RR 0.67 (0.55-0.83), cardiac death RR 0.72 (0.53-0.97), MI RR 0.87 (0.76-0.998), clinically driven TLR RR 0.72 (0.51-0.999); no significant difference in all-cause death (RR 0.88), TVR or TVF.",
+        "The MACE benefit was seen mainly in Asian trials, not Western ones (P interaction <0.01), and results were similar for IVUS and OCT.",
+        "Within imaging arms, achieving imaging-defined stent optimization vs not was linked to fewer MACE/TVF (RR 0.41, 0.26-0.62; 6 studies); the authors say the benefit might be driven by optimization.",
+        "Limits: publication bias was found; after trim-and-fill, MACE, cardiac death, MI and TLR lost significance, and cardiac death, MI and TLR were sensitive to single trials. Definitions varied and data were trial-level, so stent thrombosis is the most robust finding."
+      ],
+      "category": "research",
+      "source": "Elbahloul MA, ... Elgendy IY. JACC: Advances, Oct 2026. doi:10.1016/j.jacadv.2026.103340",
+      "url": "https://www.jacc.org/doi/10.1016/j.jacadv.2026.103340"
+    }
+  ]
+}

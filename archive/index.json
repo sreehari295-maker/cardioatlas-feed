@@ -2,6 +2,13 @@
  "schema": "cardioatlas-archive-index/v1",
  "days": [
   {
+   "date": "2026-10-25",
+   "count": 1,
+   "titles": [
+    "Intravascular imaging-guided PCI for complex lesions cuts stent thrombosis by about half: meta-analysis of 18 RCTs (JACC: Advances)"
+   ]
+  },
+  {
    "date": "2026-10-24",
    "count": 1,
    "titles": [
@@ -75,5 +82,5 @@
    ]
   }
  ],
- "updated": "2026-10-24T01:59:36Z"
+ "updated": "2026-10-25T01:56:00Z"
 }
