@@ -2,6 +2,13 @@
  "schema": "cardioatlas-archive-index/v1",
  "days": [
   {
+   "date": "2026-10-26",
+   "count": 1,
+   "titles": [
+    "Daily nicotine vaping in young never-smokers linked to impaired vascular function and lower fitness (JAMA Cardiology)"
+   ]
+  },
+  {
    "date": "2026-10-25",
    "count": 1,
    "titles": [
@@ -82,5 +89,5 @@
    ]
   }
  ],
- "updated": "2026-10-25T01:56:00Z"
+ "updated": "2026-10-26T02:03:18Z"
 }
