@@ -2,6 +2,13 @@
  "schema": "cardioatlas-archive-index/v1",
  "days": [
   {
+   "date": "2026-10-27",
+   "count": 1,
+   "titles": [
+    "ELPIS II: stem cell therapy laromestrocel misses RVEF endpoint in HLHS infants but shows fewer major cardiac events (company update, AHA 2026 late-breaker)"
+   ]
+  },
+  {
    "date": "2026-10-26",
    "count": 1,
    "titles": [
@@ -89,5 +96,5 @@
    ]
   }
  ],
- "updated": "2026-10-26T02:03:18Z"
+ "updated": "2026-10-27T02:01:01Z"
 }
