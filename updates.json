@@ -1,20 +1,20 @@
 {
   "schema": "cardioatlas-updates/v2",
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "items": [
     {
-      "title": "ELPIS II: stem cell therapy laromestrocel misses RVEF endpoint in HLHS infants but shows fewer major cardiac events (company update, AHA 2026 late-breaker)",
-      "summary": "In the 40-infant phase 2b ELPIS II trial, laromestrocel injected during Stage II palliation for hypoplastic left heart syndrome did not improve 12-month RVEF, but the company reports fewer MACE (1 vs 8, P=0.043); full data are due at AHA 2026 on Nov 8 (Longeveron press release, Oct 26, 2026).",
+      "title": "ICare-FASTER: point-of-care hs-troponin I cuts ED stay by 47 minutes in suspected MI with no rise in 30-day MI or cardiac death (Circulation)",
+      "summary": "In a six-hospital New Zealand stepped-wedge cluster-randomised trial of nearly 60,000 ED presentations, swapping central-lab hs-troponin for a whole-blood point-of-care hs-cTnI assay in the same accelerated rule-out pathway shortened ED length of stay by 13% (47 minutes) with identical 30-day safety (Than et al., Circulation, Oct 19, 2026).",
       "bullets": [
-        "Design: randomised, double-blind, multicentre phase 2b trial with NIH/NHLBI funding (NCT04925024); 40 infants with HLHS got a single intramyocardial dose of laromestrocel (allogeneic bone-marrow MSCs) during the Glenn or hemi-Fontan, or surgery alone (1:1), followed 12 months.",
-        "Primary endpoint missed: in the 28 infants with baseline and 12-month CMR, RVEF fell by 2.6 percentage points with standard care and 3.3 with laromestrocel (adjusted difference -1.36, 95% CI -8.0 to 6.7, p=0.68).",
-        "Secondary outcomes: MACE 8 with standard care vs 1 with laromestrocel (P=0.043); total major cardiac events 22 vs 3 (rate ratio 0.16, 95% CI 0.03-0.52, p<0.001); TR events or valve surgery 5 vs 0 (p=0.066, not significant). The 1 death and 1 VAD implant were both in the standard-care arm.",
-        "Safety: the company reports no treatment-related serious adverse events through 12 months. It plans to ask the FDA for a meeting; FDA had already said RVEF alone would not be enough for approval.",
-        "Caution: company-reported, not peer-reviewed results from a small trial that missed its primary endpoint; MACE was not defined, few events, no multiplicity adjustment reported, so the secondary findings are hypothesis-generating. Full data are an AHA 2026 late-breaker on Nov 8."
+        "Design: pragmatic stepped-wedge cluster-randomised trial at 6 New Zealand hospitals, Feb 2023 to Jan 2025; 59,980 ED presentations (44,747 people, mean age 61, 49.5% women), 31,392 in the intervention phase.",
+        "Intervention: the same accelerated diagnostic pathway with a single-sample rule-out step, using a whole-blood point-of-care hs-cTnI assay instead of the central-laboratory hs-cTn assay.",
+        "Primary outcome: adjusted ED length of stay fell by 13% (95% CI 9-16%; P<0.001), about 47 minutes (95% CI 33-61) from a control mean of 376 minutes.",
+        "Safety: 30-day MI or cardiac death was 0.39% in both arms (P=0.54).",
+        "Context: described as the first evaluation of a point-of-care hs-cTnI strategy in routine care; it is a single-country pragmatic trial, so results depend on local pathways and lab turnaround times."
       ],
       "category": "trial",
-      "source": "Longeveron Inc. press release (GlobeNewswire), Oct 26, 2026; ELPIS II, NCT04925024",
-      "url": "https://www.globenewswire.com/news-release/2026/10/26/3388178/0/en/longeveron-announces-updated-results-from-elpis-ii-phase-2b-clinical-trial-evaluating-laromestrocel-as-a-potential-treatment-for-hypoplastic-left-heart-syndrome-hlhs.html"
+      "source": "Than M, et al. ICare-FASTER. Circulation, Oct 19, 2026. doi:10.1161/CIRCULATIONAHA.126.080866",
+      "url": "https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.126.080866"
     }
   ]
 }

@@ -2,6 +2,13 @@
  "schema": "cardioatlas-archive-index/v1",
  "days": [
   {
+   "date": "2026-10-28",
+   "count": 1,
+   "titles": [
+    "ICare-FASTER: point-of-care hs-troponin I cuts ED stay by 47 minutes in suspected MI with no rise in 30-day MI or cardiac death (Circulation)"
+   ]
+  },
+  {
    "date": "2026-10-27",
    "count": 1,
    "titles": [
@@ -96,5 +103,5 @@
    ]
   }
  ],
- "updated": "2026-10-27T02:01:01Z"
+ "updated": "2026-10-28T02:03:50Z"
 }
