@@ -1,0 +1,20 @@
+{
+  "schema": "cardioatlas-updates/v2",
+  "date": "2026-10-30",
+  "items": [
+    {
+      "title": "FDA approves Abbott's Amplatzer Paraclose, which the company calls the first US transcatheter device designed to close paravalvular leaks around surgical valves",
+      "summary": "On Oct 28, 2026, Abbott announced FDA approval of the Amplatzer Paraclose PVL Occluder, which it describes as the first and only US-approved transcatheter device specifically designed to close paravalvular leak (PVL) around surgical replacement heart valves, as an alternative to repeat open-heart surgery.",
+      "bullets": [
+        "What it is: an oblong (elliptical) occluder delivered by catheter through a leg artery or vein and placed within the leak to close it; sold outside the US as the Amplatzer Valvular Plug III, approved in Europe since 2020.",
+        "Why it matters: PVL occurs in about 7-17% of mitral and 5-10% of aortic valve replacements and can cause heart failure symptoms and haemolytic anaemia; Abbott says US physicians previously had no approved alternative to repeat open-heart surgery.",
+        "Evidence: approval was based on PARADIGM, a prospective, multicentre, single-arm study of 200 patients; the press release does not report the efficacy or safety figures.",
+        "Scope: the US label covers PVL around surgical replacement valves; the announcement does not mention leaks after TAVI.",
+        "Caveat: single-arm data with no randomised comparison to surgery; full PARADIGM results should be read when published."
+      ],
+      "category": "approval",
+      "source": "Abbott press release, Oct 28, 2026",
+      "url": "https://abbott.mediaroom.com/press-releases?item=124787"
+    }
+  ]
+}

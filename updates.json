@@ -1,20 +1,20 @@
 {
   "schema": "cardioatlas-updates/v2",
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "items": [
     {
-      "title": "LEAP-Block: left bundle-branch area pacing beats RV pacing on death, HF events or BiV upgrade in AV block with preserved EF (JAMA)",
-      "summary": "In a 14-centre Chinese randomised trial of 499 patients with AV block, LVEF of 50% or more and expected ventricular pacing above 40%, left bundle-branch area pacing (LBBAP) lowered the 24-month risk of death, heart failure events or biventricular upgrade vs right ventricular pacing (Kaplan-Meier 5.0% vs 13.2%; HR 0.37) (JAMA, Oct 28, 2026).",
+      "title": "FDA approves Abbott's Amplatzer Paraclose, which the company calls the first US transcatheter device designed to close paravalvular leaks around surgical valves",
+      "summary": "On Oct 28, 2026, Abbott announced FDA approval of the Amplatzer Paraclose PVL Occluder, which it describes as the first and only US-approved transcatheter device specifically designed to close paravalvular leak (PVL) around surgical replacement heart valves, as an alternative to repeat open-heart surgery.",
       "bullets": [
-        "Design: prospective, multicentre, randomised superiority trial at 14 Chinese hospitals; 499 patients randomised 1:1 (LBBAP 249, RVP 250), 482 in the primary analysis (mean age 67, 46% women).",
-        "Primary endpoint (all-cause death, HF events or upgrade to biventricular pacing at 24 months): Kaplan-Meier cumulative incidence 5.0% with LBBAP vs 13.2% with RVP (HR 0.37, 95% CI 0.19-0.73; P=0.004), consistent across all prespecified subgroups.",
-        "Among secondary outcomes, HF events were fewer with LBBAP (3.4% vs 11.3%); all-cause death, BiV upgrade, pacing-induced cardiomyopathy and device-related complications did not differ significantly.",
-        "Feasibility: acute procedural success 97.9% vs 99.6% (P=0.22); true left bundle-branch capture was confirmed in 79.7% of LBBAP patients.",
-        "Context: adds randomised hard-outcome evidence for conduction system pacing as an alternative to RV pacing when a high pacing burden is expected; limits are a single country, few events, blinding not stated in the abstract, and some inconsistent figures in the abstract."
+        "What it is: an oblong (elliptical) occluder delivered by catheter through a leg artery or vein and placed within the leak to close it; sold outside the US as the Amplatzer Valvular Plug III, approved in Europe since 2020.",
+        "Why it matters: PVL occurs in about 7-17% of mitral and 5-10% of aortic valve replacements and can cause heart failure symptoms and haemolytic anaemia; Abbott says US physicians previously had no approved alternative to repeat open-heart surgery.",
+        "Evidence: approval was based on PARADIGM, a prospective, multicentre, single-arm study of 200 patients; the press release does not report the efficacy or safety figures.",
+        "Scope: the US label covers PVL around surgical replacement valves; the announcement does not mention leaks after TAVI.",
+        "Caveat: single-arm data with no randomised comparison to surgery; full PARADIGM results should be read when published."
       ],
-      "category": "trial",
-      "source": "You L, et al. LEAP-Block. JAMA, Oct 28, 2026. doi:10.1001/jama.2026.18146",
-      "url": "https://jamanetwork.com/journals/jama/fullarticle/10.1001/jama.2026.18146"
+      "category": "approval",
+      "source": "Abbott press release, Oct 28, 2026",
+      "url": "https://abbott.mediaroom.com/press-releases?item=124787"
     }
   ]
 }
