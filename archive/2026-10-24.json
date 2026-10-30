@@ -1,18 +1,53 @@
 {
-  "schema": "cardioatlas-updates/v2",
+  "schema": "cardioatlas-updates/v3",
   "date": "2026-10-24",
   "items": [
     {
-      "title": "CAC Consortium: high coronary calcium in adults aged 30-45 linked to higher death risk over 30 years (JAMA Cardiology)",
+      "title": "CAC Consortium: high coronary calcium in adults aged 30-45 linked to higher mortality over long-term follow-up (JAMA Cardiology)",
       "summary": "In 12,847 adults aged 30 to 45 who had clinically indicated CAC scans, a CAC score above the 90th percentile was linked to about 1.9 to 3.7 times higher all-cause, cardiovascular and coronary mortality over a median 22.6-year follow-up (JAMA Cardiology, Oct 23, 2026).",
-      "bullets": [
-        "Design: retrospective CAC Consortium cohort (4 US centres) of referred adults aged 30-45 (mean age 40.5, 77% men); 72.1% had CAC 0, 12.7% were at the 75th-90th percentile and 13.3% above the 90th percentile; median follow-up 22.6 years, 624 deaths (149 CVD, 81 CHD).",
-        "Adjusted hazard ratios for CAC above the 90th percentile vs CAC 0: all-cause death 1.87 (95% CI 1.54-2.27), CVD death 2.60 (1.77-3.82), CHD death 3.71 (2.24-6.16).",
-        "Modeled 30-year risk, above 90th percentile vs CAC 0: all-cause death 12.9% vs 7.5%, CVD death 4.5% vs 1.5%, CHD death 3.0% vs 0.6%.",
-        "Limits: referred, mostly male, US cohort with no randomised treatment, and 30-year figures are partly modeled (Kaplan-Meier plus Weibull), so it shows risk, not that treating it changes outcomes.",
-        "Take-home: in adults aged 30-45, a CAC score above the 90th percentile flags premature atherosclerosis and higher long-term mortality; the authors suggest it may help guide earlier, more intensive prevention."
-      ],
+      "area": "Preventive cardiology · Coronary calcium",
       "category": "research",
+      "bullets": [
+        "**CAC Consortium** (JAMA Cardiology, Oct 2026): long-term mortality with **coronary artery calcium (CAC)** in **young adults aged 30-45**.",
+        "**12,847 participants**, mean age **40.5**, **77.2% male**; median follow-up **22.6 years**; **624 deaths** (149 CVD, 81 CHD).",
+        "Groups: **CAC 0 (72.1%)**, **75th-90th percentile (12.7%)**, **>90th percentile (13.3%)**.",
+        "**CAC >90th percentile vs 0** (adjusted HR): **all-cause 1.87**, **CVD 2.60**, **CHD 3.71**.",
+        "Modelled **30-year mortality** (>90th percentile vs 0): all-cause **12.9% vs 7.5%**, CVD **4.5% vs 1.5%**, CHD **3.0% vs 0.6%**.",
+        "Authors' message: CAC >90th percentile in a young adult marks a **high-risk phenotype** and may **help guide earlier, more intensive prevention**; it does not show that acting on it improves outcomes.",
+        "Caveats: **retrospective referral cohort**, mostly men, long-term risks are **modelled**."
+      ],
+      "charts": [
+        {
+          "type": "group",
+          "title": "Modelled 30-year mortality (%)",
+          "labels": [
+            "All-cause",
+            "CVD",
+            "CHD"
+          ],
+          "series": [
+            {
+              "name": "CAC 0",
+              "values": [
+                7.5,
+                1.5,
+                0.6
+              ]
+            },
+            {
+              "name": "CAC >90th percentile",
+              "values": [
+                12.9,
+                4.5,
+                3.0
+              ]
+            }
+          ],
+          "unit": "%"
+        }
+      ],
+      "notesRef": "trials.preventive",
+      "noteId": "cac-young",
       "source": "Choi S, ... Blaha MJ. JAMA Cardiol, Oct 23, 2026. doi:10.1001/jamacardio.2026.4819",
       "url": "https://jamanetwork.com/journals/jamacardiology/fullarticle/10.1001/jamacardio.2026.4819"
     }

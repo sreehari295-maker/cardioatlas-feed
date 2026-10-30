@@ -1,19 +1,44 @@
 {
-  "schema": "cardioatlas-updates/v2",
+  "schema": "cardioatlas-updates/v3",
   "date": "2026-10-22",
   "items": [
     {
       "title": "FDA approves PASCAL Precision system for transcatheter tricuspid edge-to-edge repair (T-TEER) in severe TR",
-      "summary": "On October 21, 2026, Edwards Lifesciences announced FDA approval of its PASCAL Precision system for tricuspid valve repair in patients with symptomatic severe tricuspid regurgitation despite optimal medical therapy who are at intermediate or greater surgical risk, alongside approval of PASCAL Ace with Capture Clarity for degenerative mitral TEER.",
-      "bullets": [
-        "Indication: improving quality of life and functional status in symptomatic severe TR despite optimal medical therapy, in patients at intermediate or greater surgical risk who are judged appropriate for T-TEER by a multidisciplinary heart team.",
-        "PASCAL has been used in the US for degenerative mitral regurgitation for several years; this extends it to the tricuspid valve. Edwards says it is now the only company offering both repair and replacement transcatheter therapies for the mitral and tricuspid valves in the US.",
-        "FDA also approved PASCAL Ace with Capture Clarity for degenerative mitral TEER, which Edwards describes as the first FDA-approved TEER device with fluoroscopic indicators that confirm when the valve leaflets have been grasped.",
-        "One-year results of the CLASP II TR pivotal trial of the PASCAL tricuspid system are due as a late-breaker at TCT.",
-        "Take-home: T-TEER options are widening for high-risk TR patients; heart-team selection and the upcoming CLASP II TR data will guide where this device fits."
-      ],
+      "summary": "On October 21, 2026, Edwards Lifesciences announced FDA approval of its PASCAL Precision system for tricuspid valve repair in patients with symptomatic severe tricuspid regurgitation despite optimal medical therapy who are at intermediate or greater surgical risk, and Edwards also announced a recent FDA approval of PASCAL Ace with Capture Clarity for degenerative mitral TEER.",
+      "area": "Structural heart · Tricuspid valve",
       "category": "approval",
+      "bullets": [
+        "**FDA approved the Edwards PASCAL Precision system** for **transcatheter edge-to-edge tricuspid repair (T-TEER)** (announced **21 Oct 2026**).",
+        "Indication: **symptomatic severe tricuspid regurgitation despite optimal medical therapy**, to improve **quality of life and functional status**.",
+        "Patients must be at **intermediate or greater surgical risk** and judged suitable by a **multidisciplinary heart team**.",
+        "Edwards says it is now the **only company** offering a **repair and replacement** portfolio for both **mitral and tricuspid** valves in the US.",
+        "Edwards also announced a recent approval of **PASCAL Ace with Capture Clarity** for **degenerative mitral TEER**, which it calls the **first FDA-approved TEER device with fluoroscopic indicators** confirming leaflet capture.",
+        "**One-year CLASP IITR** pivotal data are due as a late-breaker at **TCT**; the press release gives **no efficacy figures**.",
+        "Caveat: **company press release**; read the pivotal data and label before drawing conclusions."
+      ],
+      "tables": [
+        {
+          "title": "Approvals in this announcement",
+          "headers": [
+            "Device",
+            "Use"
+          ],
+          "rows": [
+            [
+              "PASCAL Precision",
+              "T-TEER: symptomatic severe TR, intermediate/high surgical risk"
+            ],
+            [
+              "PASCAL Ace with Capture Clarity",
+              "Degenerative mitral TEER; fluoroscopic leaflet-capture indicators"
+            ]
+          ]
+        }
+      ],
+      "notesRef": "trials.approvals",
+      "noteId": "pascal-ttee",
       "source": "Edwards Lifesciences press release (Oct 21, 2026)",
+      "srcNote": "Source: company release (not independently verified)",
       "url": "https://www.edwards.com/newsroom/news/2026-10-21-fda-approval-of-edwards-lifesciences--pascal-preci"
     }
   ]

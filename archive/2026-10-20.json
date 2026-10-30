@@ -1,18 +1,56 @@
 {
-  "schema": "cardioatlas-updates/v2",
+  "schema": "cardioatlas-updates/v3",
   "date": "2026-10-20",
   "items": [
     {
       "title": "ACHIEVE-4: oral GLP-1 RA orforglipron is CV-safe vs insulin glargine in high-risk type 2 diabetes (The Lancet)",
-      "summary": "In 2,749 adults with type 2 diabetes, overweight or obesity and established CVD or CKD, once-daily oral orforglipron was non-inferior to insulin glargine for 4-point MACE over a median 2 years (4.2% vs 5.0%; HR 0.84, 95% CI 0.59-1.20). It is the first CV outcomes trial of a non-peptide (small-molecule) GLP-1 receptor agonist; GI side effects were more common and hypoglycaemia less common.",
-      "bullets": [
-        "Phase 3, event-driven, open-label trial at 317 sites in 16 countries: oral orforglipron (up to 36 mg capsule daily) vs titrated insulin glargine in T2D (HbA1c 7.0-10.5%, BMI ≥25) with established CVD (86%) or CKD (38%); mean age 63.",
-        "Primary MACE-4 (CV death, non-fatal MI, non-fatal stroke or hospitalisation for unstable angina): 4.2% vs 5.0%, HR 0.84 (95% CI 0.59-1.20); non-inferior (margin: upper CI <1.8).",
-        "Deaths: 1.4% with orforglipron vs 3.2% with glargine; all but one judged unrelated to treatment.",
-        "GI adverse events 62.1% vs 14.2% (the main reason for stopping orforglipron); clinically significant or severe hypoglycaemia 6.8% vs 19.2%.",
-        "Glargine is a CV-neutral comparator, so ACHIEVE-4 establishes safety, not proven CV benefit. Industry-funded (Eli Lilly). Published in The Lancet 17 Oct 2026 issue (online 30 Sep 2026)."
-      ],
+      "summary": "In 2,749 adults with type 2 diabetes, overweight or obesity and established CVD or CKD, once-daily oral orforglipron was non-inferior to insulin glargine for 4-point MACE over a median 2 years (4.2% vs 5.0%; HR 0.84, 95% CI 0.59-1.20). It is the first CV outcomes trial of a non-peptide (small-molecule) GLP-1 receptor agonist; GI side effects were more common and hypoglycaemia less common. (The Lancet, published 30 Sep 2026.)",
+      "area": "Cardiometabolic · Diabetes & CV safety",
       "category": "trial",
+      "bullets": [
+        "**ACHIEVE-4** (Lancet): phase 3, event-driven, **open-label** RCT of **oral non-peptide GLP-1 RA orforglipron vs insulin glargine**.",
+        "**2,749 adults** with type 2 diabetes, BMI ≥25, HbA1c 7.0-10.5%, **established CVD or CKD**; **317 sites, 16 countries**; median follow-up **2 years**.",
+        "**MACE-4** (CV death, MI, stroke, unstable-angina admission): **4.2% vs 5.0%**; **HR 0.84** (0.59-1.20): **non-inferior** (margin 1.8; p<0.0001).",
+        "**Gastrointestinal adverse events**: **62.1% vs 14.2%**, the main reason for stopping orforglipron.",
+        "**Clinically significant or severe hypoglycaemia**: **6.8% vs 19.2%** (less with orforglipron).",
+        "**Deaths**: **1.4% vs 3.2%** (19 vs 43); all but one (in the glargine arm) were judged unrelated to treatment.",
+        "Caveat: a **safety** (non-inferiority) design, not proof of CV benefit; open-label; funded by **Eli Lilly**."
+      ],
+      "charts": [
+        {
+          "type": "group",
+          "title": "Key outcomes (% of participants)",
+          "labels": [
+            "MACE-4",
+            "GI adverse events",
+            "Severe/significant hypoglycaemia",
+            "Deaths"
+          ],
+          "series": [
+            {
+              "name": "Orforglipron",
+              "values": [
+                4.2,
+                62.1,
+                6.8,
+                1.4
+              ]
+            },
+            {
+              "name": "Insulin glargine",
+              "values": [
+                5.0,
+                14.2,
+                19.2,
+                3.2
+              ]
+            }
+          ],
+          "unit": "%"
+        }
+      ],
+      "notesRef": "trials.newer_drugs",
+      "noteId": "achieve-4",
       "source": "The Lancet",
       "url": "https://doi.org/10.1016/S0140-6736(26)01865-9"
     }

@@ -1,19 +1,57 @@
 {
-  "schema": "cardioatlas-updates/v2",
+  "schema": "cardioatlas-updates/v3",
   "date": "2026-10-29",
   "items": [
     {
       "title": "LEAP-Block: left bundle-branch area pacing beats RV pacing on death, HF events or BiV upgrade in AV block with preserved EF (JAMA)",
       "summary": "In a 14-centre Chinese randomised trial of 499 patients with AV block, LVEF of 50% or more and expected ventricular pacing above 40%, left bundle-branch area pacing (LBBAP) lowered the 24-month risk of death, heart failure events or biventricular upgrade vs right ventricular pacing (Kaplan-Meier 5.0% vs 13.2%; HR 0.37) (JAMA, Oct 28, 2026).",
-      "bullets": [
-        "Design: prospective, multicentre, randomised superiority trial at 14 Chinese hospitals; 499 patients randomised 1:1 (LBBAP 249, RVP 250), 482 in the primary analysis (mean age 67, 46% women).",
-        "Primary endpoint (all-cause death, HF events or upgrade to biventricular pacing at 24 months): Kaplan-Meier cumulative incidence 5.0% with LBBAP vs 13.2% with RVP (HR 0.37, 95% CI 0.19-0.73; P=0.004), consistent across all prespecified subgroups.",
-        "Among secondary outcomes, HF events were fewer with LBBAP (3.4% vs 11.3%); all-cause death, BiV upgrade, pacing-induced cardiomyopathy and device-related complications did not differ significantly.",
-        "Feasibility: acute procedural success 97.9% vs 99.6% (P=0.22); true left bundle-branch capture was confirmed in 79.7% of LBBAP patients.",
-        "Context: adds randomised hard-outcome evidence for conduction system pacing as an alternative to RV pacing when a high pacing burden is expected; limits are a single country, few events, blinding not stated in the abstract, and some inconsistent figures in the abstract."
-      ],
+      "area": "Electrophysiology · Pacing for AV block",
       "category": "trial",
-      "source": "You L, et al. LEAP-Block. JAMA, Oct 28, 2026. doi:10.1001/jama.2026.18146",
+      "bullets": [
+        "**LEAP-Block** (JAMA, 28 Oct 2026): **left bundle-branch area pacing (LBBAP) vs right ventricular pacing (RVP)** in **AV block with LVEF ≥50%**.",
+        "**14 Chinese hospitals**; **499 randomised** (249 vs 250), **482 analysed**; mean age **67**, **46% female**; anticipated pacing burden **>40%**.",
+        "**Primary endpoint** (death, HF event or upgrade to BiV pacing) at 24 months: Kaplan-Meier **5.0% with LBBAP vs 13.2% with RVP**, **HR 0.37** (95% CI 0.19-0.73; **P=0.004**).",
+        "**HF events** (secondary): **3.4% vs 11.3%**. Death, BiV upgrade, device complications and pacing-induced cardiomyopathy did not differ significantly on their own.",
+        "**Procedural success** was similar (**97.9% vs 99.6%**); **LBB capture** was confirmed in **79.7%**.",
+        "Benefit was **consistent across prespecified subgroups**; **superiority** design with 24-month follow-up in a Chinese population.",
+        "Limits: single country; blinding not stated in the abstract. Its crude composite (2.4% vs 12.5%) is below its own HF-event rate (3.4%) and its dates conflict, so only the Kaplan-Meier estimate is used."
+      ],
+      "charts": [
+        {
+          "type": "group",
+          "title": "24-month primary endpoint, Kaplan-Meier (%)",
+          "labels": [
+            "Death, HF event or BiV upgrade"
+          ],
+          "series": [
+            {
+              "name": "LBBAP",
+              "values": [
+                5.0
+              ]
+            },
+            {
+              "name": "RV pacing",
+              "values": [
+                13.2
+              ]
+            }
+          ],
+          "unit": "%"
+        },
+        {
+          "type": "flow",
+          "title": "LEAP-Block patient flow",
+          "steps": [
+            "551 assessed",
+            "499 randomised (LBBAP 249 / RVP 250)",
+            "482 in primary analysis (242 / 240)"
+          ]
+        }
+      ],
+      "notesRef": "trials.devices",
+      "noteId": "leap-block",
+      "source": "Li X, et al. LEAP-Block. JAMA, Oct 28, 2026. doi:10.1001/jama.2026.18146",
       "url": "https://jamanetwork.com/journals/jama/fullarticle/10.1001/jama.2026.18146"
     }
   ]

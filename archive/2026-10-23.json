@@ -1,19 +1,44 @@
 {
-  "schema": "cardioatlas-updates/v2",
+  "schema": "cardioatlas-updates/v3",
   "date": "2026-10-23",
   "items": [
     {
       "title": "FDA clears Elucid FFR-IQ: AI FFR-CT software that adds plaque composition to coronary physiology estimates",
       "summary": "On October 21, 2026, Elucid announced FDA 510(k) clearance of FFR-IQ, AI software that estimates fractional flow reserve noninvasively from coronary CT angiography by combining coronary anatomy with plaque composition.",
-      "bullets": [
-        "FFR-IQ estimates FFR from a standard CCTA (invasive pressure-wire FFR was the ELUCIDATE reference). FDA-cleared for clinically stable known or suspected CAD to support functional evaluation with clinical judgment; the company says it may help triage who needs invasive angiography.",
-        "Unlike anatomy-only FFR-CT, it feeds plaque burden and composition (including lipid-rich necrotic core, from the company's Plaque-IQ software) into the physiology estimate.",
-        "The company reports 92.2% sensitivity and 93.1% specificity in ELUCIDATE (FDA 510(k) K262015, Sept 29, 2026; retrospective multicenter; 491 vessels, 347 patients). Full results are to be presented at TCT on Nov 1 (per company; not a CRF late-breaker) and are not yet peer-reviewed.",
-        "Take-home: noninvasive coronary physiology is moving toward combined anatomy-plaque-flow assessment from one CT scan; wait for the ELUCIDATE data before judging how it compares with existing FFR-CT tools."
-      ],
+      "area": "Cardiac imaging · AI FFR-CT",
       "category": "approval",
-      "source": "Elucid press release via Business Wire (Oct 21, 2026); FDA 510(k) K262015",
-      "url": "https://www.businesswire.com/news/home/20261021452349/en/Elucid-Announces-FDA-Clearance-of-FFR-IQ-and-Commercial-Availability-of-the-Most-Accurate-FFR-CT-Software"
+      "bullets": [
+        "**Elucid FFR-IQ** received **FDA 510(k) clearance** (letter dated **29 Sep 2026**, announced **21 Oct**): AI software estimating **FFR from coronary CT angiography**.",
+        "Per the FDA summary it combines coronary anatomy with **plaque composition** ('BioIntegrated'); the predicate uses computational fluid dynamics. 'Most accurate FFR-CT' is Elucid's own claim.",
+        "**FDA indication**: software for **clinically stable patients with suspected CAD** (the device description says known or suspected), to **support functional evaluation** of CAD. Elucid's 'who needs invasive angiography' framing is not in the indication.",
+        "Validation **ELUCIDATE** (NCT06018194): **retrospective, multicentre (11 sites), 347 patients, 491 vessels**, against **invasive FFR**.",
+        "Per vessel (FDA 510(k) summary): **sensitivity 92.2%**, **specificity 93.1%**, unadjusted **PPV 84.4%**, **NPV 96.7%**. US cohort (n=257 vessels): **90.9% / 89.2%**.",
+        "The **US retrospective cohort** was enriched for borderline disease (FFR 0.75-0.85) because only paired CCTA and invasive FFR were usable; prospectively collected data from an outside-US site added non-ischaemic vessels to the overall cohort.",
+        "Caveats: **retrospective** validation at 11 sites (9 US, 2 outside US); figures come from the FDA summary and company release; no peer-reviewed paper found."
+      ],
+      "charts": [
+        {
+          "type": "hist",
+          "title": "ELUCIDATE per-vessel accuracy vs invasive FFR (%; FDA summary, unadjusted)",
+          "labels": [
+            "Sensitivity",
+            "Specificity",
+            "PPV",
+            "NPV"
+          ],
+          "values": [
+            92.2,
+            93.1,
+            84.4,
+            96.7
+          ],
+          "unit": "%"
+        }
+      ],
+      "notesRef": "trials.approvals",
+      "noteId": "ffr-iq",
+      "source": "Elucid press release (Business Wire, Oct 21, 2026); FDA 510(k) K262015 summary",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K262015.pdf"
     }
   ]
 }

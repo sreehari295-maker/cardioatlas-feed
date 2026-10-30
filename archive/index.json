@@ -40,14 +40,14 @@
    "date": "2026-10-25",
    "count": 1,
    "titles": [
-    "Intravascular imaging-guided PCI for complex lesions cuts stent thrombosis by about half: meta-analysis of 18 RCTs (JACC: Advances)"
+    "Intravascular imaging-guided PCI for complex lesions is linked to about half the stent thrombosis: meta-analysis of 18 RCTs (JACC: Advances)"
    ]
   },
   {
    "date": "2026-10-24",
    "count": 1,
    "titles": [
-    "CAC Consortium: high coronary calcium in adults aged 30-45 linked to higher death risk over 30 years (JAMA Cardiology)"
+    "CAC Consortium: high coronary calcium in adults aged 30-45 linked to higher mortality over long-term follow-up (JAMA Cardiology)"
    ]
   },
   {
@@ -90,7 +90,7 @@
    "date": "2026-10-18",
    "count": 2,
    "titles": [
-    "PREVENT post hoc: preventive PCI benefit confined to NIRS-defined lipid-rich plaques",
+    "PREVENT post hoc: fewer events with preventive PCI seen only in NIRS-defined lipid-rich plaques",
     "AI-enhanced auscultation detects LVEF ≤40% with AUROC 0.90 on external validation (NEJM AI)"
    ]
   },
@@ -117,5 +117,5 @@
    ]
   }
  ],
- "updated": "2026-10-30T01:55:26Z"
+ "updated": "2026-10-30T16:48:29Z"
 }

@@ -1,32 +1,121 @@
 {
-  "schema": "cardioatlas-updates/v2",
+  "schema": "cardioatlas-updates/v3",
   "date": "2026-10-18",
   "items": [
     {
-      "title": "PREVENT post hoc: preventive PCI benefit confined to NIRS-defined lipid-rich plaques",
+      "title": "PREVENT post hoc: fewer events with preventive PCI seen only in NIRS-defined lipid-rich plaques",
       "summary": "Circulation post hoc analysis of PREVENT (598 patients, 632 non-flow-limiting lesions with plaque burden >70% and MLA <4 mm² on IVUS plus NIRS): preventive PCI was associated with fewer primary-outcome events only in lipid-rich plaques (7% vs 18%), with no benefit in non-lipid-rich plaques despite similar anatomy.",
-      "bullets": [
-        "Post hoc analysis of the PREVENT RCT (1,606 patients; South Korea, Japan, Taiwan, New Zealand): 598 patients, 632 lesions with plaque burden >70% and minimal lumen area <4 mm² on IVUS that also had NIRS.",
-        "Lipid-rich plaque (LRP) was prespecified as maxLCBI4mm >315; present in 223 patients (37%). Median follow-up 5.6 years.",
-        "Primary outcome (cardiac death, target-vessel MI, ischaemia-driven TVR or hospitalisation for unstable/progressive angina) was more frequent with LRP than without (13% vs 5%; HR 2.08, p=0.039).",
-        "With LRP, preventive PCI vs optimal medical therapy alone: 7% vs 18% (adjusted HR 0.23, p<0.001). Without LRP: 6% vs 4% (adjusted HR 1.00); P interaction <0.001.",
-        "Hypothesis-generating (post hoc): plaque composition may matter beyond burden and lumen size; prospective NIRS-guided preventive PCI trials are needed before routine use."
-      ],
+      "area": "Interventional cardiology · Preventive PCI",
       "category": "research",
+      "bullets": [
+        "**PREVENT post hoc analysis** (Circulation, 6 Oct 2026): does **plaque composition** decide who benefits from **preventive PCI**?",
+        "Parent trial: **1,606 patients**, 15 centres in Asia and New Zealand. This analysis: **598 patients, 632 lesions** (plaque burden >70%, MLA <4 mm² on IVUS) also imaged with **NIRS**.",
+        "**Lipid-rich plaque (LRP)** = max lipid core burden index over 4 mm **>315**; present in **223 patients (37%)**.",
+        "Median follow-up **5.6 years**: events were **more frequent with LRP (13% vs 5%; HR 2.08)**.",
+        "**With LRP**, preventive PCI + OMT vs OMT alone: **7% vs 18%** (adjusted **HR 0.23**, p<0.001).",
+        "**Without LRP**: **6% vs 4%**, **HR 1.00**: **no benefit**. Interaction **p<0.001**.",
+        "Caveat: **post hoc** subgroup of an open-label trial; the authors call for **prospective NIRS-guided** trials."
+      ],
+      "charts": [
+        {
+          "type": "group",
+          "title": "Primary outcome at ~5.6 years (%)",
+          "labels": [
+            "Lipid-rich plaque",
+            "Non-lipid-rich plaque"
+          ],
+          "series": [
+            {
+              "name": "Preventive PCI + OMT",
+              "values": [
+                7,
+                6
+              ]
+            },
+            {
+              "name": "OMT alone",
+              "values": [
+                18,
+                4
+              ]
+            }
+          ],
+          "unit": "%"
+        },
+        {
+          "type": "pie",
+          "title": "Patients analysed by plaque type (non-LRP derived: 598 minus 223)",
+          "labels": [
+            "Lipid-rich (LRP)",
+            "Non-LRP"
+          ],
+          "values": [
+            223,
+            375
+          ],
+          "unit": ""
+        }
+      ],
+      "notesRef": "trials.interventional",
+      "noteId": "prevent-nirs",
       "source": "American College of Cardiology / Circulation",
       "url": "https://www.acc.org/latest-in-cardiology/journal-scans/2026/10/14/09/58/prevent-analysis"
     },
     {
       "title": "AI-enhanced auscultation detects LVEF ≤40% with AUROC 0.90 on external validation (NEJM AI)",
       "summary": "Prospective multicentre Japanese study (NEJM AI, Oct 15): an AI model analysing digital-stethoscope recordings from four auscultation sites detected LV dysfunction (LVEF ≤40%) with AUROC 0.904 in external validation and beat cardiologist consensus in a reader substudy. Proposed as a pre-echo triage tool, not yet for screening.",
-      "bullets": [
-        "Adults referred for clinically indicated echo had digital auscultation at four standard sites, recorded with a simultaneous single-lead ECG; LV dysfunction was defined as LVEF ≤40% on same-time echo.",
-        "Training cohort 2,359 patients (8.9% reduced LVEF); external validation in 964 patients from an independent multicentre registry (7.6% reduced LVEF).",
-        "External validation: AUROC 0.904, sensitivity 86.3%, specificity 74.2%; outperformed ECG-only and clinical models (including BNP); a simplified two-site model kept AUROC 0.903.",
-        "In a 100-patient reader substudy, AI accuracy was 82% vs 62% for consensus of seven cardiologists (P=0.004).",
-        "Limitations: studied in patients already referred for echo (not a general screening population) and industry-sponsored (AMI Inc.; four authors are AMI employees); authors say further validation is needed before broader screening use."
-      ],
+      "area": "Digital health & AI · Auscultation",
       "category": "research",
+      "bullets": [
+        "**NEJM AI** prospective multicentre study: **AI auscultation** to detect **LV dysfunction (LVEF ≤40%)** before echo.",
+        "Digital stethoscope recordings at **four sites** plus a **single-lead ECG**; an ensemble of a transformer and a 1D-CNN.",
+        "**Training**: 2,359 patients (8.9% with reduced LVEF). **External validation**: 964 patients (7.6% reduced LVEF).",
+        "External **AUROC 0.904** (95% CI 0.876-0.930): **sensitivity 86.3%, specificity 74.2%, accuracy 75.1%**.",
+        "In a **100-patient reader substudy**, AI beat **cardiologist consensus** on accuracy: **82.0% vs 62.0%** (p=0.004).",
+        "A **two-site** version kept **AUROC 0.903**; the AI outperformed ECG-only and clinical-variable/BNP models.",
+        "Caveats: for **pre-echo risk enrichment** in referred patients, not screening; **industry-funded** (AMI Inc.); needs more validation."
+      ],
+      "charts": [
+        {
+          "type": "hist",
+          "title": "External validation performance (%)",
+          "labels": [
+            "Sensitivity",
+            "Specificity",
+            "Accuracy"
+          ],
+          "values": [
+            86.3,
+            74.2,
+            75.1
+          ],
+          "unit": "%"
+        },
+        {
+          "type": "group",
+          "title": "Accuracy in the 100-patient reader substudy (%)",
+          "labels": [
+            "Accuracy"
+          ],
+          "series": [
+            {
+              "name": "Cardiologist consensus",
+              "values": [
+                62.0
+              ]
+            },
+            {
+              "name": "AI auscultation",
+              "values": [
+                82.0
+              ]
+            }
+          ],
+          "unit": "%"
+        }
+      ],
+      "notesRef": "trials.digital",
+      "noteId": "ai-auscultation",
       "source": "NEJM AI",
       "url": "https://ai.nejm.org/doi/full/10.1056/AIoa2600258"
     }

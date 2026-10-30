@@ -1,18 +1,38 @@
 {
-  "schema": "cardioatlas-updates/v2",
+  "schema": "cardioatlas-updates/v3",
   "date": "2026-10-28",
   "items": [
     {
       "title": "ICare-FASTER: point-of-care hs-troponin I cuts ED stay by 47 minutes in suspected MI with no rise in 30-day MI or cardiac death (Circulation)",
       "summary": "In a six-hospital New Zealand stepped-wedge cluster-randomised trial of nearly 60,000 ED presentations, swapping central-lab hs-troponin for a whole-blood point-of-care hs-cTnI assay in the same accelerated rule-out pathway shortened ED length of stay by 13% (47 minutes) with identical 30-day safety (Than et al., Circulation, Oct 19, 2026).",
-      "bullets": [
-        "Design: pragmatic stepped-wedge cluster-randomised trial at 6 New Zealand hospitals, Feb 2023 to Jan 2025; 59,980 ED presentations (44,747 people, mean age 61, 49.5% women), 31,392 in the intervention phase.",
-        "Intervention: the same accelerated diagnostic pathway with a single-sample rule-out step, using a whole-blood point-of-care hs-cTnI assay instead of the central-laboratory hs-cTn assay.",
-        "Primary outcome: adjusted ED length of stay fell by 13% (95% CI 9-16%; P<0.001), about 47 minutes (95% CI 33-61) from a control mean of 376 minutes.",
-        "Safety: 30-day MI or cardiac death was 0.39% in both arms (P=0.54).",
-        "Context: described as the first evaluation of a point-of-care hs-cTnI strategy in routine care; it is a single-country pragmatic trial, so results depend on local pathways and lab turnaround times."
-      ],
+      "area": "Acute coronary syndrome · Troponin pathways",
       "category": "trial",
+      "bullets": [
+        "**ICare-FASTER** (Circulation, 19 Oct 2026): pragmatic **stepped-wedge cluster-randomised** trial of **point-of-care hs-troponin I** in the ED.",
+        "**6 sites**, **59,980 presentations** (44,747 people; mean age 61; 49.5% female), Feb 2023-Jan 2025; **31,392** during the intervention.",
+        "Both arms used an **accelerated pathway with a single-sample rule-out**; control used a **central-lab hs-cTn**, intervention a **whole-blood point-of-care hs-cTnI**.",
+        "**ED length of stay fell 13%** (95% CI 9-16%; p<0.001): **47 minutes** (33-61) from a **376-minute** control mean.",
+        "**Safety**: 30-day **MI or cardiac death 0.39% in both arms** (p=0.54).",
+        "Message: a faster pathway with the same **30-day MI or cardiac death rate (0.39%)** in a real-world, six-hospital setting.",
+        "Caveat: measures ED flow and **30-day** safety at six sites, not long-term outcomes."
+      ],
+      "charts": [
+        {
+          "type": "hist",
+          "title": "ED length of stay (minutes): control mean and adjusted reduction with point-of-care",
+          "labels": [
+            "Control mean (central lab)",
+            "Adjusted reduction (point of care)"
+          ],
+          "values": [
+            376,
+            47
+          ],
+          "unit": ""
+        }
+      ],
+      "notesRef": "trials.cad",
+      "noteId": "icare-faster",
       "source": "Than M, et al. ICare-FASTER. Circulation, Oct 19, 2026. doi:10.1161/CIRCULATIONAHA.126.080866",
       "url": "https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.126.080866"
     }

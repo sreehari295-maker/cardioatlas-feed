@@ -1,20 +1,55 @@
 {
-  "schema": "cardioatlas-updates/v2",
+  "schema": "cardioatlas-updates/v3",
   "date": "2026-10-27",
   "items": [
     {
       "title": "ELPIS II: stem cell therapy laromestrocel misses RVEF endpoint in HLHS infants but shows fewer major cardiac events (company update, AHA 2026 late-breaker)",
       "summary": "In the 40-infant phase 2b ELPIS II trial, laromestrocel injected during Stage II palliation for hypoplastic left heart syndrome did not improve 12-month RVEF, but the company reports fewer MACE (1 vs 8, P=0.043); full data are due at AHA 2026 on Nov 8 (Longeveron press release, Oct 26, 2026).",
-      "bullets": [
-        "Design: randomised, double-blind, multicentre phase 2b trial with NIH/NHLBI funding (NCT04925024); 40 infants with HLHS got a single intramyocardial dose of laromestrocel (allogeneic bone-marrow MSCs) during the Glenn or hemi-Fontan, or surgery alone (1:1), followed 12 months.",
-        "Primary endpoint missed: in the 28 infants with baseline and 12-month CMR, RVEF fell by 2.6 percentage points with standard care and 3.3 with laromestrocel (adjusted difference -1.36, 95% CI -8.0 to 6.7, p=0.68).",
-        "Secondary outcomes: MACE 8 with standard care vs 1 with laromestrocel (P=0.043); total major cardiac events 22 vs 3 (rate ratio 0.16, 95% CI 0.03-0.52, p<0.001); TR events or valve surgery 5 vs 0 (p=0.066, not significant). The 1 death and 1 VAD implant were both in the standard-care arm.",
-        "Safety: the company reports no treatment-related serious adverse events through 12 months. It plans to ask the FDA for a meeting; FDA had already said RVEF alone would not be enough for approval.",
-        "Caution: company-reported, not peer-reviewed results from a small trial that missed its primary endpoint; MACE was not defined, few events, no multiplicity adjustment reported, so the secondary findings are hypothesis-generating. Full data are an AHA 2026 late-breaker on Nov 8."
-      ],
+      "area": "Congenital heart disease · Regenerative therapy",
       "category": "trial",
-      "source": "Longeveron Inc. press release (GlobeNewswire), Oct 26, 2026; ELPIS II, NCT04925024",
-      "url": "https://www.globenewswire.com/news-release/2026/10/26/3388178/0/en/longeveron-announces-updated-results-from-elpis-ii-phase-2b-clinical-trial-evaluating-laromestrocel-as-a-potential-treatment-for-hypoplastic-left-heart-syndrome-hlhs.html"
+      "bullets": [
+        "**ELPIS II** (company update, Oct 26 2026): phase 2b, randomised, double-blind trial of **laromestrocel** (allogeneic mesenchymal stem cells) in **hypoplastic left heart syndrome (HLHS)**.",
+        "**40 infants** got a **single intramyocardial dose during Stage 2 palliation** (Glenn / hemi-Fontan) or surgery alone; **12-month** follow-up.",
+        "**Primary endpoint missed**: change in **RVEF** at month 12; **-2.6 vs -3.3 points**, adjusted difference **-1.36** (95% CI -8.0 to 6.7; **p=0.68**; CMR in 28 infants).",
+        "**MACE** (secondary): **8 standard care vs 1 laromestrocel** (p=0.043). **Total major cardiac events**: **22 vs 3** (rate ratio 0.16, p<0.001).",
+        "**Tricuspid regurgitation events or valve surgery**: **5 vs 0** (p=0.066, not significant). **One death and one VAD** were in the standard-care arm.",
+        "Company reports **no treatment-related serious adverse events** through 12 months; full data at **AHA 2026** (Nov).",
+        "Caveat: **company-reported**, not peer reviewed. Primary endpoint missed; numbers tiny (MACE 1 vs 8); **MACE is not defined in the release** and no multiplicity adjustment is reported, so secondary findings are **hypothesis-generating**."
+      ],
+      "charts": [
+        {
+          "type": "group",
+          "title": "Events through 12 months (number)",
+          "labels": [
+            "Infants with ≥1 major event",
+            "Total major cardiac events",
+            "MACE"
+          ],
+          "series": [
+            {
+              "name": "Standard care",
+              "values": [
+                9,
+                22,
+                8
+              ]
+            },
+            {
+              "name": "Laromestrocel",
+              "values": [
+                3,
+                3,
+                1
+              ]
+            }
+          ],
+          "unit": ""
+        }
+      ],
+      "notesRef": "trials.congenital",
+      "noteId": "elpis-ii",
+      "source": "Longeveron Inc. press release (investor site), Oct 26, 2026; ELPIS II, NCT04925024",
+      "url": "https://investors.longeveron.com/news/news-details/2026/Longeveron-Announces-Updated-Results-from-ELPIS-II-Phase-2b-Clinical-Trial-Evaluating-Laromestrocel-as-a-Potential-Treatment-for-Hypoplastic-Left-Heart-Syndrome-HLHS/default.aspx"
     }
   ]
 }

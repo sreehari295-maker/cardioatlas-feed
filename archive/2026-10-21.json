@@ -1,18 +1,38 @@
 {
-  "schema": "cardioatlas-updates/v2",
+  "schema": "cardioatlas-updates/v3",
   "date": "2026-10-21",
   "items": [
     {
       "title": "LINK-HF2: AI wearable monitoring after HF discharge is feasible, but no reduction in rehospitalization in exploratory analysis (HFSA 2026, JACC: Heart Failure)",
       "summary": "In 171 patients discharged after acute heart failure, 90 days of AI-analysed continuous patch monitoring with clinician alerts reduced AI-detected physiological instability but did not significantly reduce HF rehospitalization in exploratory analyses (16.3% vs 18.7%; HR 0.90, p=0.76) or a composite of unplanned rehospitalization, ED visits and death.",
-      "bullets": [
-        "Prospective randomized, open-label, blinded-endpoint feasibility trial at 5 Veterans Affairs medical centres (n=171; mean age 73, 7% women). All wore a multisensor patch for up to 90 days with AI analysis; alerts went to clinicians only in the intervention group (n=80 vs 91 standard care).",
-        "Median monitoring adherence was 72.4%; at least one alert was generated for 52.6% of patients, most often for elevated heart rate. Clinicians responded within a median of 1 day (range 1-5 days), most commonly by reassessing symptoms after 3 days (65.7%).",
-        "Exploratory endpoints: HF rehospitalization 16.3% vs 18.7% (HR 0.90, 95% CI 0.43-1.84; p=0.76); composite of all-cause unplanned rehospitalization, ED visits and mortality HR 1.03 (95% CI 0.63-1.70; p=0.89).",
-        "AI-detected physiological instability was lower with alerts (HR 0.76, 95% CI 0.60-0.97; p=0.025).",
-        "Take-home: detecting instability alone may not improve outcomes without clearly actionable signals and matching treatment responses. Presented at HFSA 2026 and published simultaneously in JACC: Heart Failure."
-      ],
+      "area": "Heart failure · Remote monitoring & AI",
       "category": "conference",
+      "bullets": [
+        "**LINK-HF2** (JACC: Heart Failure; HFSA 2026): randomised, open-label, blinded-endpoint **feasibility trial** at **5 VA medical centres**.",
+        "Adults discharged after **acute HF** wore a **multisensor patch** for up to **90 days**; a personalised **AI model** flagged physiological deviations.",
+        "Intervention: AI alerts + a **structured clinician response algorithm** vs standard care. **171 analysed** (80 intervention, 91 control).",
+        "**Feasible**: median monitoring adherence **72.4%** of days; clinicians responded in a **median of 1 day**.",
+        "**HF rehospitalisation** (exploratory): **16.3% vs 18.7%**, **HR 0.90** (0.43-1.84), **not significant**; composite endpoint **HR 1.03**.",
+        "The intervention arm had **fewer AI-detected instability episodes** (HR 0.76; 0.60-0.97).",
+        "Lesson: **detecting risk is not enough**; workflow integration and a trusted, effective response are the barriers."
+      ],
+      "charts": [
+        {
+          "type": "hist",
+          "title": "HF rehospitalisation (%, exploratory)",
+          "labels": [
+            "AI-guided monitoring",
+            "Standard care"
+          ],
+          "values": [
+            16.3,
+            18.7
+          ],
+          "unit": "%"
+        }
+      ],
+      "notesRef": "trials.digital",
+      "noteId": "link-hf2",
       "source": "JACC: Heart Failure (HFSA 2026)",
       "url": "https://doi.org/10.1016/j.jchf.2026.103422"
     }

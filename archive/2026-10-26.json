@@ -1,18 +1,40 @@
 {
-  "schema": "cardioatlas-updates/v2",
+  "schema": "cardioatlas-updates/v3",
   "date": "2026-10-26",
   "items": [
     {
       "title": "Daily nicotine vaping in young never-smokers linked to impaired vascular function and lower fitness (JAMA Cardiology)",
       "summary": "In a small UK cross-sectional study of 58 healthy young adults, daily nicotine vape users had lower endothelial function and peak VO2 than never-users; cigarette smokers also had lower endothelial function (JAMA Cardiology, Oct 21, 2026).",
-      "bullets": [
-        "Design: single-centre cross-sectional study from Manchester Metropolitan University of 58 healthy young adults (mean age 26): 17 exclusive daily nicotine vape users, 19 cigarette smokers and 22 never-users; smoking status was self-reported and verified.",
-        "Vascular function: mean FMD was 5.5% in vapers and 4.4% in smokers vs 8.3% in never-users; carotid artery reactivity was 0.6% and -1.4% vs 4.7%. Per the university, vapers did not differ significantly from light smokers.",
-        "Fitness: peak VO2 was lower in vapers than in never-users but not significantly lower in smokers; minute ventilation and cardiac output on maximal exercise testing were lower in both nicotine groups. Lung function and physical activity did not differ.",
-        "Per the university release, the findings held in vapers who had never been regular smokers; the authors say vaping may help smokers who switch completely, but never-smokers should not vape.",
-        "Limits: small, locally recruited volunteers and cross-sectional design, so it cannot show cause and effect; longitudinal studies are needed to see if these changes lead to cardiovascular disease."
-      ],
+      "area": "Preventive cardiology · Vaping & vascular health",
       "category": "research",
+      "bullets": [
+        "**JAMA Cardiology** cross-sectional lab study: **daily nicotine vaping** in young adults who had **never smoked**.",
+        "**58 adults** (mean age 26; 52% female): **17 vape-only**, **19 cigarette smokers**, **22 naive**; no known CVD or major risk factors.",
+        "**Flow-mediated dilation (FMD)**: **5.5% vapers**, **4.4% smokers**, **8.3% naive**.",
+        "**Carotid artery reactivity**: **0.6% vapers**, **-1.4% smokers**, **4.7% naive**.",
+        "**Peak oxygen uptake** was **lower in vapers than naive** adults; minute ventilation and cardiac output were lower in **both nicotine groups**.",
+        "**Lung function and physical activity** did not differ between groups.",
+        "Caveats: **small, single-centre, cross-sectional**; shows association, not long-term clinical harm."
+      ],
+      "charts": [
+        {
+          "type": "hist",
+          "title": "Flow-mediated dilation (%)",
+          "labels": [
+            "Nicotine vape only",
+            "Combustible cigarettes",
+            "Naive"
+          ],
+          "values": [
+            5.5,
+            4.4,
+            8.3
+          ],
+          "unit": "%"
+        }
+      ],
+      "notesRef": "trials.preventive",
+      "noteId": "vaping-vascular",
       "source": "Boidin M, et al. JAMA Cardiology, Oct 21, 2026. doi:10.1001/jamacardio.2026.4626",
       "url": "https://jamanetwork.com/journals/jamacardiology/fullarticle/10.1001/jamacardio.2026.4626"
     }

@@ -1,18 +1,44 @@
 {
-  "schema": "cardioatlas-updates/v2",
+  "schema": "cardioatlas-updates/v3",
   "date": "2026-10-25",
   "items": [
     {
-      "title": "Intravascular imaging-guided PCI for complex lesions cuts stent thrombosis by about half: meta-analysis of 18 RCTs (JACC: Advances)",
-      "summary": "In 18 RCTs (18,975 patients) of complex PCI, IVUS- or OCT-guided stenting cut stent thrombosis by about half and lowered MACE and cardiac death vs angiography guidance, but the MACE benefit was mostly seen in Asian trials and when imaging-defined stent optimization was achieved (JACC: Advances, Oct 2026).",
-      "bullets": [
-        "Design: meta-analysis of 18 RCTs of DES in complex lesions (left main, bifurcation, long, calcified, CTO, ISR, multivessel), including the 2026 OPTIMAL, IVUS-CHIP and DKCRUSH VIII trials; 6,829 IVUS, 2,914 OCT and 9,231 angiography patients; weighted mean follow-up 26.3 months.",
-        "Imaging vs angiography guidance: stent thrombosis RR 0.52 (95% CI 0.35-0.78; high certainty), MACE RR 0.67 (0.55-0.83), cardiac death RR 0.72 (0.53-0.97), MI RR 0.87 (0.76-0.998), clinically driven TLR RR 0.72 (0.51-0.999); no significant difference in all-cause death (RR 0.88), TVR or TVF.",
-        "The MACE benefit was seen mainly in Asian trials, not Western ones (P interaction <0.01), and results were similar for IVUS and OCT.",
-        "Within imaging arms, achieving imaging-defined stent optimization vs not was linked to fewer MACE/TVF (RR 0.41, 0.26-0.62; 6 studies); the authors say the benefit might be driven by optimization.",
-        "Limits: publication bias was found; after trim-and-fill, MACE, cardiac death, MI and TLR lost significance, and cardiac death, MI and TLR were sensitive to single trials. Definitions varied and data were trial-level, so stent thrombosis is the most robust finding."
-      ],
+      "title": "Intravascular imaging-guided PCI for complex lesions is linked to about half the stent thrombosis: meta-analysis of 18 RCTs (JACC: Advances)",
+      "summary": "In 18 RCTs (18,975 patients) of complex PCI, IVUS- or OCT-guided stenting was linked to about half the stent thrombosis and to lower MACE and cardiac death vs angiography guidance, but the MACE benefit was mainly in Asian trials and several results lost significance after trim-and-fill (JACC: Advances, Oct 2026).",
+      "area": "Interventional cardiology · Imaging-guided PCI",
       "category": "research",
+      "bullets": [
+        "**JACC: Advances meta-analysis**: **intravascular imaging (IVUS/OCT)-guided vs angiography-guided PCI** in **complex coronary lesions**.",
+        "**18 RCTs, 18,975 patients**; frequentist random-effects plus Bayesian analyses.",
+        "**MACE** reduced: RR **0.67** (95% CI 0.55-0.83). **Cardiac death**: RR **0.72** (0.53-0.97).",
+        "**Stent thrombosis**: RR **0.52** (0.35-0.78): about **half**. **MI**: RR 0.87 (0.76-0.998); **clinically driven TLR**: RR 0.72 (0.51-0.999).",
+        "Within imaging-guided arms (6 studies), achieving imaging-defined stent optimisation vs not was linked to fewer MACE/TVF events: RR **0.41** (0.26-0.62), I²=62.7%. This is a within-arm association.",
+        "**Geographic interaction** (P<0.01): the MACE benefit came mainly from **Asian trial populations**.",
+        "Limits: **publication bias**; after trim-and-fill, MACE, cardiac death, MI and TLR lost significance, and cardiac death, MI and TLR were sensitive to single trials. **Stent thrombosis** (high certainty, I² 0.7%) is the most robust result."
+      ],
+      "charts": [
+        {
+          "type": "bar",
+          "title": "Risk ratio, imaging-guided vs angiography-guided PCI (<1 favours imaging)",
+          "labels": [
+            "MACE",
+            "Cardiac death",
+            "MI",
+            "Clinically driven TLR",
+            "Stent thrombosis"
+          ],
+          "values": [
+            0.67,
+            0.72,
+            0.87,
+            0.72,
+            0.52
+          ],
+          "unit": ""
+        }
+      ],
+      "notesRef": "trials.interventional",
+      "noteId": "imaging-pci-meta",
       "source": "Elbahloul MA, ... Elgendy IY. JACC: Advances, Oct 2026. doi:10.1016/j.jacadv.2026.103340",
       "url": "https://www.jacc.org/doi/10.1016/j.jacadv.2026.103340"
     }

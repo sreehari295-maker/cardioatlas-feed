@@ -1,0 +1,1910 @@
+{
+ "schema": "cardioatlas-trialnotes/v1",
+ "nodes": [
+  {
+   "id": "trials.approvals",
+   "parent": "trials",
+   "name": "Approvals & Guidelines",
+   "icon": "✅",
+   "blurb": "Regulatory and society documents; device approvals are as announced by the manufacturer unless an FDA record is cited."
+  }
+ ],
+ "notes": {
+  "trials.devices": [
+   {
+    "id": "leap-block",
+    "title": "LEAP-Block",
+    "sub": "LBBAP vs right ventricular pacing in AV block with preserved LVEF",
+    "kind": "Randomised trial",
+    "date": "2026-10-29",
+    "area": "Electrophysiology · Pacing for AV block",
+    "updateRef": "2026-10-29/0",
+    "intro": "Right ventricular pacing is the default for AV block, but a high pacing burden can lead to heart failure. LEAP-Block tested whether left bundle-branch area pacing (LBBAP) protects patients who start with a normal ejection fraction.",
+    "sections": [
+     {
+      "h": "Background:",
+      "pts": [
+       "**RV pacing** is simple and guideline-backed, but a **high ventricular pacing burden** can cause HF and pacing-induced cardiomyopathy.",
+       "Evidence on **clinical outcomes** of LBBAP vs RVP was limited."
+      ]
+     },
+     {
+      "h": "Design:",
+      "pts": [
+       "**Prospective, multicentre, randomised superiority trial**, **14 Chinese hospitals**.",
+       "**499 randomised** (LBBAP 249, RVP 250) with **LVEF ≥50%** and **>40% anticipated ventricular pacing**; **482 analysed**; mean age 67.",
+       "Primary endpoint at **24 months**: **death, HF event or upgrade to biventricular pacing**."
+      ],
+      "chart": {
+       "type": "flow",
+       "title": "LEAP-Block patient flow",
+       "steps": [
+        "551 assessed",
+        "499 randomised (LBBAP 249 / RVP 250)",
+        "482 in primary analysis (242 / 240)"
+       ]
+      }
+     },
+     {
+      "h": "Key results:",
+      "pts": [
+       "Primary endpoint (death, HF event or BiV upgrade) at 24 months, **Kaplan-Meier 5.0% vs 13.2%** (LBBAP vs RVP), **HR 0.37** (95% CI 0.19-0.73; **P=0.004**).",
+       "**HF events 3.4% vs 11.3%** (secondary).",
+       "**Procedural success** 97.9% vs 99.6%; **LBB capture 79.7%**."
+      ],
+      "chart": {
+       "type": "group",
+       "title": "24-month primary endpoint, Kaplan-Meier (%)",
+       "labels": [
+        "Death, HF event or BiV upgrade"
+       ],
+       "series": [
+        {
+         "name": "LBBAP",
+         "values": [
+          5.0
+         ]
+        },
+        {
+         "name": "RV pacing",
+         "values": [
+          13.2
+         ]
+        }
+       ],
+       "unit": "%"
+      }
+     },
+     {
+      "h": "Clinical take-home:",
+      "pts": [
+       "In AV block with preserved EF and a high pacing burden, **LBBAP reduced the composite** of death, HF events or BiV upgrade.",
+       "Benefit was **consistent across prespecified subgroups**."
+      ]
+     },
+     {
+      "h": "Limitations:",
+      "pts": [
+       "Single-country trial; blinding is not stated in the abstract. The abstract's crude composite (2.4% vs 12.5%) is lower than its own HF-event rate (3.4%) and its study dates conflict, so only the Kaplan-Meier estimate is used here.",
+       "**No significant difference** in death, BiV upgrade, device complications or pacing-induced cardiomyopathy individually.",
+       "Single-country trial; **24-month** follow-up."
+      ]
+     }
+    ],
+    "tip": "Know the two ways pacing can harm: **RV-apex pacing → dyssynchrony → pacing-induced cardiomyopathy.** Physiological (conduction system) pacing aims to avoid it.",
+    "source": "Li X, et al. LEAP-Block. JAMA, 28 Oct 2026. doi:10.1001/jama.2026.18146. NCT04730921.",
+    "url": "https://jamanetwork.com/journals/jama/fullarticle/10.1001/jama.2026.18146"
+   },
+   {
+    "id": "conduct-af",
+    "title": "CONDUCT-AF",
+    "sub": "Conduction system pacing vs biventricular pacing after AV-node ablation",
+    "kind": "Randomised trial",
+    "date": "2026-10-16",
+    "area": "Electrophysiology · Pacing in AF with HF",
+    "updateRef": "2026-10-16/2",
+    "intro": "In \"pace and ablate\" the AV node is ablated and the ventricles are paced, so a pacing mode must be chosen. CONDUCT-AF asked whether left bundle branch area pacing (a type of conduction system pacing, CSP) works as well as biventricular pacing (BVP) in patients with heart failure and refractory atrial fibrillation.",
+    "sections": [
+     {
+      "h": "Background:",
+      "pts": [
+       "Refractory **AF with a rapid ventricular rate** and heart failure may need **AV-node ablation** plus pacing.",
+       "Pacing from the RV apex can worsen LV function; **BVP** is the usual alternative.",
+       "**CSP (LBBAP)** activates the ventricles through the His-Purkinje system and may be quicker to implant."
+      ]
+     },
+     {
+      "h": "Design:",
+      "pts": [
+       "**Investigator-initiated RCT**, 10 European centres, Jul 2023-May 2025.",
+       "**82 patients**: refractory AF, **LVEF <50%**, **narrow QRS (≤120 ms)**, **NT-proBNP >600 ng/L**; mean age 72.",
+       "Randomised to **CSP (LBBAP)** or **BVP** at the time of AV-node ablation.",
+       "Primary endpoint: **LVEF at 6 months** (non-inferiority)."
+      ]
+     },
+     {
+      "h": "Key results:",
+      "pts": [
+       "LVEF improved **36%→46% (CSP)** and **34%→46% (BVP)**; **non-inferior** (p=0.002).",
+       "**Paced QRS 14 ms shorter** with CSP (p<0.001).",
+       "**Procedure and fluoroscopy times** were shorter with CSP.",
+       "LV volumes and **worsening HF/CV death** were similar."
+      ],
+      "chart": {
+       "type": "group",
+       "title": "LVEF (%) before and 6 months after ablation + pacing",
+       "labels": [
+        "CSP (LBBAP)",
+        "BVP"
+       ],
+       "series": [
+        {
+         "name": "Baseline",
+         "values": [
+          36,
+          34
+         ]
+        },
+        {
+         "name": "6 months",
+         "values": [
+          46,
+          46
+         ]
+        }
+       ],
+       "unit": "%"
+      }
+     },
+     {
+      "h": "Clinical take-home:",
+      "pts": [
+       "**CSP is a reasonable alternative to BVP** in a pace-and-ablate strategy, with a simpler procedural profile."
+      ]
+     },
+     {
+      "h": "Limitations:",
+      "pts": [
+       "Only **82 patients** and a **surrogate endpoint (LVEF)**; hard clinical outcomes still need **adequately powered trials with longer follow-up**."
+      ]
+     }
+    ],
+    "tip": "In AF with heart failure, think **\"ablate and pace\"**: the aim is regular, physiological ventricular activation. Both **BVP and conduction system pacing** avoid the dyssynchrony of RV-apex pacing.",
+    "source": "Žižek D, et al. Eur Heart J, published online 6 Oct 2026. doi:10.1093/eurheartj/ehag699 (via ACC Journal Scan).",
+    "url": "https://www.acc.org/latest-in-cardiology/journal-scans/2026/10/14/09/58/conduct-af"
+   }
+  ],
+  "trials.valvular": [
+   {
+    "id": "tavi-vs-savr-7y",
+    "title": "TAVI vs SAVR at 5-7 years",
+    "sub": "Time-dependent late mortality in low-risk aortic stenosis",
+    "kind": "Meta-analysis (conference)",
+    "date": "2026-10-17",
+    "area": "Structural heart · Aortic stenosis",
+    "updateRef": "2026-10-17/0",
+    "intro": "Trials in low-surgical-risk aortic stenosis showed an early advantage for TAVI that faded over time. This pooled analysis looked at when deaths happened rather than a single hazard ratio, and found a late signal against TAVI.",
+    "sections": [
+     {
+      "h": "Background:",
+      "pts": [
+       "**PARTNER 3, Evolut Low Risk and NOTION** all randomised low-risk patients to TAVI or SAVR.",
+       "Standard hazard ratios assume **constant risk over time**, which is doubtful when survival curves cross."
+      ]
+     },
+     {
+      "h": "Design:",
+      "pts": [
+       "Pooled **2,644 patients** from the three trials (each with ≥7 years of follow-up).",
+       "**Time-interval hazard ratios** for all-cause mortality.",
+       "Presented at **EACTS 2026** (not yet peer-reviewed)."
+      ]
+     },
+     {
+      "h": "Key results:",
+      "pts": [
+       "**7-year mortality 26.9% (TAVI) vs 23.7% (SAVR)**; difference 3.2%; **HR 1.14, not significant** (NNT about 30-35 per the lead author).",
+       "**49% of TAVI deaths** fell between **5 and 7 years**.",
+       "Without **Evolut Low Risk**: HR **1.39 (0.96-2.01)**, not significant."
+      ],
+      "table": {
+       "title": "Mortality hazard ratio, TAVI vs SAVR",
+       "headers": [
+        "Interval",
+        "HR",
+        "95% CI"
+       ],
+       "rows": [
+        [
+         "0-1 year",
+         "0.61",
+         "0.38-1.00"
+        ],
+        [
+         "1-3 years",
+         "0.84",
+         "0.59-1.22"
+        ],
+        [
+         "3-5 years",
+         "1.05",
+         "0.77-1.43"
+        ],
+        [
+         "5-7 years",
+         "**1.64**",
+         "1.27-2.12"
+        ]
+       ]
+      },
+      "chart": {
+       "type": "hist",
+       "title": "TAVI vs SAVR mortality hazard ratio by follow-up interval (>1 favours SAVR)",
+       "labels": [
+        "0-1 y",
+        "1-3 y",
+        "3-5 y",
+        "5-7 y"
+       ],
+       "values": [
+        0.61,
+        0.84,
+        1.05,
+        1.64
+       ],
+       "unit": ""
+      }
+     },
+     {
+      "h": "Clinical take-home:",
+      "pts": [
+       "The apparent late excess with TAVI makes **long-term follow-up** and **heart-team discussion** important, especially in **younger** patients."
+      ]
+     },
+     {
+      "h": "Limitations:",
+      "pts": [
+       "**Conference presentation** of pooled trial data, not peer reviewed. Commentators raised **unequal loss to follow-up** and unknown cause of death.",
+       "Signal depends on one trial and may differ by **valve type** (balloon- vs self-expanding)."
+      ]
+     },
+     {
+      "h": "Guideline position:",
+      "pts": [
+       "The lead author notes that guidelines now allow TAVI in **younger** patients and says the recommendations may need reconsidering if the trend continues."
+      ]
+     }
+    ],
+    "tip": "Remember the shape of the story: **early benefit with TAVI, crossing curves, later signal for SAVR** in low-risk patients. Durability is the key question for the young.",
+    "source": "Heuts S. Time-dependent late mortality after TAVI vs SAVR in low-risk AS. EACTS 2026 (9 Oct 2026), reported by TCTMD.",
+    "url": "https://www.tctmd.com/news/years-pass-mortality-grows-higher-tavi-vs-savr-low-risk-patients-meta-analysis",
+    "srcNote": "Source: news report (primary publication not identified)"
+   },
+   {
+    "id": "encircle-mac",
+    "title": "ENCIRCLE MAC registry",
+    "sub": "SAPIEN M3 transcatheter mitral replacement in mitral annular calcification",
+    "kind": "Registry",
+    "date": "2026-10-16",
+    "area": "Structural heart · Mitral valve",
+    "updateRef": "2026-10-16/3",
+    "intro": "Mitral annular calcification (MAC) can make a mitral valve both too calcified for surgery and unsuitable for edge-to-edge repair. The Edwards-sponsored ENCIRCLE MAC registry followed patients who received the SAPIEN M3 transcatheter mitral valve for 1 year; results below are as reported by Cardiac Wire (primary publication not identified).",
+    "sections": [
+     {
+      "h": "Background:",
+      "pts": [
+       "MAC affects roughly **23% of older adults** and makes mitral dysfunction more likely.",
+       "Earlier SAPIEN M3 data (ENCIRCLE) focused on **mitral regurgitation**, not calcification."
+      ]
+     },
+     {
+      "h": "Design:",
+      "pts": [
+       "**Registry of 93 patients** with MAC-related mitral disease treated with **SAPIEN M3**, followed for **1 year**."
+      ]
+     },
+     {
+      "h": "Key results:",
+      "pts": [
+       "**MR ≤1+ in 98.5%**.",
+       "**NYHA I/II: 26.9% → 87.7%**; **KCCQ +18.5**; 6-minute walk improved.",
+       "**Death or HF hospitalisation 33.6%** vs 45% predicted.",
+       "**1-year mortality 21.1%**; reintervention **11.4%** (mostly PVL closure); structural complications **9%**."
+      ],
+      "chart": {
+       "type": "group",
+       "title": "NYHA class I/II (% of patients)",
+       "labels": [
+        "Baseline",
+        "1 year"
+       ],
+       "series": [
+        {
+         "name": "NYHA I/II",
+         "values": [
+          26.9,
+          87.7
+         ]
+        }
+       ],
+       "unit": "%"
+      }
+     },
+     {
+      "h": "Clinical take-home:",
+      "pts": [
+       "Some **carefully selected** MAC patients gain symptomatic benefit."
+      ],
+      "after": "But the procedure is demanding and the risks are real."
+     },
+     {
+      "h": "Limitations:",
+      "pts": [
+       "Over **70% of screened patients were excluded**, about half for anatomy.",
+       "**Single-arm registry**, 1-year follow-up; structural complications arose mainly from the technically difficult encircling step."
+      ],
+      "chart": {
+       "type": "hist",
+       "title": "1-year adverse outcomes (%)",
+       "labels": [
+        "Death",
+        "Mitral reintervention",
+        "Structural complication"
+       ],
+       "values": [
+        21.1,
+        11.4,
+        9
+       ],
+       "unit": "%"
+      }
+     }
+    ],
+    "tip": "MAC is **common in older adults and in chronic kidney disease**, and complicates mitral surgery. Think **patient selection and anatomy screening** when you read any MAC TMVR data.",
+    "source": "ENCIRCLE MAC Registry (Edwards), 1-year results, as reported by Cardiac Wire (Oct 2026).",
+    "url": "https://cardiacwire.com/sapien-m3-shows-promise-for-select-patients-with-mac/",
+    "srcNote": "Source: news report (primary publication not identified)"
+   }
+  ],
+  "trials.cad": [
+   {
+    "id": "icare-faster",
+    "title": "ICare-FASTER",
+    "sub": "Point-of-care hs-troponin I in the emergency department",
+    "kind": "Stepped-wedge cluster RCT",
+    "date": "2026-10-28",
+    "area": "Acute coronary syndrome · Troponin pathways",
+    "updateRef": "2026-10-28/0",
+    "intro": "Waiting for central-laboratory troponin results lengthens emergency department stays. ICare-FASTER tested whether a whole-blood point-of-care high-sensitivity troponin I assay speeds up care without missing infarcts.",
+    "sections": [
+     {
+      "h": "Background:",
+      "pts": [
+       "Accelerated pathways use a **single-sample rule-out** with hs-troponin.",
+       "Point-of-care testing could make results **available when clinicians need them**."
+      ]
+     },
+     {
+      "h": "Design:",
+      "pts": [
+       "**Stepped-wedge cluster-randomised** trial, **6 sites**, Feb 2023-Jan 2025.",
+       "**59,980 ED presentations** (44,747 people); 31,392 during the intervention.",
+       "**Control**: central-lab hs-cTn. **Intervention**: same pathway with **point-of-care hs-cTnI**.",
+       "Primary outcome: **ED length of stay**; safety: **30-day MI or cardiac death**."
+      ]
+     },
+     {
+      "h": "Key results:",
+      "pts": [
+       "Length of stay **-13%** (95% CI 9-16%; p<0.001) = **47 minutes** shorter (control mean 376).",
+       "**30-day MI/cardiac death 0.39% in both arms** (p=0.54)."
+      ],
+      "chart": {
+       "type": "hist",
+       "title": "ED length of stay (minutes): control mean and adjusted reduction with point-of-care",
+       "labels": [
+        "Control mean (central lab)",
+        "Adjusted reduction (point of care)"
+       ],
+       "values": [
+        376,
+        47
+       ],
+       "unit": ""
+      }
+     },
+     {
+      "h": "Clinical take-home:",
+      "pts": [
+       "Point-of-care hs-cTnI in an accelerated pathway shortened ED stay by about 47 minutes with the same 30-day MI or cardiac death rate (0.39%)."
+      ]
+     },
+     {
+      "h": "Limitations:",
+      "pts": [
+       "Pathway-level trial: measures **ED flow and short-term safety**, not long-term outcomes or cost."
+      ]
+     }
+    ],
+    "tip": "In a rule-out pathway, **safety = 30-day MI or cardiac death after discharge** and the **negative predictive value** matter most; speed is the secondary gain.",
+    "source": "Than M, et al. ICare-FASTER. Circulation, 19 Oct 2026. doi:10.1161/CIRCULATIONAHA.126.080866. ACTRN12619001189112.",
+    "url": "https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.126.080866"
+   },
+   {
+    "id": "early-pci-nstemi-hf",
+    "title": "Early vs delayed PCI in NSTEMI with stable HF",
+    "sub": "Does timing of PCI matter when heart failure pre-dates the NSTEMI?",
+    "kind": "Observational cohort",
+    "date": "2026-10-16",
+    "area": "Acute coronary syndrome · Revascularisation timing",
+    "updateRef": "2026-10-16/4",
+    "intro": "Patients with stable heart failure who present with NSTEMI are a grey area for trial evidence. This propensity-matched analysis found worse outcomes (driven by more recurrent MI) after PCI within 24 hours than after delayed PCI.",
+    "sections": [
+     {
+      "h": "Background:",
+      "pts": [
+       "Trials generally favour **early invasive** care only in **high-risk** NSTEMI (e.g. GRACE >140 in VERDICT).",
+       "Patients with **acute decompensated HF** were largely excluded from those trials."
+      ]
+     },
+     {
+      "h": "Design:",
+      "pts": [
+       "**TriNetX** records, 2000-2024; **2,249 matched pairs** (early PCI <24 h vs delayed); mean age 69, 35% women.",
+       "Excluded: **decompensated HF, cardiogenic shock, STEMI**.",
+       "Primary outcome: **death, HF exacerbation, recurrent MI or VT/VF**."
+      ]
+     },
+     {
+      "h": "Key results:",
+      "pts": [
+       "**Primary outcome higher with early PCI**: RR **1.23** (1.15-1.31) at 1 month; **1.12** (1.07-1.18) at 1 year.",
+       "Driven by **more MI**; mortality and VT/VF were similar.",
+       "Consistent across LVEF and with delay defined as **>48 h / >72 h**; AKI and bleeding did not differ."
+      ],
+      "chart": {
+       "type": "bar",
+       "title": "Relative risk of primary composite with early vs delayed PCI (1.0 = no difference)",
+       "labels": [
+        "At 1 month",
+        "At 1 year"
+       ],
+       "values": [
+        1.23,
+        1.12
+       ],
+       "unit": ""
+      }
+     },
+     {
+      "h": "Clinical take-home:",
+      "pts": [
+       "The authors suggest there may be time to optimise guideline-directed HF therapy before revascularising stable HF patients with NSTEMI; this observational analysis cannot prove it."
+      ]
+     },
+     {
+      "h": "Limitations:",
+      "pts": [
+       "**Retrospective** database; HF diagnosis may be loosely coded; **no TIMI/GRACE scores**; **unmeasured confounding**."
+      ]
+     },
+     {
+      "h": "Guideline position:",
+      "pts": [
+       "A commentator notes guidelines reserve early PCI for **high-risk** NSTEMI; the authors say guidance is ambiguous for these patients."
+      ]
+     }
+    ],
+    "tip": "Observational data cannot prove cause: **matched cohorts still carry confounding**. For ischaemic cardiomyopathy, remember REVIVED-BCIS2 (PCI not better than medical therapy) and STICH (CABG better).",
+    "source": "Hanif M, et al. Early vs delayed PCI in NSTEMI with stable HF. Catheter Cardiovasc Interv 2026 (via TCTMD).",
+    "url": "https://www.tctmd.com/news/early-pci-tied-worse-outcomes-nstemi-patients-stable-hf"
+   }
+  ],
+  "trials.interventional": [
+   {
+    "id": "imaging-pci-meta",
+    "title": "Intravascular imaging-guided PCI",
+    "sub": "IVUS/OCT guidance for complex coronary lesions",
+    "kind": "Meta-analysis of RCTs",
+    "date": "2026-10-25",
+    "area": "Interventional cardiology · Imaging-guided PCI",
+    "updateRef": "2026-10-25/0",
+    "intro": "Intravascular imaging lets the operator size the stent and check expansion from inside the vessel. This meta-analysis pooled 18 randomised trials in complex lesions, including recent large trials with conflicting results.",
+    "sections": [
+     {
+      "h": "Background:",
+      "pts": [
+       "**Complex lesions** (e.g. left main, bifurcation, long, CTO) carry higher stent failure risk.",
+       "Recent large RCTs **disagreed** on the benefit of imaging."
+      ]
+     },
+     {
+      "h": "Design:",
+      "pts": [
+       "**18 RCTs, 18,975 patients**; imaging-guided vs angiography-guided DES PCI.",
+       "Primary outcomes: **MACE and cardiac death**; random-effects + Bayesian analyses."
+      ]
+     },
+     {
+      "h": "Key results:",
+      "pts": [
+       "**MACE** RR **0.67**; **cardiac death** RR **0.72**; **stent thrombosis** RR **0.52**; MI RR 0.87; TLR RR 0.72.",
+       "Within imaging-guided arms, **imaging-defined stent optimisation** was linked to fewer events (RR **0.41**; 6 studies; an association, not a randomised comparison).",
+       "**Geographic interaction**: benefit mainly in **Asian trials** (P<0.01)."
+      ],
+      "chart": {
+       "type": "bar",
+       "title": "Risk ratio, imaging-guided vs angiography-guided PCI (<1 favours imaging)",
+       "labels": [
+        "MACE",
+        "Cardiac death",
+        "MI",
+        "Clinically driven TLR",
+        "Stent thrombosis"
+       ],
+       "values": [
+        0.67,
+        0.72,
+        0.87,
+        0.72,
+        0.52
+       ],
+       "unit": ""
+      }
+     },
+     {
+      "h": "Clinical take-home:",
+      "pts": [
+       "Imaging guidance was linked to fewer events in complex lesions; the most robust result was **stent thrombosis** (high certainty)."
+      ]
+     },
+     {
+      "h": "Limitations:",
+      "pts": [
+       "**Publication bias**: after trim-and-fill, MACE, cardiac death, MI and TLR lost significance, and cardiac death, MI and TLR depended on single trials. Heterogeneity across regions; trial-level data.",
+       "Operator and imaging-protocol differences."
+      ]
+     }
+    ],
+    "tip": "Imaging-guided PCI helps by **choosing stent size/length** and by fixing **under-expansion, edge dissection and malapposition**: optimisation is what matters.",
+    "source": "Elbahloul MA, ..., Elgendy IY. JACC: Advances, Oct 2026. doi:10.1016/j.jacadv.2026.103340.",
+    "url": "https://www.jacc.org/doi/10.1016/j.jacadv.2026.103340"
+   },
+   {
+    "id": "dcb-vs-des",
+    "title": "DCB vs DES in de novo coronary disease",
+    "sub": "Can a drug-coated balloon replace a stent?",
+    "kind": "Meta-analysis of RCTs",
+    "date": "2026-10-19",
+    "area": "Interventional cardiology · DCB vs DES",
+    "updateRef": "2026-10-19/0",
+    "intro": "A drug-coated balloon (DCB) delivers an antiproliferative drug without leaving a permanent implant. This meta-analysis pooled randomised trials comparing DCB-only PCI with drug-eluting stents for de novo disease.",
+    "sections": [
+     {
+      "h": "Background:",
+      "pts": [
+       "DCB-only PCI has an established evidence base in **small-vessel de novo disease**.",
+       "Recent trials tested it in **larger vessels** and broader lesions."
+      ]
+     },
+     {
+      "h": "Design:",
+      "pts": [
+       "**PRISMA** meta-analysis, **PROSPERO-registered**, PubMed/Scopus/Embase to **30 May 2026**.",
+       "**10 RCTs, 7,832 patients**; random-effects odds ratios; risk of bias by RoB2."
+      ]
+     },
+     {
+      "h": "Key results:",
+      "pts": [
+       "**CV death** OR 1.06 (0.75-1.49); **MI** OR 1.02 (0.76-1.36).",
+       "**Revascularisation** OR 1.39 (0.88-2.20) overall, but **OR 1.84 (1.06-3.19)** after excluding small-vessel-only trials.",
+       "The revascularisation signal was **sensitive to REC-CAGEFREE I**."
+      ],
+      "table": {
+       "title": "Odds ratio, DCB vs DES",
+       "headers": [
+        "Outcome",
+        "OR (95% CI)",
+        "I²"
+       ],
+       "rows": [
+        [
+         "CV death",
+         "1.06 (0.75-1.49)",
+         "0%"
+        ],
+        [
+         "MI",
+         "1.02 (0.76-1.36)",
+         "0%"
+        ],
+        [
+         "Revascularisation, all",
+         "1.39 (0.88-2.20)",
+         "57%"
+        ],
+        [
+         "Revascularisation, excl. small-vessel-only",
+         "1.84 (1.06-3.19)",
+         "54%"
+        ]
+       ]
+      },
+      "chart": {
+       "type": "bar",
+       "title": "Odds ratio, DCB vs DES (1.0 = no difference)",
+       "labels": [
+        "CV death",
+        "Myocardial infarction",
+        "Revascularisation (all)",
+        "Revascularisation (excl. small-vessel only)"
+       ],
+       "values": [
+        1.06,
+        1.02,
+        1.39,
+        1.84
+       ],
+       "unit": ""
+      }
+     },
+     {
+      "h": "Clinical take-home:",
+      "pts": [
+       "**Hard outcomes were comparable**, supporting DCB as an option (\"leave nothing behind\")."
+      ]
+     },
+     {
+      "h": "Limitations:",
+      "pts": [
+       "**Moderate heterogeneity** for revascularisation; platform differences mean **no class effect** can be assumed; larger vessels and complex lesions need **powered, longer RCTs**."
+      ]
+     }
+    ],
+    "tip": "DCB-only strategy = **no permanent implant**. It is best established in **small-vessel disease**; extension to large vessels and complex lesions is still being tested.",
+    "source": "Drug coated balloons vs drug eluting stents for de novo CAD: systematic review and meta-analysis. eClinicalMedicine, Oct 2026. doi:10.1016/j.eclinm.2026.104204. PROSPERO CRD420251167202.",
+    "url": "https://doi.org/10.1016/j.eclinm.2026.104204"
+   },
+   {
+    "id": "prevent-nirs",
+    "title": "PREVENT post hoc: NIRS and preventive PCI",
+    "sub": "Which high-risk plaques benefit from stenting before they cause an event?",
+    "kind": "Post hoc trial analysis",
+    "date": "2026-10-18",
+    "area": "Interventional cardiology · Preventive PCI",
+    "updateRef": "2026-10-18/0",
+    "intro": "The PREVENT trial tested preventive PCI of high-risk but non-flow-limiting plaques. This analysis asked whether near-infrared spectroscopy (NIRS) can separate the plaques that benefit from those that do not.",
+    "sections": [
+     {
+      "h": "Background:",
+      "pts": [
+       "**Lipid-rich plaque (LRP)** is a marker of vulnerability.",
+       "Plaque burden and lumen area describe **shape**; NIRS adds **composition**."
+      ]
+     },
+     {
+      "h": "Design:",
+      "pts": [
+       "Parent trial: **1,606 patients**, open-label RCT in Asia and New Zealand (2015-2021).",
+       "This analysis: **598 patients, 632 lesions** (plaque burden >70%, MLA <4 mm²) imaged with **NIRS**.",
+       "**LRP** = max lipid core burden index in 4 mm **>315**: **223 patients (37%)**.",
+       "Primary outcome: **cardiac death, target-vessel MI, ischaemia-driven TVR, or unstable/progressive angina admission**; median follow-up **5.6 years**."
+      ],
+      "chart": {
+       "type": "pie",
+       "title": "Patients analysed by plaque type (non-LRP derived: 598 minus 223)",
+       "labels": [
+        "Lipid-rich (LRP)",
+        "Non-LRP"
+       ],
+       "values": [
+        223,
+        375
+       ],
+       "unit": ""
+      }
+     },
+     {
+      "h": "Key results:",
+      "pts": [
+       "Events **13% (LRP) vs 5% (non-LRP)**, HR **2.08**.",
+       "**LRP**: PCI + OMT **7%** vs OMT **18%** (adjusted **HR 0.23**).",
+       "**Non-LRP**: **6% vs 4%**, **HR 1.00**.",
+       "**Interaction p<0.001**."
+      ],
+      "chart": {
+       "type": "group",
+       "title": "Primary outcome at ~5.6 years (%)",
+       "labels": [
+        "Lipid-rich plaque",
+        "Non-lipid-rich plaque"
+       ],
+       "series": [
+        {
+         "name": "Preventive PCI + OMT",
+         "values": [
+          7,
+          6
+         ]
+        },
+        {
+         "name": "OMT alone",
+         "values": [
+          18,
+          4
+         ]
+        }
+       ],
+       "unit": "%"
+      }
+     },
+     {
+      "h": "Clinical take-home:",
+      "pts": [
+       "Plaque composition may help select patients for preventive PCI; benefit was seen only in lipid-rich plaques in this post hoc analysis."
+      ]
+     },
+     {
+      "h": "Limitations:",
+      "pts": [
+       "**Post hoc** subgroup of an **open-label** trial; needs **prospective NIRS-guided** trials."
+      ]
+     }
+    ],
+    "tip": "Know the vocabulary: **IVUS** gives plaque burden and lumen area; **NIRS** detects **lipid core** (LCBI); **OCT** gives fibrous cap thickness.",
+    "source": "Wee SB, Park SJ, et al. PREVENT post hoc analysis. Circulation, 6 Oct 2026 (via ACC Journal Scan).",
+    "url": "https://www.acc.org/latest-in-cardiology/journal-scans/2026/10/14/09/58/prevent-analysis"
+   }
+  ],
+  "trials.htn": [
+   {
+    "id": "intensive-bp-ckd",
+    "title": "Intensive BP lowering with and without CKD",
+    "sub": "Does CKD change the benefit of tighter blood pressure control?",
+    "kind": "Meta-analysis of RCTs",
+    "date": "2026-10-19",
+    "area": "Hypertension · Intensive BP lowering",
+    "updateRef": "2026-10-19/1",
+    "intro": "Doctors have worried that intensive blood pressure lowering might harm kidneys in people with chronic kidney disease. This meta-analysis standardised trial results per 10 mm Hg of achieved systolic BP reduction.",
+    "sections": [
+     {
+      "h": "Background:",
+      "pts": [
+       "Intensive targets (e.g. SPRINT) reduce CV events, but CKD patients were **under-represented**.",
+       "Concern: **eGFR dips** and kidney failure."
+      ]
+     },
+     {
+      "h": "Design:",
+      "pts": [
+       "**27 studies, 88,830 participants**; RCTs with ≥1 year follow-up; MEDLINE/Embase to Jan 2026.",
+       "Effects **standardised per 10 mm Hg** lower SBP; heterogeneity tested by CKD status."
+      ]
+     },
+     {
+      "h": "Key results:",
+      "pts": [
+       "**CV events -15%** per 10 mm Hg (RR **0.85**, 0.81-0.89), **no difference by CKD status**.",
+       "Absolute benefit: **4.3 vs 2.7 events/1000 person-years** (CKD vs no CKD).",
+       "**Kidney failure** RR 0.97 (0.84-1.11): no effect.",
+       "**≥30% / ≥40% eGFR declines** RR 1.42 / 1.47."
+      ],
+      "chart": {
+       "type": "group",
+       "title": "Absolute reduction in CV events per 1000 person-years (per 10 mm Hg lower SBP)",
+       "labels": [
+        "With CKD",
+        "Without CKD"
+       ],
+       "series": [
+        {
+         "name": "Events avoided",
+         "values": [
+          4.3,
+          2.7
+         ]
+        }
+       ],
+       "unit": ""
+      }
+     },
+     {
+      "h": "Clinical take-home:",
+      "pts": [
+       "Intensive BP lowering reduced CV events with or without CKD (per 10 mm Hg lower SBP); eGFR declines were more frequent (RR 1.42 / 1.47) without more kidney failure (RR 0.97)."
+      ]
+     },
+     {
+      "h": "Limitations:",
+      "pts": [
+       "**Trial-level** data with differing BP targets and populations."
+      ]
+     }
+    ],
+    "tip": "In CKD, a small eGFR fall after tightening BP is plausibly haemodynamic, but the meta-analysis could not exclude a small harm; monitor renal function after intensifying treatment. Know **SPRINT** (intensive <120 mmHg reduced CV events).",
+    "source": "Intensive vs Standard BP Lowering in People With and Without CKD. JAMA Cardiology, 2026. doi:10.1001/jamacardio.2026.4445.",
+    "url": "https://jamanetwork.com/journals/jamacardiology/fullarticle/2854798"
+   }
+  ],
+  "trials.newer_drugs": [
+   {
+    "id": "achieve-4",
+    "title": "ACHIEVE-4",
+    "sub": "Cardiovascular safety of oral orforglipron vs insulin glargine",
+    "kind": "Randomised trial",
+    "date": "2026-10-20",
+    "area": "Cardiometabolic · Diabetes & CV safety",
+    "updateRef": "2026-10-20/0",
+    "intro": "Orforglipron is an oral, non-peptide GLP-1 receptor agonist. ACHIEVE-4 was designed to show that it is not worse than insulin glargine for major cardiovascular events in people with type 2 diabetes at high cardiovascular risk.",
+    "sections": [
+     {
+      "h": "Background:",
+      "pts": [
+       "Several injectable peptide GLP-1 RAs have proven CV benefit; the **CV safety of non-peptide agents** had not been tested."
+      ]
+     },
+     {
+      "h": "Design:",
+      "pts": [
+       "**Phase 3, event-driven, open-label, non-inferiority** RCT; **317 sites, 16 countries**.",
+       "**2,749 adults** with T2D, BMI ≥25 and **established CVD or CKD** (85.9% CVD, 37.6% CKD); mean age 63, HbA1c 8.2%.",
+       "**Orforglipron** (up to 36 mg) vs **titrated insulin glargine**, 1:1, median follow-up 2 years.",
+       "Primary outcome **MACE-4**; non-inferiority if upper 95% CI of HR **<1.8**."
+      ],
+      "chart": {
+       "type": "flow",
+       "title": "ACHIEVE-4 allocation",
+       "steps": [
+        "2,749 randomised 1:1",
+        "Orforglipron 1,371",
+        "Insulin glargine 1,378",
+        "Primary analysis: 1,358 vs 1,343"
+       ]
+      }
+     },
+     {
+      "h": "Key results:",
+      "pts": [
+       "**MACE-4 4.2% vs 5.0%**; **HR 0.84** (0.59-1.20): **non-inferior** (p<0.0001).",
+       "**GI adverse events 62.1% vs 14.2%**.",
+       "**Significant/severe hypoglycaemia 6.8% vs 19.2%**.",
+       "**Deaths 1.4% vs 3.2%**."
+      ],
+      "chart": {
+       "type": "group",
+       "title": "Key outcomes (% of participants)",
+       "labels": [
+        "MACE-4",
+        "GI adverse events",
+        "Severe/significant hypoglycaemia",
+        "Deaths"
+       ],
+       "series": [
+        {
+         "name": "Orforglipron",
+         "values": [
+          4.2,
+          62.1,
+          6.8,
+          1.4
+         ]
+        },
+        {
+         "name": "Insulin glargine",
+         "values": [
+          5.0,
+          14.2,
+          19.2,
+          3.2
+         ]
+        }
+       ],
+       "unit": "%"
+      }
+     },
+     {
+      "h": "Clinical take-home:",
+      "pts": [
+       "Orforglipron showed **cardiovascular safety** versus insulin; fewer hypoglycaemic events, more GI side effects."
+      ]
+     },
+     {
+      "h": "Limitations:",
+      "pts": [
+       "**Safety** (non-inferiority) design, **open-label**, comparator insulin; not proof of CV **benefit**. Funded by **Eli Lilly**."
+      ]
+     }
+    ],
+    "tip": "A **non-inferiority margin** is chosen in advance (here HR <1.8). Passing it proves **safety**, not superiority. GI effects (nausea, vomiting) are the class-typical adverse effects of GLP-1 RAs.",
+    "source": "Cardiovascular safety of orforglipron vs insulin glargine (ACHIEVE-4). Lancet, 2026. doi:10.1016/S0140-6736(26)01865-9. NCT05803421.",
+    "url": "https://doi.org/10.1016/S0140-6736(26)01865-9"
+   }
+  ],
+  "trials.digital": [
+   {
+    "id": "link-hf2",
+    "title": "LINK-HF2",
+    "sub": "AI-guided wearable monitoring after heart failure discharge",
+    "kind": "Randomised feasibility trial",
+    "date": "2026-10-21",
+    "area": "Heart failure · Remote monitoring & AI",
+    "updateRef": "2026-10-21/0",
+    "intro": "LINK-HF2 tested whether a wearable patch plus an AI model could warn clinicians of impending decompensation, and whether a structured response could prevent readmission. It showed the approach was workable but did not show fewer hospital stays.",
+    "sections": [
+     {
+      "h": "Background:",
+      "pts": [
+       "**Early post-discharge** weeks carry a high risk of readmission.",
+       "AI models can spot **individual deviations** in physiology before symptoms."
+      ]
+     },
+     {
+      "h": "Design:",
+      "pts": [
+       "**Prospective, randomised, open-label, blinded-endpoint**, **5 VA centres**.",
+       "Adults discharged after **acute HF** wore a **multisensor patch** up to **90 days**.",
+       "Intervention: **AI alerts + clinician response algorithm**; control: standard care. **171 analysed** (80 vs 91)."
+      ]
+     },
+     {
+      "h": "Key results:",
+      "pts": [
+       "Median **adherence 72.4%**; clinicians responded in a median of **1 day**.",
+       "**HF rehospitalisation 16.3% vs 18.7%**, **HR 0.90** (0.43-1.84).",
+       "Composite endpoint **HR 1.03**.",
+       "**AI-detected instability** lower with intervention (**HR 0.76**)."
+      ],
+      "chart": {
+       "type": "hist",
+       "title": "HF rehospitalisation (%, exploratory)",
+       "labels": [
+        "AI-guided monitoring",
+        "Standard care"
+       ],
+       "values": [
+        16.3,
+        18.7
+       ],
+       "unit": "%"
+      }
+     },
+     {
+      "h": "Clinical take-home:",
+      "pts": [
+       "**Detection alone is not enough**: workflow integration and a trusted, effective response are needed."
+      ]
+     },
+     {
+      "h": "Limitations:",
+      "pts": [
+       "**Small feasibility study**, exploratory clinical endpoints, open-label, veteran population."
+      ]
+     }
+    ],
+    "tip": "Distinguish **feasibility** from **efficacy**: a trial can show a tool is workable without being powered to prove it reduces readmissions.",
+    "source": "LINK-HF2. JACC: Heart Failure, 2026 (HFSA 2026). doi:10.1016/j.jchf.2026.103422. NCT04502563.",
+    "url": "https://doi.org/10.1016/j.jchf.2026.103422"
+   },
+   {
+    "id": "ai-auscultation",
+    "title": "AI-enhanced auscultation for LV dysfunction",
+    "sub": "Using a digital stethoscope to flag LVEF ≤40%",
+    "kind": "Diagnostic accuracy study",
+    "date": "2026-10-18",
+    "area": "Digital health & AI · Auscultation",
+    "updateRef": "2026-10-18/1",
+    "intro": "This study built an AI model that listens to heart sounds recorded at four standard sites with a single-lead ECG and predicts whether the left ventricular ejection fraction is 40% or lower. It was tested in an independent registry.",
+    "sections": [
+     {
+      "h": "Background:",
+      "pts": [
+       "LV dysfunction is common and **often silent**; early treatment improves outcomes.",
+       "Echo is the confirmatory test, so a **cheap screening step** would help triage."
+      ]
+     },
+     {
+      "h": "Design:",
+      "pts": [
+       "**Prospective multicentre** development and **external validation**.",
+       "Training **2,359 patients** (8.9% reduced LVEF); external **964 patients** (7.6%).",
+       "Transformer + 1D-CNN ensemble; compared with **7 cardiologists** and clinical/BNP models."
+      ]
+     },
+     {
+      "h": "Key results:",
+      "pts": [
+       "External **AUROC 0.904**; **sensitivity 86.3%, specificity 74.2%, accuracy 75.1%**.",
+       "**Reader substudy (n=100)**: AI **82.0%** vs cardiologists **62.0%** (p=0.004).",
+       "**Two-site** model: AUROC **0.903**."
+      ],
+      "chart": {
+       "type": "hist",
+       "title": "External validation performance (%)",
+       "labels": [
+        "Sensitivity",
+        "Specificity",
+        "Accuracy"
+       ],
+       "values": [
+        86.3,
+        74.2,
+        75.1
+       ],
+       "unit": "%"
+      }
+     },
+     {
+      "h": "Clinical take-home:",
+      "pts": [
+       "A **pre-echo risk-enrichment tool** to decide who needs echocardiography."
+      ]
+     },
+     {
+      "h": "Limitations:",
+      "pts": [
+       "Patients already **referred for echo**; **specificity 74.2%** means many false positives; **industry-funded**; needs further validation before screening use."
+      ],
+      "chart": {
+       "type": "group",
+       "title": "Accuracy in the 100-patient reader substudy (%)",
+       "labels": [
+        "Accuracy"
+       ],
+       "series": [
+        {
+         "name": "Cardiologist consensus",
+         "values": [
+          62.0
+         ]
+        },
+        {
+         "name": "AI auscultation",
+         "values": [
+          82.0
+         ]
+        }
+       ],
+       "unit": "%"
+      }
+     }
+    ],
+    "tip": "For a **screening/triage** test, high **sensitivity and NPV** matter most; the cost is lower specificity. Always ask the **prevalence** in the validation cohort (here about 7.6%).",
+    "source": "AI-Enhanced Auscultation to Identify LV Dysfunction. NEJM AI, 2026. doi:10.1056/AIoa2600258.",
+    "url": "https://ai.nejm.org/doi/full/10.1056/AIoa2600258"
+   },
+   {
+    "id": "droid-rv",
+    "title": "DROID-RV",
+    "sub": "Automated right ventricular size and function from 2D echo",
+    "kind": "Deep-learning study",
+    "date": "2026-10-16",
+    "area": "Digital health & AI · Echocardiography",
+    "updateRef": "2026-10-16/5",
+    "intro": "The right ventricle is hard to measure by 2D echo. DROID-RV is a video deep-learning model that estimates RV diameter and detects reduced RV function, and its predictions track later outcomes.",
+    "sections": [
+     {
+      "h": "Background:",
+      "pts": [
+       "RV size and function carry **prognostic information** in many diseases.",
+       "2D echo assessment of the RV is **variable and time-consuming**."
+      ]
+     },
+     {
+      "h": "Design:",
+      "pts": [
+       "**Trained** on 17,141 patients (383,881 clips); **validated** in 9,112 primary-care patients and 831 patients with 3D-echo RVEF.",
+       "Outputs: **RV end-diastolic diameter** and **RV systolic dysfunction**."
+      ],
+      "table": {
+       "title": "Cohorts",
+       "headers": [
+        "Use",
+        "Population",
+        "Size"
+       ],
+       "rows": [
+        [
+         "Training",
+         "Ambulatory cardiology",
+         "17,141 pts / 383,881 clips"
+        ],
+        [
+         "Outcome validation",
+         "Primary care",
+         "9,112 pts"
+        ],
+        [
+         "RVEF reference (3D echo)",
+         "Independent hospital cohort",
+         "831 pts"
+        ]
+       ]
+      }
+     },
+     {
+      "h": "Key results:",
+      "pts": [
+       "Diameter estimated to within about **3 mm**; dysfunction detected with **high accuracy**, including externally.",
+       "Error **increases at extremes** of size and function.",
+       "Predictions were linked to **death, AF and heart failure**; predicted dilated RV had about **2× the 5-year mortality**."
+      ]
+     },
+     {
+      "h": "Clinical take-home:",
+      "pts": [
+       "Automated RV measurement could allow **scaled risk stratification** from routine echo."
+      ]
+     },
+     {
+      "h": "Limitations:",
+      "pts": [
+       "**Retrospective**, mainly one health system; not shown to improve **management or outcomes**."
+      ]
+     }
+    ],
+    "tip": "RV dysfunction predicts adverse outcomes in **heart failure, pulmonary hypertension and after MI**, so measuring it reliably matters.",
+    "source": "Deep learning-enabled assessment of RV size and function. Nature Cardiovascular Research, 2026. doi:10.1038/s44161-026-00886-4.",
+    "url": "https://www.nature.com/articles/s44161-026-00886-4"
+   },
+   {
+    "id": "advocate",
+    "title": "ARPA-H ADVOCATE",
+    "sub": "Agentic AI for heart failure care",
+    "kind": "Programme (no results yet)",
+    "date": "2026-10-16",
+    "area": "Digital health & AI · Heart failure care",
+    "updateRef": "2026-10-16/7",
+    "intro": "ADVOCATE is a US research programme to build and test AI agents that can support heart failure patients between clinic visits. Duke has been awarded funding to deploy and evaluate them; there are no patient results yet.",
+    "sections": [
+     {
+      "h": "Background:",
+      "pts": [
+       "**Over 900,000** US deaths from CVD in 2023.",
+       "**Nearly half of US counties** have no practising cardiologist."
+      ]
+     },
+     {
+      "h": "Design:",
+      "pts": [
+       "**$62.7 million** programme; Duke award **up to $15.5 million**.",
+       "Agents act as a **clinician-extender**: understand needs, provide autonomous care, escalate to the team.",
+       "**A human stays in the loop**; safety is monitored by a separate supervisory system."
+      ],
+      "table": {
+       "title": "ADVOCATE roles",
+       "headers": [
+        "Stage",
+        "Who"
+       ],
+       "rows": [
+        [
+         "Build the AI agents",
+         "3 health-tech companies"
+        ],
+        [
+         "Safety supervision",
+         "Stanford team"
+        ],
+        [
+         "Real-world deployment",
+         "Duke + Kaiser Permanente"
+        ],
+        [
+         "Evaluation",
+         "Duke SYMPHONY consortium, with AHA"
+        ]
+       ]
+      }
+     },
+     {
+      "h": "Key results:",
+      "pts": [
+       "**None yet.** Duke expects to be ready to deploy within **1 year** and to run a **platform trial within 2 years**."
+      ]
+     },
+     {
+      "h": "Clinical take-home:",
+      "pts": [
+       "Watch for evidence on **safety, patient use and cost** before adopting patient-facing AI."
+      ]
+     },
+     {
+      "h": "Limitations:",
+      "pts": [
+       "Press coverage of a **funding announcement**, not a trial; affordability for low-income and rural patients is unknown."
+      ]
+     }
+    ],
+    "tip": "Regulators will focus on **continuous post-deployment monitoring** of autonomous AI, not only pre-approval testing.",
+    "source": "Duke researchers set to test agentic AI system for cardiovascular care. The Duke Chronicle, 15 Oct 2026.",
+    "url": "https://www.dukechronicle.com/article/duke-university-researchers-set-to-test-agentic-ai-system-for-cardiovascular-care-advocate-symphony-fda-heart-failure-20261015",
+    "srcNote": "Source: news report (primary publication not identified)"
+   }
+  ],
+  "trials.preventive": [
+   {
+    "id": "vaping-vascular",
+    "title": "Nicotine vaping and vascular function",
+    "sub": "Never-smoking young adults who vape daily",
+    "kind": "Cross-sectional study",
+    "date": "2026-10-26",
+    "area": "Preventive cardiology · Vaping & vascular health",
+    "updateRef": "2026-10-26/0",
+    "intro": "Many young adults who have never smoked now use nicotine vapes. This small laboratory study compared vascular function and fitness in vapers, cigarette smokers and nicotine-naive adults.",
+    "sections": [
+     {
+      "h": "Background:",
+      "pts": [
+       "**Endothelial function** (flow-mediated dilation, FMD) is an early marker of vascular health."
+      ]
+     },
+     {
+      "h": "Design:",
+      "pts": [
+       "**58 adults** (mean age 26): 17 vape-only, 19 cigarette smokers, 22 naive; no known CVD or major risk factors.",
+       "Measured **FMD, carotid artery reactivity** and **maximal cardiopulmonary exercise testing**."
+      ]
+     },
+     {
+      "h": "Key results:",
+      "pts": [
+       "**FMD**: **5.5% (vape) vs 4.4% (cigarettes) vs 8.3% (naive)**.",
+       "**Carotid reactivity**: **0.6% vs -1.4% vs 4.7%**.",
+       "**Peak VO₂ lower in vapers** than naive; lung function and activity similar."
+      ],
+      "chart": {
+       "type": "hist",
+       "title": "Flow-mediated dilation (%)",
+       "labels": [
+        "Nicotine vape only",
+        "Combustible cigarettes",
+        "Naive"
+       ],
+       "values": [
+        5.5,
+        4.4,
+        8.3
+       ],
+       "unit": "%"
+      }
+     },
+     {
+      "h": "Clinical take-home:",
+      "pts": [
+       "Daily vaping in never-smokers was **associated with worse vascular function and fitness**."
+      ]
+     },
+     {
+      "h": "Limitations:",
+      "pts": [
+       "**Small, single-centre, cross-sectional**: shows association, not clinical outcomes."
+      ]
+     }
+    ],
+    "tip": "Low **flow-mediated dilation** indicates **endothelial dysfunction**, an early step in atherosclerosis, before plaques appear.",
+    "source": "Boidin M, et al. JAMA Cardiology, 21 Oct 2026. doi:10.1001/jamacardio.2026.4626.",
+    "url": "https://jamanetwork.com/journals/jamacardiology/fullarticle/10.1001/jamacardio.2026.4626"
+   },
+   {
+    "id": "cac-young",
+    "title": "CAC in young adults",
+    "sub": "30-year mortality with high coronary calcium at age 30-45",
+    "kind": "Cohort study",
+    "date": "2026-10-24",
+    "area": "Preventive cardiology · Coronary calcium",
+    "updateRef": "2026-10-24/0",
+    "intro": "Coronary artery calcium (CAC) scoring is well established in middle age, but its long-term meaning in young adults was unclear. This large cohort followed adults aged 30-45 for a median of 22.6 years.",
+    "sections": [
+     {
+      "h": "Background:",
+      "pts": [
+       "A **high CAC percentile in a young person** means advanced atherosclerosis for age.",
+       "Early prevention could yield large **lifetime benefit**."
+      ]
+     },
+     {
+      "h": "Design:",
+      "pts": [
+       "**CAC Consortium**: 12,847 adults aged 30-45 (mean 40.5; 77.2% men) referred for clinically indicated CAC scans.",
+       "Exposure: CAC **0**, **75th-90th** or **>90th percentile**; adjusted for age, sex and risk factors.",
+       "Outcomes: **all-cause, CVD and CHD mortality**; 624 deaths."
+      ]
+     },
+     {
+      "h": "Key results:",
+      "pts": [
+       "**Adjusted HR (>90th vs 0)**: all-cause **1.87**, CVD **2.60**, CHD **3.71**.",
+       "**30-year modelled mortality**: all-cause **12.9% vs 7.5%**, CVD **4.5% vs 1.5%**, CHD **3.0% vs 0.6%**."
+      ],
+      "chart": {
+       "type": "group",
+       "title": "Modelled 30-year mortality (%)",
+       "labels": [
+        "All-cause",
+        "CVD",
+        "CHD"
+       ],
+       "series": [
+        {
+         "name": "CAC 0",
+         "values": [
+          7.5,
+          1.5,
+          0.6
+         ]
+        },
+        {
+         "name": "CAC >90th percentile",
+         "values": [
+          12.9,
+          4.5,
+          3.0
+         ]
+        }
+       ],
+       "unit": "%"
+      }
+     },
+     {
+      "h": "Clinical take-home:",
+      "pts": [
+       "Young adults with **CAC >90th percentile** are a high-risk group who may warrant **more intensive prevention**."
+      ]
+     },
+     {
+      "h": "Limitations:",
+      "pts": [
+       "**Retrospective referral cohort**, mostly men; 30-year risks are **modelled**."
+      ]
+     }
+    ],
+    "tip": "CAC = **0** carries a very low short-term risk; in the **young**, interpret CAC as a **percentile for age and sex**, not only an absolute score.",
+    "source": "Choi S, ..., Blaha MJ. JAMA Cardiology, 23 Oct 2026. doi:10.1001/jamacardio.2026.4819.",
+    "url": "https://jamanetwork.com/journals/jamacardiology/fullarticle/10.1001/jamacardio.2026.4819"
+   },
+   {
+    "id": "rotterdam-mi",
+    "title": "Rotterdam Study: recognised vs unrecognised MI",
+    "sub": "Three decades of myocardial infarction prevalence",
+    "kind": "Population cohort",
+    "date": "2026-10-16",
+    "area": "Preventive cardiology · Epidemiology of MI",
+    "updateRef": "2026-10-16/6",
+    "intro": "Some myocardial infarctions are never noticed and are found later on an ECG. This analysis of the Rotterdam Study tracked how common recognised and unrecognised MI were from the 1990s to the 2010s.",
+    "sections": [
+     {
+      "h": "Background:",
+      "pts": [
+       "Unrecognised MI is detected by **ECG** and still carries risk."
+      ]
+     },
+     {
+      "h": "Design:",
+      "pts": [
+       "Three cohorts: **1990s n=7,750; 2000s n=7,675; 2010s n=7,121**; 42% men.",
+       "MI classified from **ECG and records** as unrecognised, recognised or none."
+      ]
+     },
+     {
+      "h": "Key results:",
+      "pts": [
+       "**Total MI 12.3% → 11.2% → 7.2%**; **unrecognised MI 5.0% → 4.3% → 1.5%**.",
+       "Unrecognised MI was **52% of MI in women vs 25% in men**.",
+       "Chest pain: **30%** (unrecognised MI) vs **31%** (no MI) vs **75%** (recognised MI)."
+      ],
+      "chart": {
+       "type": "group",
+       "title": "MI prevalence by decade (%)",
+       "labels": [
+        "1990s",
+        "2000s",
+        "2010s"
+       ],
+       "series": [
+        {
+         "name": "Total MI",
+         "values": [
+          12.3,
+          11.2,
+          7.2
+         ]
+        },
+        {
+         "name": "Unrecognised MI",
+         "values": [
+          5.0,
+          4.3,
+          1.5
+         ]
+        }
+       ],
+       "unit": "%"
+      }
+     },
+     {
+      "h": "Clinical take-home:",
+      "pts": [
+       "MI burden has **fallen**, but **women** are more often missed."
+      ]
+     },
+     {
+      "h": "Limitations:",
+      "pts": [
+       "ECG-based definition, symptom under-reporting, predominantly **European ancestry**."
+      ]
+     }
+    ],
+    "tip": "A **silent MI** can present only as new **Q waves** on an ECG. Women and people with diabetes are more likely to have atypical or silent presentations.",
+    "source": "van Oortmerssen JAE, et al. JAMA Cardiology, 7 Oct 2026. doi:10.1001/jamacardio.2026.4233.",
+    "url": "https://www.acc.org/latest-in-cardiology/journal-scans/2026/10/14/09/58/rotterdam-study"
+   }
+  ],
+  "trials.congenital": [
+   {
+    "id": "elpis-ii",
+    "title": "ELPIS II",
+    "sub": "Stem-cell injection during Stage 2 palliation of HLHS",
+    "kind": "Randomised trial (company update)",
+    "date": "2026-10-27",
+    "area": "Congenital heart disease · Regenerative therapy",
+    "updateRef": "2026-10-27/0",
+    "intro": "In hypoplastic left heart syndrome (HLHS) the right ventricle supports the whole circulation, and it often weakens over time. ELPIS II tested a single injection of allogeneic mesenchymal stem cells (laromestrocel) into the myocardium at Stage 2 surgery.",
+    "sections": [
+     {
+      "h": "Background:",
+      "pts": [
+       "HLHS is palliated in **three stages** (Norwood, **Glenn/hemi-Fontan**, Fontan).",
+       "**RV failure** is a major late problem."
+      ]
+     },
+     {
+      "h": "Design:",
+      "pts": [
+       "**Phase 2b, randomised, double-blind, multicentre**; NIH/NHLBI-funded (NCT04925024).",
+       "**40 infants**, 1:1: laromestrocel at **Stage 2** (bidirectional Glenn or hemi-Fontan) or surgery alone; **12-month** follow-up.",
+       "Primary endpoint: **change in RVEF (CMR)** at 12 months."
+      ],
+      "chart": {
+       "type": "flow",
+       "title": "ELPIS II",
+       "steps": [
+        "40 infants with HLHS randomised 1:1",
+        "Single intramyocardial dose at Stage 2 (or standard surgery alone)",
+        "12-month follow-up",
+        "CMR available in 28 (15 standard care, 13 laromestrocel)"
+       ]
+      }
+     },
+     {
+      "h": "Key results:",
+      "pts": [
+       "**Primary endpoint missed**: RVEF **-2.6 vs -3.3** points; adjusted difference **-1.36** (95% CI -8.0 to 6.7; **p=0.68**).",
+       "**MACE 8 vs 1** (p=0.043); **total major cardiac events 22 vs 3** (rate ratio 0.16).",
+       "**TR events or valve surgery 5 vs 0** (p=0.066).",
+       "**No treatment-related serious adverse events** reported."
+      ],
+      "chart": {
+       "type": "group",
+       "title": "Events through 12 months (number)",
+       "labels": [
+        "Infants with ≥1 major event",
+        "Total major cardiac events",
+        "MACE"
+       ],
+       "series": [
+        {
+         "name": "Standard care",
+         "values": [
+          9,
+          22,
+          8
+         ]
+        },
+        {
+         "name": "Laromestrocel",
+         "values": [
+          3,
+          3,
+          1
+         ]
+        }
+       ],
+       "unit": ""
+      }
+     },
+     {
+      "h": "Clinical take-home:",
+      "pts": [
+       "Secondary findings are **hypothesis-generating**; a larger trial would be needed."
+      ]
+     },
+     {
+      "h": "Limitations:",
+      "pts": [
+       "**Company-reported**, not peer-reviewed; **40 infants**; primary endpoint missed; **MACE is not defined in the press release**; no multiplicity adjustment reported."
+      ]
+     }
+    ],
+    "tip": "When a trial **misses its primary endpoint**, positive secondary outcomes can only **generate hypotheses**; they do not prove benefit.",
+    "source": "Longeveron Inc. press release, 26 Oct 2026 (ELPIS II, NCT04925024).",
+    "url": "https://investors.longeveron.com/news/news-details/2026/Longeveron-Announces-Updated-Results-from-ELPIS-II-Phase-2b-Clinical-Trial-Evaluating-Laromestrocel-as-a-Potential-Treatment-for-Hypoplastic-Left-Heart-Syndrome-HLHS/default.aspx"
+   }
+  ],
+  "trials.approvals": [
+   {
+    "id": "paraclose",
+    "title": "Amplatzer Paraclose PVL occluder",
+    "sub": "Abbott calls it the first US transcatheter device designed for paravalvular leak",
+    "kind": "Device approval",
+    "date": "2026-10-30",
+    "area": "Structural heart · Paravalvular leak",
+    "updateRef": "2026-10-30/0",
+    "intro": "A paravalvular leak (PVL) is a gap between a replacement valve and the heart tissue. Abbott announced FDA approval for a catheter-delivered occluder designed to close such leaks without repeat open-heart surgery.",
+    "sections": [
+     {
+      "h": "Background:",
+      "pts": [
+       "PVL occurs in **7-17% of mitral** and **5-10% of aortic** valve replacements.",
+       "It can cause **heart-failure symptoms** and **haemolysis with severe anaemia**."
+      ],
+      "table": {
+       "title": "PVL prevalence after surgical valve replacement (company-cited)",
+       "headers": [
+        "Valve",
+        "Prevalence"
+       ],
+       "rows": [
+        [
+         "Mitral replacement",
+         "7-17%"
+        ],
+        [
+         "Aortic replacement",
+         "5-10%"
+        ]
+       ]
+      }
+     },
+     {
+      "h": "The device:",
+      "pts": [
+       "**Oblong (elliptical) occluder** delivered through a leg artery or vein.",
+       "Known as **Amplatzer Valvular Plug III** outside the US (approved in Europe since 2020)."
+      ]
+     },
+     {
+      "h": "Evidence:",
+      "pts": [
+       "**PARADIGM**: prospective, multicentre, **single-arm**, **200 patients**; no figures in the release."
+      ]
+     },
+     {
+      "h": "Caveats:",
+      "pts": [
+       "No randomised comparison with surgery; leaks after **TAVI** are not discussed."
+      ]
+     }
+    ],
+    "tip": "Classic PVL clues: **new murmur** after valve surgery, **heart failure**, and **haemolytic anaemia** (schistocytes, raised LDH).",
+    "source": "Abbott press release, 28 Oct 2026.",
+    "url": "https://abbott.mediaroom.com/press-releases?item=124787",
+    "srcNote": "Source: company release (not independently verified)"
+   },
+   {
+    "id": "ffr-iq",
+    "title": "Elucid FFR-IQ",
+    "sub": "AI FFR-CT that includes plaque composition",
+    "kind": "Software clearance (510(k))",
+    "date": "2026-10-23",
+    "area": "Cardiac imaging · AI FFR-CT",
+    "updateRef": "2026-10-23/0",
+    "intro": "FFR-IQ estimates fractional flow reserve from a routine coronary CT angiogram. Elucid describes it as unlike anatomy-only FFR-CT, as it also uses plaque composition (company claim).",
+    "sections": [
+     {
+      "h": "What was cleared:",
+      "pts": [
+       "**FDA 510(k) K262015** (letter 29 Sep 2026; announced 21 Oct).",
+       "FDA indication: for **clinically stable patients with suspected CAD**, to **support the functional evaluation** of CAD. Elucid's 'who needs invasive angiography' framing is the company's, not the indication."
+      ]
+     },
+     {
+      "h": "Validation (ELUCIDATE):",
+      "pts": [
+       "**Retrospective, multicentre (11 sites: 9 US, 2 outside US)**: 347 patients, 491 vessels, against **invasive FFR**.",
+       "Sensitivity 92.2%, specificity 93.1%, PPV 84.4%, NPV 96.7% (unadjusted, per vessel); US cohort (257 vessels) 90.9% / 89.2%.",
+       "The **US retrospective cohort** is enriched for borderline disease (FFR 0.75-0.85); prospectively collected outside-US data added non-ischaemic vessels to the overall cohort."
+      ],
+      "chart": {
+       "type": "hist",
+       "title": "ELUCIDATE per-vessel accuracy vs invasive FFR (%; FDA summary, unadjusted)",
+       "labels": [
+        "Sensitivity",
+        "Specificity",
+        "PPV",
+        "NPV"
+       ],
+       "values": [
+        92.2,
+        93.1,
+        84.4,
+        96.7
+       ],
+       "unit": "%"
+      }
+     },
+     {
+      "h": "Caveats:",
+      "pts": [
+       "Retrospective design; 'most accurate' is a company claim; no peer-reviewed publication identified."
+      ]
+     }
+    ],
+    "tip": "**FFR ≤0.80** is the usual threshold for a flow-limiting lesion. Remember FFR-CT estimates this **non-invasively**; the **grey zone (0.75-0.85)** is where accuracy is hardest.",
+    "source": "Elucid press release (Business Wire), 21 Oct 2026; FDA 510(k) K262015 summary (letter 29 Sep 2026).",
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K262015.pdf"
+   },
+   {
+    "id": "pascal-ttee",
+    "title": "PASCAL Precision for tricuspid TEER",
+    "sub": "FDA approval of transcatheter edge-to-edge tricuspid repair (T-TEER)",
+    "kind": "Device approval",
+    "date": "2026-10-22",
+    "area": "Structural heart · Tricuspid valve",
+    "updateRef": "2026-10-22/0",
+    "intro": "The FDA approved Edwards' PASCAL Precision system to repair the tricuspid valve through a catheter in patients with severe symptomatic tricuspid regurgitation. Edwards also announced a recent approval of a mitral TEER system with leaflet-capture indicators.",
+    "sections": [
+     {
+      "h": "What was approved:",
+      "pts": [
+       "**PASCAL Precision** for **T-TEER**.",
+       "**PASCAL Ace with Capture Clarity** for **degenerative mitral TEER** (Edwards calls it the first TEER device with fluoroscopic leaflet-capture indicators)."
+      ],
+      "table": {
+       "title": "Approvals in this announcement",
+       "headers": [
+        "Device",
+        "Use"
+       ],
+       "rows": [
+        [
+         "PASCAL Precision",
+         "T-TEER: symptomatic severe TR, intermediate/high surgical risk"
+        ],
+        [
+         "PASCAL Ace with Capture Clarity",
+         "Degenerative mitral TEER; fluoroscopic leaflet-capture indicators"
+        ]
+       ]
+      }
+     },
+     {
+      "h": "Who it is for:",
+      "pts": [
+       "**Symptomatic severe TR** despite optimal medical therapy.",
+       "**Intermediate or greater surgical risk**; judged suitable by a **multidisciplinary heart team**."
+      ]
+     },
+     {
+      "h": "Evidence:",
+      "pts": [
+       "One-year **CLASP IITR** pivotal data are to be presented at **TCT**; the press release gives **no efficacy figures**."
+      ]
+     },
+     {
+      "h": "Caveats:",
+      "pts": [
+       "Company press release (the approval is announced by Edwards; FDA database not checked); read the pivotal data and label for outcomes and exclusions."
+      ]
+     }
+    ],
+    "tip": "Severe TR is often **functional** (annular dilation from AF or RV/LV disease). Transcatheter options now include **edge-to-edge repair** and **valve replacement**.",
+    "source": "Edwards Lifesciences press release, 21 Oct 2026.",
+    "url": "https://www.edwards.com/newsroom/news/2026-10-21-fda-approval-of-edwards-lifesciences--pascal-preci",
+    "srcNote": "Source: company release (not independently verified)"
+   },
+   {
+    "id": "sapien-m3-alert",
+    "title": "FDA early alert: SAPIEN M3 delivery system",
+    "sub": "Commander M delivery system lots removed after balloon bursts",
+    "kind": "Device safety alert",
+    "date": "2026-10-17",
+    "area": "Structural heart · Device safety",
+    "updateRef": "2026-10-17/1",
+    "intro": "The FDA issued an Early Alert about the Commander M delivery system used to implant the SAPIEN M3 transcatheter mitral valve. Edwards asked customers to stop using four lots after balloons burst during inflation.",
+    "sections": [
+     {
+      "h": "What happened:",
+      "pts": [
+       "**Four lots**: 67718561, 67804014, 67887043, 67887044.",
+       "**Three reports** of the delivery **balloon bursting during inflation**.",
+       "Edwards letter on **5 Oct 2026**: stop use, remove and return."
+      ]
+     },
+     {
+      "h": "Why it matters:",
+      "pts": [
+       "Possible **embolism** or **inability to retrieve** the device through the guide sheath, which may need surgery.",
+       "As of 5 Oct: **one death and one serious injury**.",
+       "The patients are **unsuitable for surgery**, so complications are high-risk."
+      ],
+      "table": {
+       "title": "Affected product",
+       "headers": [
+        "Item",
+        "Detail"
+       ],
+       "rows": [
+        [
+         "System",
+         "Commander M delivery system (SAPIEN M3 TMVR)"
+        ],
+        [
+         "Lots",
+         "67718561, 67804014, 67887043, 67887044"
+        ],
+        [
+         "Failure",
+         "Balloon burst during inflation (3 reports)"
+        ],
+        [
+         "Outcome reported",
+         "1 death, 1 serious injury (as of 5 Oct)"
+        ]
+       ]
+      }
+     },
+     {
+      "h": "Clinical take-home:",
+      "pts": [
+       "Check lot numbers, **quarantine affected stock**, and report problems to **MedWatch**."
+      ]
+     }
+    ],
+    "tip": "Know that **early alerts** flag potentially high-risk device issues before a formal recall classification.",
+    "source": "US FDA CDRH Early Alert, content current as of 15 Oct 2026.",
+    "url": "https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-transcatheter-mitral-valve-delivery-system-issue-edwards-lifesciences"
+   },
+   {
+    "id": "exercise-statement",
+    "title": "ACC statement: exercise prescription",
+    "sub": "Exercise as a foundational part of routine cardiovascular care",
+    "kind": "Scientific statement",
+    "date": "2026-10-16",
+    "area": "Preventive cardiology · Exercise",
+    "updateRef": "2026-10-16/0",
+    "intro": "The 2026 ACC Scientific Statement on Exercise Prescriptions for Cardiovascular Health in Adults argues that exercise should be prescribed like any other therapy. Its central message is that some activity is better than none.",
+    "sections": [
+     {
+      "h": "Key points:",
+      "pts": [
+       "**Largest gain** comes from moving **inactive people to regular activity**.",
+       "**5,000-7,000 steps/day** are linked to lower CV and all-cause mortality in many adults: **no need for 10,000**.",
+       "**Resistance training** should complement aerobic exercise for most adults."
+      ]
+     },
+     {
+      "h": "Recommendations:",
+      "pts": [
+       "Prescribe **individually** (condition, capacity, symptoms, goals).",
+       "**Routine exercise testing is not required** for most asymptomatic or stable people.",
+       "**Cardiac rehabilitation** remains first-line for many; give an **individual exercise prescription** if formal rehab is not possible.",
+       "**Wearables and virtual/home rehab** can support adherence."
+      ],
+      "table": {
+       "title": "What the statement asks clinicians to do",
+       "headers": [
+        "Topic",
+        "Recommendation"
+       ],
+       "rows": [
+        [
+         "Target",
+         "Move inactive patients to regular activity"
+        ],
+        [
+         "Steps",
+         "~5,000-7,000/day linked to lower mortality"
+        ],
+        [
+         "Training",
+         "Aerobic + resistance"
+        ],
+        [
+         "Pre-exercise testing",
+         "Not routinely required if asymptomatic/stable"
+        ],
+        [
+         "Rehab",
+         "First-line for many with CVD; widen access"
+        ],
+        [
+         "Tools",
+         "Wearables, virtual/home rehab can support adherence"
+        ]
+       ]
+      }
+     },
+     {
+      "h": "Clinical take-home:",
+      "pts": [
+       "Build **exercise counselling** into routine visits and expand **cardiac rehab access**."
+      ]
+     }
+    ],
+    "tip": "Cardiac rehabilitation is first-line in **many conditions**, including after MI, PCI and cardiac surgery. The statement stresses **access** because reimbursement and referral are barriers.",
+    "source": "Myers J, et al. Exercise Prescriptions for Cardiovascular Health in Adults: 2026 ACC Scientific Statement. JACC, 15 Oct 2026. doi:10.1016/j.jacc.2026.09.008.",
+    "url": "https://www.acc.org/latest-in-cardiology/journal-scans/2026/10/14/09/58/acc-scientific-statement-calls-for-exercise-prescription"
+   },
+   {
+    "id": "udmi-5",
+    "title": "Fifth Universal Definition of MI",
+    "sub": "Primary, secondary and procedure-related MI",
+    "kind": "Consensus guideline",
+    "date": "2026-10-16",
+    "area": "Acute coronary syndrome · Definitions",
+    "updateRef": "2026-10-16/1",
+    "intro": "The Fifth Universal Definition of Myocardial Infarction (2026) is a joint ESC/ACC/AHA/WHF document. It replaces numbered MI types with three clinical settings and keeps a definition built on troponin injury plus acute ischaemia.",
+    "sections": [
+     {
+      "h": "Definition:",
+      "pts": [
+       "**Acute myocardial injury**: rise and/or fall of cardiac troponin with ≥1 value above the **sex-specific 99th percentile**.",
+       "**MI = injury + evidence of acute myocardial ischaemia.**"
+      ],
+      "chart": {
+       "type": "flow",
+       "title": "How the 5th UDMI frames an MI",
+       "steps": [
+        "Acute myocardial injury: troponin rise/fall, ≥1 value >sex-specific 99th percentile",
+        "Plus acute ischaemia evidence",
+        "Primary MI: atherothrombosis, SCAD, embolism, spasm, late stent/graft failure",
+        "Secondary MI: supply-demand mismatch with objective ischaemia/CAD evidence",
+        "Procedure-related MI (≤30 days): coronary complication + imaging"
+       ]
+      }
+     },
+     {
+      "h": "The three settings:",
+      "pts": [
+       "**Primary MI**: atherothrombosis, SCAD, embolism, vasospasm, late stent or graft failure.",
+       "**Secondary MI**: supply-demand imbalance with **objective evidence** of obstructive CAD or new ischaemic damage.",
+       "**Procedure-related MI** (≤30 days): focuses on **coronary complications and imaging**, not fixed biomarker cut-offs."
+      ],
+      "table": {
+       "title": "The three settings and examples",
+       "headers": [
+        "Setting",
+        "Examples"
+       ],
+       "rows": [
+        [
+         "Primary",
+         "Atherothrombosis (plaque rupture/erosion), SCAD, embolism, spasm, late stent/graft failure"
+        ],
+        [
+         "Secondary",
+         "Supply-demand mismatch with objective ischaemia/CAD evidence"
+        ],
+        [
+         "Procedure-related",
+         "Complication within 30 days of a cardiac procedure (PCI, CABG, valve, other), confirmed by imaging or angiography"
+        ]
+       ]
+      }
+     },
+     {
+      "h": "Clinical take-home:",
+      "pts": [
+       "Aim: **consistent diagnosis, coding, research and patient care**.",
+       "Procedure-related MI has no single troponin cut-off. The document gives example triggers to prompt imaging (e.g. >5x URL at 6 h after PCI, >35x at 24 h after cardiac surgery); imaging or angiography confirms the diagnosis."
+      ]
+     }
+    ],
+    "tip": "Troponin rise alone ≠ MI. The diagnosis needs **evidence of acute ischaemia** (symptoms, ECG, imaging, or coronary findings). Know the old **Types 1-5** because exam questions may still use them.",
+    "source": "Mills NL, et al. Fifth Universal Definition of Myocardial Infarction (2026). Eur Heart J, online 28 Aug 2026. doi:10.1093/eurheartj/ehag101.",
+    "url": "https://doi.org/10.1093/eurheartj/ehag101"
+   }
+  ]
+ }
+}

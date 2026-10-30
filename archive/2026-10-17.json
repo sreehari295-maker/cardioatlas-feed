@@ -1,32 +1,89 @@
 {
-  "schema": "cardioatlas-updates/v2",
+  "schema": "cardioatlas-updates/v3",
   "date": "2026-10-17",
   "items": [
     {
       "title": "TAVI vs SAVR in low-risk AS: mortality higher with TAVI at 5-7 years (EACTS 2026)",
       "summary": "Time-dependent pooled analysis of PARTNER 3, Evolut Low Risk and NOTION (2,644 low-risk patients) found a nonsignificant early survival trend favouring TAVI that reversed over time, with significantly higher TAVI mortality at 5-7 years.",
-      "bullets": [
-        "Pooled 7-year data from PARTNER 3, Evolut Low Risk and NOTION: 2,644 low-surgical-risk patients randomised to TAVI or SAVR.",
-        "7-year all-cause mortality 26.9% with TAVI vs 23.7% with SAVR (absolute difference 3.2%); overall HR 1.14, not significant, and hazards were not proportional.",
-        "Time-dependent HRs: 0.61 at 0-1 year, 0.84 at 1-3 years, 1.05 at 3-5 years, and 1.64 (95% CI 1.27-2.12) at 5-7 years; 49% of TAVI deaths occurred in years 5-7.",
-        "Not significant when Evolut Low Risk was excluded (HR 1.39); experts flag differential loss to follow-up, unknown causes of death and possible valve-type effects.",
-        "Presented at EACTS 2026 (Barcelona, Oct 9); outside experts called the data preliminary; authors urge heart-team caution offering TAVI to younger low-risk patients."
-      ],
+      "area": "Structural heart · Aortic stenosis",
       "category": "conference",
+      "bullets": [
+        "**Time-dependent meta-analysis** presented at **EACTS 2026**: **TAVI vs SAVR in low-surgical-risk** aortic stenosis.",
+        "Pooled **2,644 patients** from **PARTNER 3, Evolut Low Risk and NOTION**, each with ≥7 years of follow-up.",
+        "**All-cause mortality at 7 years**: **26.9% TAVI vs 23.7% SAVR**; absolute difference **3.2%** (NNT about 30-35 per the lead author), but **HR 1.14 was not significant** and the curves cross.",
+        "By interval the **TAVI hazard ratio rose**: **0.61** (0-1 y), **0.84** (1-3 y), **1.05** (3-5 y), **1.64 (95% CI 1.27-2.12) at 5-7 years**.",
+        "**49% of all TAVI deaths** occurred between **5 and 7 years**.",
+        "Result was **not significant** when **Evolut Low Risk** was removed (HR 1.39, 0.96-2.01).",
+        "Caveats: **conference data**, not peer reviewed. Commentators note **unequal loss to follow-up** and unknown cause of death. The lead author wants the heart team to weigh this, especially in **younger** patients."
+      ],
+      "charts": [
+        {
+          "type": "hist",
+          "title": "TAVI vs SAVR mortality hazard ratio by follow-up interval (>1 favours SAVR)",
+          "labels": [
+            "0-1 y",
+            "1-3 y",
+            "3-5 y",
+            "5-7 y"
+          ],
+          "values": [
+            0.61,
+            0.84,
+            1.05,
+            1.64
+          ],
+          "unit": ""
+        }
+      ],
+      "notesRef": "trials.valvular",
+      "noteId": "tavi-vs-savr-7y",
       "source": "TCTMD (EACTS 2026)",
+      "srcNote": "Source: news report (primary publication not identified)",
       "url": "https://www.tctmd.com/news/years-pass-mortality-grows-higher-tavi-vs-savr-low-risk-patients-meta-analysis"
     },
     {
       "title": "FDA early alert: Edwards removes 4 lots of SAPIEN M3 TMVR delivery system after balloon bursts",
       "summary": "FDA flagged a potentially high-risk issue with Edwards' Commander M delivery system for SAPIEN M3 transseptal TMVR: three balloon bursts during inflation, with one death and one serious injury reported as of October 5.",
-      "bullets": [
-        "Affected: Commander M delivery systems for SAPIEN M3 TMVR, lots 67718561, 67804014, 67887043 and 67887044; other lots are not affected.",
-        "Edwards received three reports of the balloon bursting during inflation; one death and one serious injury reported as of October 5, 2026.",
-        "Risks include embolism and inability to retrieve the device through the guide sheath, possibly needing surgery in patients already deemed unsuitable for it.",
-        "Action: do not use the listed lots, remove them from inventory and return them via Edwards; FDA is still reviewing the issue.",
-        "SAPIEN M3 was FDA-approved in December 2025 (single-arm ENCIRCLE trial) for symptomatic moderate-to-severe MR or symptomatic MAC-related mitral valve dysfunction in patients unsuitable for surgery or TEER."
-      ],
+      "area": "Structural heart · Device safety",
       "category": "research",
+      "bullets": [
+        "**FDA CDRH Early Alert** (page current 15 Oct 2026): **Commander M delivery systems** used with **SAPIEN M3** transcatheter mitral valve replacement.",
+        "**Four lots** are affected: **67718561, 67804014, 67887043 and 67887044**. Other lots are **not** affected.",
+        "Edwards sent customers a letter on **5 Oct** advising them to **stop using, remove and return** the affected units.",
+        "Reason: **three reports** of the **delivery balloon bursting during inflation**.",
+        "Possible harm: **embolism** or **inability to retrieve** the device through the guide sheath, which may need surgery or other intervention.",
+        "As of **5 Oct**, Edwards reported **one death and one serious injury**.",
+        "Why risk is high: this population is **deemed unsuitable for surgery**. Report problems to **MedWatch**."
+      ],
+      "tables": [
+        {
+          "title": "Affected product",
+          "headers": [
+            "Item",
+            "Detail"
+          ],
+          "rows": [
+            [
+              "System",
+              "Commander M delivery system (SAPIEN M3 TMVR)"
+            ],
+            [
+              "Lots",
+              "67718561, 67804014, 67887043, 67887044"
+            ],
+            [
+              "Failure",
+              "Balloon burst during inflation (3 reports)"
+            ],
+            [
+              "Outcome reported",
+              "1 death, 1 serious injury (as of 5 Oct)"
+            ]
+          ]
+        }
+      ],
+      "notesRef": "trials.approvals",
+      "noteId": "sapien-m3-alert",
       "source": "US FDA (CDRH Early Alert)",
       "url": "https://www.fda.gov/medical-devices/medical-device-recalls-and-early-alerts/early-alert-transcatheter-mitral-valve-delivery-system-issue-edwards-lifesciences"
     }
