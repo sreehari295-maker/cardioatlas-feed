@@ -1,45 +1,101 @@
 {
   "schema": "cardioatlas-updates/v3",
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "items": [
     {
-      "title": "FDA approves Abbott's Amplatzer Paraclose, which the company calls the first US transcatheter device designed to close paravalvular leaks around surgical valves",
-      "summary": "On Oct 28, 2026, Abbott announced FDA approval of the Amplatzer Paraclose PVL Occluder, which it describes as the first and only US-approved transcatheter device specifically designed to close paravalvular leak (PVL) around surgical replacement heart valves, as an alternative to repeat open-heart surgery.",
-      "area": "Structural heart · Paravalvular leak",
-      "category": "approval",
+      "title": "FLOWPROMOTE: rosuvastatin 40 mg plus ezetimibe regresses more coronary plaque than atorvastatin 40 mg in statin-naive stable CAD (JAMA Cardiology)",
+      "summary": "In a prespecified secondary analysis of the FLOWPROMOTE randomised trial (104 statin-naive patients with stable CAD on CT angiography), rosuvastatin 40 mg plus ezetimibe 10 mg lowered LDL-C by 65% vs 38% with atorvastatin 40 mg and produced greater 18-month regression of total plaque volume (-21.1% vs -13.6% with atorvastatin; P=.02) and noncalcified plaque volume across the whole coronary tree.",
+      "area": "Preventive cardiology · Lipid lowering & plaque regression",
+      "category": "trial",
       "bullets": [
-        "**FDA approved the Abbott Amplatzer Paraclose PVL Occluder** (announced **28 Oct 2026**), which Abbott calls the **first US transcatheter device designed for paravalvular leak (PVL)**.",
-        "**PVL** is backflow around a **surgical replacement valve**; it occurs in **7-17% of mitral** and **5-10% of aortic** valve replacements.",
-        "It can cause **heart-failure symptoms** and **haemolysis with severe anaemia**.",
-        "The **oblong (elliptical) occluder** is delivered by catheter through a **leg artery or vein** and placed within the leak.",
-        "Approval rests on **PARADIGM**: **prospective, multicentre, single-arm, 200 patients**; the release gives **no efficacy or safety figures**.",
-        "Outside the US it is the **Amplatzer Valvular Plug III**, approved in **Europe since 2020**.",
-        "Caveat: **single-arm** data, no randomised comparison with surgery; leaks after **TAVI** are not mentioned."
+        "**FLOWPROMOTE**: multicentre RCT, prespecified secondary imaging analysis, **JAMA Cardiology, 30 Oct 2026**. Statin-naive, newly diagnosed stable CAD (CT stenosis >50% and **FFR-CT ≤0.80**); coronary CTA at baseline, 9 and 18 months.",
+        "**N = 104** (52 per arm; mean age 64, 79% male). Randomised to **atorvastatin 40 mg** ('intensive') or **rosuvastatin 40 mg + ezetimibe 10 mg** ('more intensive') for 18 months.",
+        "LDL-C fell from 119.7 to **69.5 mg/dL (-38%)** with atorvastatin vs 127.4 to **42.5 mg/dL (-65%)** with rosuvastatin + ezetimibe (P<.001).",
+        "Total plaque volume at 18 months: **-13.6% with atorvastatin vs -21.1% with rosuvastatin + ezetimibe** (difference **-30.9 mm³**, 95% CI -57.2 to -4.5; **P=.02**).",
+        "Noncalcified plaque: **-20.0% vs -28.2%** (difference -28.9 mm³, 95% CI -53.2 to -4.6; P=.02); NCPV regressed in **77% vs 98%** of patients (P=.001). Calcified plaque rose similarly in both arms.",
+        "Lower achieved LDL-C was **linearly associated** with greater plaque regression; the authors say this supports the potential for **partial reversal** of coronary atherosclerosis with intensive lipid lowering.",
+        "Limitations: **small, secondary imaging endpoints**; CT-measured plaque is a **surrogate**, with no clinical outcomes. For context (not from this paper), ESC/EAS goals for very-high-risk patients are **LDL-C <55 mg/dL (<1.4 mmol/L)** and ≥50% reduction."
       ],
       "tables": [
         {
-          "title": "PVL prevalence after surgical valve replacement (company-cited)",
+          "title": "FLOWPROMOTE: LDL-C and plaque change at 18 months",
           "headers": [
-            "Valve",
-            "Prevalence"
+            "Measure",
+            "Atorvastatin 40 mg",
+            "Rosuvastatin 40 mg + ezetimibe 10 mg",
+            "Difference (95% CI); P"
           ],
           "rows": [
             [
-              "Mitral replacement",
-              "7-17%"
+              "LDL-C, mg/dL (baseline to follow-up)",
+              "119.7 to 69.5 (-38%)",
+              "127.4 to 42.5 (-65%)",
+              "P<.001"
             ],
             [
-              "Aortic replacement",
-              "5-10%"
+              "Total plaque volume change",
+              "-39.0 mm³ (-13.6%)",
+              "-69.8 mm³ (-21.1%)",
+              "-30.9 mm³ (-57.2 to -4.5); P=.02"
+            ],
+            [
+              "Noncalcified plaque volume change",
+              "-53.5 mm³ (-20.0%)",
+              "-82.3 mm³ (-28.2%)",
+              "-28.9 mm³ (-53.2 to -4.6); P=.02"
+            ],
+            [
+              "Patients with total plaque regression",
+              "38/51 (75%)",
+              "47/52 (90%)",
+              "P=.05"
+            ],
+            [
+              "Patients with noncalcified plaque regression",
+              "39/51 (77%)",
+              "51/52 (98%)",
+              "P=.001"
+            ],
+            [
+              "Calcified plaque volume",
+              "Increased",
+              "Increased",
+              "Similar between groups"
             ]
           ]
         }
       ],
-      "notesRef": "trials.approvals",
-      "noteId": "paraclose",
-      "source": "Abbott press release, Oct 28, 2026",
-      "srcNote": "Source: company release (not independently verified)",
-      "url": "https://abbott.mediaroom.com/press-releases?item=124787"
+      "charts": [
+        {
+          "type": "group",
+          "title": "Plaque volume reduction at 18 months (% from baseline)",
+          "labels": [
+            "Total plaque",
+            "Noncalcified plaque"
+          ],
+          "series": [
+            {
+              "name": "Atorvastatin 40 mg",
+              "values": [
+                13.6,
+                20.0
+              ]
+            },
+            {
+              "name": "Rosuvastatin 40 + ezetimibe 10",
+              "values": [
+                21.1,
+                28.2
+              ]
+            }
+          ],
+          "unit": "%"
+        }
+      ],
+      "notesRef": "trials.preventive",
+      "noteId": "flowpromote-plaque",
+      "source": "Mortensen MB, et al. JAMA Cardiol, 30 Oct 2026. doi:10.1001/jamacardio.2026.4788",
+      "url": "https://doi.org/10.1001/jamacardio.2026.4788"
     }
   ]
 }

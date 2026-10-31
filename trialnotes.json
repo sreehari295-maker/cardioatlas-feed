@@ -1224,6 +1224,138 @@
   ],
   "trials.preventive": [
    {
+    "id": "flowpromote-plaque",
+    "title": "FLOWPROMOTE: plaque regression with more intensive lipid lowering",
+    "sub": "Atorvastatin 40 mg vs rosuvastatin 40 mg + ezetimibe in statin-naive stable CAD",
+    "kind": "Randomised trial (secondary analysis)",
+    "date": "2026-10-31",
+    "area": "Preventive cardiology · Lipid lowering & plaque regression",
+    "updateRef": "2026-10-31/0",
+    "intro": "FLOWPROMOTE tested how far coronary plaque shrinks when lipid lowering starts in people with newly found stable CAD who have never taken a statin. Pushing LDL-C lower with a statin-ezetimibe combination gave more plaque regression than high-intensity atorvastatin alone.",
+    "sections": [
+     {
+      "h": "Background:",
+      "pts": [
+       "Earlier regression studies mostly used **intravascular ultrasound** of one vessel in pre-treated patients and showed modest change.",
+       "Coronary CTA can measure **total, noncalcified and calcified plaque** across the whole coronary tree."
+      ]
+     },
+     {
+      "h": "Design:",
+      "pts": [
+       "Multicentre RCT; **104 statin-naive** patients, stenosis >50% with **FFR-CT ≤0.80**.",
+       "**Atorvastatin 40 mg** vs **rosuvastatin 40 mg + ezetimibe 10 mg** for 18 months.",
+       "Repeat CTA at **9 and 18 months**; this paper reports prespecified secondary imaging endpoints."
+      ]
+     },
+     {
+      "h": "Key results:",
+      "pts": [
+       "LDL-C reduction **38% vs 65%** (reaching 69.5 vs 42.5 mg/dL).",
+       "Total plaque volume **-13.6% vs -21.1%** (P=.02); noncalcified plaque **-20.0% vs -28.2%** (P=.02).",
+       "Noncalcified plaque regressed in **77% vs 98%** of patients (P=.001).",
+       "**Calcified plaque increased** similarly in both arms.",
+       "Lower achieved LDL-C was linearly linked to more regression."
+      ],
+      "table": {
+       "title": "FLOWPROMOTE: LDL-C and plaque change at 18 months",
+       "headers": [
+        "Measure",
+        "Atorvastatin 40 mg",
+        "Rosuvastatin 40 mg + ezetimibe 10 mg",
+        "Difference (95% CI); P"
+       ],
+       "rows": [
+        [
+         "LDL-C, mg/dL (baseline to follow-up)",
+         "119.7 to 69.5 (-38%)",
+         "127.4 to 42.5 (-65%)",
+         "P<.001"
+        ],
+        [
+         "Total plaque volume change",
+         "-39.0 mm³ (-13.6%)",
+         "-69.8 mm³ (-21.1%)",
+         "-30.9 mm³ (-57.2 to -4.5); P=.02"
+        ],
+        [
+         "Noncalcified plaque volume change",
+         "-53.5 mm³ (-20.0%)",
+         "-82.3 mm³ (-28.2%)",
+         "-28.9 mm³ (-53.2 to -4.6); P=.02"
+        ],
+        [
+         "Patients with total plaque regression",
+         "38/51 (75%)",
+         "47/52 (90%)",
+         "P=.05"
+        ],
+        [
+         "Patients with noncalcified plaque regression",
+         "39/51 (77%)",
+         "51/52 (98%)",
+         "P=.001"
+        ],
+        [
+         "Calcified plaque volume",
+         "Increased",
+         "Increased",
+         "Similar between groups"
+        ]
+       ]
+      },
+      "chart": {
+       "type": "group",
+       "title": "Plaque volume reduction at 18 months (% from baseline)",
+       "labels": [
+        "Total plaque",
+        "Noncalcified plaque"
+       ],
+       "series": [
+        {
+         "name": "Atorvastatin 40 mg",
+         "values": [
+          13.6,
+          20.0
+         ]
+        },
+        {
+         "name": "Rosuvastatin 40 + ezetimibe 10",
+         "values": [
+          21.1,
+          28.2
+         ]
+        }
+       ],
+       "unit": "%"
+      }
+     },
+     {
+      "h": "Clinical take-home:",
+      "pts": [
+       "Starting **combination therapy early** in stable CAD gives deeper LDL-C lowering and more plaque regression.",
+       "The soft, **noncalcified (lipid-rich) plaque** shrinks most; calcium tends to rise as plaque stabilises."
+      ]
+     },
+     {
+      "h": "Limitations:",
+      "pts": [
+       "Small trial; **imaging surrogate**, no hard clinical outcomes.",
+       "Secondary endpoints; results cannot show fewer MIs or deaths."
+      ]
+     },
+     {
+      "h": "Guideline position:",
+      "pts": [
+       "ESC/EAS: very-high-risk patients (including CCS) target **LDL-C <1.4 mmol/L (<55 mg/dL)** and **≥50% reduction**; add ezetimibe if not at goal on maximum tolerated statin."
+      ]
+     }
+    ],
+    "tip": "Rising **coronary calcium score on a statin** does not mean failure: statins convert noncalcified plaque to **calcified, more stable plaque** while total plaque falls.",
+    "source": "Mortensen MB, et al. JAMA Cardiol, 30 Oct 2026. doi:10.1001/jamacardio.2026.4788",
+    "url": "https://doi.org/10.1001/jamacardio.2026.4788"
+   },
+   {
     "id": "vaping-vascular",
     "title": "Nicotine vaping and vascular function",
     "sub": "Never-smoking young adults who vape daily",

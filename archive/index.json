@@ -2,6 +2,13 @@
  "schema": "cardioatlas-archive-index/v1",
  "days": [
   {
+   "date": "2026-10-31",
+   "count": 1,
+   "titles": [
+    "FLOWPROMOTE: rosuvastatin 40 mg plus ezetimibe regresses more coronary plaque than atorvastatin 40 mg in statin-naive stable CAD (JAMA Cardiology)"
+   ]
+  },
+  {
    "date": "2026-10-30",
    "count": 1,
    "titles": [
@@ -117,5 +124,5 @@
    ]
   }
  ],
- "updated": "2026-10-30T16:48:29Z"
+ "updated": "2026-10-31T04:05:36Z"
 }
